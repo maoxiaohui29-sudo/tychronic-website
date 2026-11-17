@@ -517,7 +517,9 @@
     var meta = META[curLang] || META.en;
 
     document.documentElement.lang = curLang;
-    document.documentElement.dir = (curLang === 'ar') ? 'rtl' : 'ltr';
+    // Keep the same LTR layout for every language (user request: switching to
+    // Arabic must not mirror/flip the whole interface). Text itself is RTL-safe.
+    document.documentElement.dir = 'ltr';
     document.title = meta.title;
 
     var md = document.querySelector('meta[name="description"]');
