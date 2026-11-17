@@ -27,7 +27,7 @@
 
       sol_eyebrow: 'Our solutions',
       sol_h2: 'Three brands. One complete energy chain.',
-      sol_p: 'From generation to the plug, we bring together the equipment your project needs — sourced, checked and delivered through a single point of contact.',
+      sol_p: 'From generation to charge point, we bring together the equipment your project needs — sourced, checked and delivered by one dedicated team.',
 
       sc_index: '01 / EV CHARGING', sc_h3: 'EV Charging &amp; BESS',
       sc_desc: 'A global tier-one provider of EV charging and microgrids, with 700,000+ public charge points across 70+ countries. From ultra-fast DC dispensers and power cabinets to liquid-cooled C&amp;I BESS, we supply hardware built for demanding sites.',
