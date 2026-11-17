@@ -14,7 +14,7 @@
       header_cta: 'Get in touch',
 
       hero_eyebrow: 'Global energy solutions partner',
-      hero_h1: 'Charge Ahead.<br /><span>Power Beyond.</span>',
+      hero_h1: 'Charge Ahead<br /><span>Power Beyond</span>',
       hero_sub: "One partner for the full energy chain — EV charging, BESS, power distribution and photovoltaic — backed by three of China's most proven manufacturers.",
       hero_btn1: 'Explore solutions', hero_btn2: 'Talk to us <span aria-hidden="true">→</span>',
       stat1: 'Partner brands', stat2: 'Countries served', stat3: 'Global PV glass share',
@@ -35,7 +35,7 @@
       sc_f1: 'eBox261: 314 Ah semi-solid LFP, 248 kWh usable, liquid cooling',
       sc_f2: 'AI-driven EMS, ≥91.5% system efficiency, global fast OTA',
       sc_f3: 'Grid-tied / islanded / black-start microgrid support',
-      sc_f4: '7 kW AC to 720 kW DC fast charging for global markets (up to 2.56 MW domestically)',
+      sc_f4: '7 kW AC to 720 kW DC fast charging for global markets, up to 2.56 MW',
       quote: 'Request a quote <span aria-hidden="true">→</span>',
 
       by_index: '02 / POWER DISTRIBUTION', by_h3: 'Power Distribution Equipment',
@@ -75,8 +75,18 @@
       f_send: 'Send inquiry', form_note_default: "We'll reply to your email shortly.",
       form_err: 'Please fill in your name, a valid email and a short message.',
       form_mail_open: 'Your email app is opening with the message ready to send.',
-      foot_slogan: 'Charge Ahead. Power Beyond.',
+      foot_slogan: 'Charge Ahead · Power Beyond',
       foot_legal: ' Tychronic. Independent sourcing and supply partner. Partner brand names are used for reference only.',
+
+      /* Mobile app (PWA) */
+      app_eyebrow: 'Mobile app',
+      app_h2: 'Tychronic, on your phone.',
+      app_p: 'Install the site as an app — a real icon on the home screen, full-screen browsing, offline-ready pages. Same content, always in sync, no app store needed.',
+      app_badge_android: 'Android',
+      app_step_android: 'Open this site in Chrome, then tap <strong>Install app</strong> on the banner.',
+      app_badge_iphone: 'iPhone',
+      app_step_iphone: 'Open in Safari, tap <strong>Share</strong>, then choose <strong>Add to Home Screen</strong>.',
+      app_scan: 'Scan with your phone to install',
 
       /* Product filter */
       pf_label: 'Filter products',
@@ -84,6 +94,7 @@
       pf_all: 'All products',
       pf_note: 'Product families based on published specifications. Final model list available on request.',
       pf_empty: 'No products in this range — ask us for the full list.',
+      pf_en_note: 'Model names and specifications are listed in English.',
 
       /* PWA install UI — English */
       pwa_card_title: 'Install it as a phone app',
@@ -147,7 +158,7 @@
       sc_f1: 'eBox261：314Ah 半固态磷酸铁锂，可用电量 248kWh，液冷温控',
       sc_f2: 'AI 驱动 EMS，系统效率 ≥91.5%，支持全球快速 OTA',
       sc_f3: '支持并网 / 离网 / 黑启动微电网运行',
-      sc_f4: '国际市场交流 7kW 到直流 720kW 快充全功率覆盖，国内型号最高可达 2.56MW',
+      sc_f4: '国际市场交流 7kW 到直流 720kW 快充全功率覆盖，最高可达 2.56MW',
       quote: '获取报价 <span aria-hidden="true">→</span>',
 
       by_index: '02 / 输配电', by_h3: '输配电设备',
@@ -190,12 +201,23 @@
       foot_slogan: '全力向前 · 动力无界',
       foot_legal: ' 泰储云。独立采购与供应合作伙伴。合作品牌名称仅供参考。',
 
+      /* 手机端（PWA） */
+      app_eyebrow: '手机应用',
+      app_h2: '把 Tychronic 装进手机。',
+      app_p: '把本站安装成一个真正的应用——桌面独立图标、全屏浏览、支持离线。内容与网站始终同步，无需应用商店。',
+      app_badge_android: '安卓',
+      app_step_android: '用 Chrome 打开本站，在横幅上点「<strong>安装应用</strong>」。',
+      app_badge_iphone: 'iPhone',
+      app_step_iphone: '用 Safari 打开，点「<strong>分享</strong>」，选择「<strong>添加到主屏幕</strong>」。',
+      app_scan: '手机扫码，直接安装',
+
       /* 产品筛选 */
       pf_label: '筛选产品',
       pf_none: '无',
       pf_all: '全部产品',
       pf_note: '以下产品系列依据官方公开资料整理，最终型号清单可索取。',
       pf_empty: '该功率段暂无示意产品，欢迎索取完整清单。',
+      pf_en_note: '型号与规格以英文标注。',
 
       /* PWA install UI */
       pwa_card_title: '把它装成手机 APP',
@@ -231,9 +253,19 @@
     }
   };
 
+  /* Extra languages live in langs.js and are merged at runtime. */
+  var LANGS = ['en', 'zh', 'ar', 'ru', 'es', 'pt', 'fr'];
+  if (window.TYCHRON_EXTRA) {
+    LANGS.forEach(function (code) {
+      if (window.TYCHRON_EXTRA[code]) {
+        I18N[code] = Object.assign({}, I18N.en, window.TYCHRON_EXTRA[code]);
+      }
+    });
+  }
+
   var META = {
     en: {
-      title: 'TYCHRONIC — Charge Ahead. Power Beyond.',
+      title: 'TYCHRONIC — Charge Ahead. Power Beyond',
       desc: 'Tychronic is your sourcing and supply partner for EV charging, BESS, power distribution and photovoltaic — representing StarCharge, Baiyun Electric and XES for global markets.',
       ogDesc: 'EV charging · BESS · Power distribution · Photovoltaic. Three proven manufacturers, one partner.'
     },
@@ -252,6 +284,12 @@
      Each product: { kw: numeric sort key, band: filter bucket,
                      en, zh }
      ========================================================= */
+  if (window.TYCHRON_META) {
+    Object.keys(window.TYCHRON_META).forEach(function (code) {
+      META[code] = window.TYCHRON_META[code];
+    });
+  }
+
   var PRODUCTS = {
     sc: [
       /* AC charging (7–21 kW) */
@@ -333,6 +371,18 @@
     }
   };
 
+  if (window.TYCHRON_BANDS) {
+    Object.keys(window.TYCHRON_BANDS).forEach(function (lang) {
+      Object.keys(window.TYCHRON_BANDS[lang]).forEach(function (brand) {
+        PF_BAND_LABELS[brand] = PF_BAND_LABELS[brand] || {};
+        Object.keys(window.TYCHRON_BANDS[lang][brand]).forEach(function (band) {
+          PF_BAND_LABELS[brand][band] = PF_BAND_LABELS[brand][band] || {};
+          PF_BAND_LABELS[brand][band][lang] = window.TYCHRON_BANDS[lang][brand][band];
+        });
+      });
+    });
+  }
+
   var STORAGE_KEY = 'tychron_lang';
   var curLang = 'en';
 
@@ -340,7 +390,7 @@
     // Overseas-facing site: remember an explicit choice, otherwise default to English.
     try {
       var saved = localStorage.getItem(STORAGE_KEY);
-      if (saved === 'en' || saved === 'zh') return saved;
+      if (LANGS.indexOf(saved) !== -1) return saved;
     } catch (e) {}
     return 'en';
   }
@@ -363,7 +413,7 @@
 
   function bandLabel(key, band) {
     var l = PF_BAND_LABELS[key] && PF_BAND_LABELS[key][band];
-    return l ? l[curLang] : band;
+    return l ? (l[curLang] || l.en) : band;
   }
 
   function renderProductFilter(root) {
@@ -408,9 +458,15 @@
     }
     items.forEach(function (p) {
       var li = document.createElement('li');
-      li.innerHTML = '<span class="pf-dot" aria-hidden="true"></span><span>' + p[curLang] + '</span>';
+      li.innerHTML = '<span class="pf-dot" aria-hidden="true"></span><span>' + (p[curLang] || p.en) + '</span>';
       list.appendChild(li);
     });
+    if (curLang !== 'en' && curLang !== 'zh' && t('pf_en_note') !== 'pf_en_note') {
+      var noteLi = document.createElement('li');
+      noteLi.className = 'pf-en-note';
+      noteLi.textContent = t('pf_en_note');
+      list.appendChild(noteLi);
+    }
   }
 
   function initProductFilters() {
@@ -428,25 +484,57 @@
     Array.prototype.forEach.call(roots, renderProductFilter);
   };
 
+  // Wrap every visible brand word (Tychronic / TYCHRONIC) in .brand-word
+  // so it always renders in Montserrat Semibold, in any language.
+  function wrapBrandWord(el) {
+    if (!el) return;
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+    var targets = [];
+    while (walker.nextNode()) {
+      if (/(?:TYCHRONIC|Tychronic)/.test(walker.currentNode.nodeValue)) targets.push(walker.currentNode);
+    }
+    targets.forEach(function (node) {
+      var text = node.nodeValue;
+      var frag = document.createDocumentFragment();
+      var re = /(TYCHRONIC|Tychronic)/g;
+      var last = 0, m;
+      while ((m = re.exec(text)) !== null) {
+        if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+        var span = document.createElement('span');
+        span.className = 'brand-word';
+        span.textContent = m[0];
+        frag.appendChild(span);
+        last = m.index + m[0].length;
+      }
+      if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
   function applyLang(lang) {
-    curLang = (lang === 'zh') ? 'zh' : 'en';
-    var dict = I18N[curLang];
+    curLang = LANGS.indexOf(lang) !== -1 ? lang : 'en';
+    var dict = I18N[curLang] || I18N.en;
+    var meta = META[curLang] || META.en;
 
     document.documentElement.lang = curLang;
-    document.title = META[curLang].title;
+    document.documentElement.dir = (curLang === 'ar') ? 'rtl' : 'ltr';
+    document.title = meta.title;
 
     var md = document.querySelector('meta[name="description"]');
-    if (md) md.setAttribute('content', META[curLang].desc);
+    if (md) md.setAttribute('content', meta.desc);
     var og = document.querySelector('meta[property="og:title"]');
-    if (og) og.setAttribute('content', META[curLang].title);
+    if (og) og.setAttribute('content', meta.title);
     var ogd = document.querySelector('meta[property="og:description"]');
-    if (ogd) ogd.setAttribute('content', META[curLang].ogDesc);
+    if (ogd) ogd.setAttribute('content', meta.ogDesc);
+
+    var picker = document.getElementById('langSel');
+    if (picker && picker.value !== curLang) picker.value = curLang;
 
     var nodes = document.querySelectorAll('[data-i18n]');
     Array.prototype.forEach.call(nodes, function (el) {
       var v = dict[el.getAttribute('data-i18n')];
       if (v === undefined) v = I18N.en[el.getAttribute('data-i18n')];
-      if (v !== undefined) el.innerHTML = v;
+      if (v !== undefined) { el.innerHTML = v; wrapBrandWord(el); }
     });
     var phs = document.querySelectorAll('[data-i18n-ph]');
     Array.prototype.forEach.call(phs, function (el) {
@@ -479,11 +567,11 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-  // ---- Language buttons ----
-  var langBtns = document.querySelectorAll('[data-lang-set]');
-  Array.prototype.forEach.call(langBtns, function (b) {
-    b.addEventListener('click', function () { applyLang(b.getAttribute('data-lang-set')); });
-  });
+  // ---- Language dropdown ----
+  var langSel = document.getElementById('langSel');
+  if (langSel) {
+    langSel.addEventListener('change', function () { applyLang(langSel.value); });
+  }
 
   // ---- Mobile nav ----
   var toggle = document.getElementById('navToggle');

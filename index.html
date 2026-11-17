@@ -4,13 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#174A7C" />
-  <title>TYCHRONIC — Charge Ahead. Power Beyond.</title>
+  <title>TYCHRONIC — Charge Ahead. Power Beyond</title>
   <meta name="description" content="Tychronic is your sourcing and supply partner for EV charging, BESS, power distribution and photovoltaic — representing StarCharge, Baiyun Electric and XES for global markets." />
-  <meta property="og:title" content="TYCHRONIC — Charge Ahead. Power Beyond." />
+  <meta property="og:title" content="TYCHRONIC — Charge Ahead. Power Beyond" />
   <meta property="og:description" content="EV charging · BESS · Power distribution · Photovoltaic. Three proven manufacturers, one partner." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.tychronic.com/" />
   <link rel="canonical" href="https://www.tychronic.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 <meta name="theme-color" content="#174A7C">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,9 +42,19 @@
 
       <a class="btn btn-sm header-cta" href="#contact" data-i18n="header_cta">Get in touch</a>
 
-      <div class="lang-switch" role="group" data-i18n-aria="lang_aria">
-        <button type="button" class="lang-btn active" data-lang-set="en" aria-pressed="true">EN</button>
-        <button type="button" class="lang-btn" data-lang-set="zh" aria-pressed="false">中文</button>
+      <div class="lang-picker">
+        <span class="globe" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+        </span>
+        <select id="langSel" data-i18n-aria="lang_aria" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="ar">العربية</option>
+          <option value="ru">Русский</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="fr">Français</option>
+        </select>
       </div>
 
       <button class="nav-toggle" id="navToggle" data-i18n-aria="toggle_aria" aria-expanded="false" aria-controls="nav">
@@ -58,7 +71,7 @@
       <div class="container hero-inner">
         <div class="hero-copy">
           <span class="eyebrow reveal" data-i18n="hero_eyebrow">Global energy solutions partner</span>
-          <h1 class="reveal" data-i18n="hero_h1">Charge Ahead.<br /><span>Power Beyond.</span></h1>
+          <h1 class="reveal" data-i18n="hero_h1">Charge Ahead<br /><span>Power Beyond</span></h1>
           <p class="hero-sub reveal" data-i18n="hero_sub">
             One partner for the full energy chain — EV charging, BESS,
             power distribution and photovoltaic — backed by three of China's most
@@ -141,7 +154,7 @@
               <li data-i18n="sc_f1">eBox261: 314 Ah semi-solid LFP, 248 kWh usable, liquid cooling</li>
               <li data-i18n="sc_f2">Ai-driven EMS, ≥91.5% system efficiency, global fast OTA</li>
               <li data-i18n="sc_f3">Grid-tied / islanded / black-start microgrid support</li>
-              <li data-i18n="sc_f4">7 kW AC to 720 kW DC fast charging for global markets (up to 2.56 MW domestically)</li>
+              <li data-i18n="sc_f4">7 kW AC to 720 kW DC fast charging for global markets, up to 2.56 MW</li>
             </ul>
             <div class="product-filter" data-pf="sc">
               <label class="pf-label" data-i18n="pf_label">Filter products</label>
@@ -354,6 +367,36 @@
         </form>
       </div>
     </section>
+
+    <!-- ============ MOBILE APP / PWA ============ -->
+    <section class="section" id="app">
+      <div class="container app-grid">
+        <div class="app-copy reveal">
+          <span class="eyebrow" data-i18n="app_eyebrow">Mobile app</span>
+          <h2 data-i18n="app_h2">Tychronic, on your phone.</h2>
+          <p data-i18n="app_p">Install the site as an app — a real icon on the home screen, full-screen browsing, offline-ready pages. Same content, always in sync, no app store needed.</p>
+          <ul class="app-steps">
+            <li>
+              <span class="step-badge" data-i18n="app_badge_android">Android</span>
+              <span data-i18n="app_step_android">Open this site in Chrome, then tap <strong>Install app</strong> on the banner.</span>
+            </li>
+            <li>
+              <span class="step-badge" data-i18n="app_badge_iphone">iPhone</span>
+              <span data-i18n="app_step_iphone">Open in Safari, tap <strong>Share</strong>, then choose <strong>Add to Home Screen</strong>.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="app-qr reveal" aria-hidden="false">
+          <div class="qr-card">
+            <div class="qr-frame">
+              <img class="qr-code" src="assets/qr-app.svg" alt="QR code to www.tychronic.com" width="190" height="190" loading="lazy" decoding="async" />
+              <img class="qr-logo" src="assets/brand.png" alt="" loading="lazy" decoding="async" />
+            </div>
+            <p class="qr-caption" data-i18n="app_scan">Scan with your phone to install</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- ============ FOOTER ============ -->
@@ -361,7 +404,7 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <span class="brand-name">TYCHRONIC</span>
-        <p data-i18n="foot_slogan">Charge Ahead. Power Beyond.</p>
+        <p data-i18n="foot_slogan">Charge Ahead · Power Beyond</p>
       </div>
       <nav class="footer-nav" aria-label="Footer navigation">
         <a href="#solutions" data-i18n="nav_solutions">Solutions</a>
@@ -373,194 +416,8 @@
     </div>
   </footer>
 
+  <script src="langs.js"></script>
   <script src="app.js"></script>
-<!-- pwa-install:v1 -->
-<style>
-/* ===== PWA 安装卡片 + 引导浮层（由 make_pwa.py 注入） ===== */
-#pwaCard{border:1.5px solid var(--pwa-pri,#1f5fd0);background:linear-gradient(180deg,#f7fbff,#fff);
-  border-radius:14px;padding:16px;margin:16px 0;font-family:inherit}
-#pwaCard .ph{margin:0 0 4px;font-size:16px;font-weight:800;color:#0f172a}
-#pwaCard .ps{font-size:12.5px;color:#64748b;line-height:1.7;margin:4px 0 0}
-#pwaBtn{width:100%;border:0;border-radius:12px;background:var(--pwa-pri,#1f5fd0);color:#fff;
-  font-size:15px;font-weight:800;padding:14px 10px;letter-spacing:.3px;margin-top:12px;cursor:pointer}
-#pwaBtn[disabled]{background:#a9bde0}
-#pwaMsg{font-size:12.5px;border-radius:10px;padding:10px 12px;margin-top:10px;line-height:1.7;display:none}
-#pwaMsg.ok{background:#eaf7ef;color:#177a45}
-#pwaMsg.warn{background:#fdf3e3;color:#9a6a12}
-#pwaMask{position:fixed;inset:0;background:rgba(15,23,42,.5);z-index:99990;display:none}
-#pwaSheet{position:fixed;left:0;right:0;bottom:0;z-index:99991;background:#fff;
-  border-radius:18px 18px 0 0;padding:16px 16px calc(18px + env(safe-area-inset-bottom));
-  max-height:82vh;overflow:auto;display:none;box-shadow:0 -8px 30px rgba(15,23,42,.18);
-  font-family:inherit}
-#pwaSheet h3{margin:0 0 4px;font-size:16.5px;font-weight:800;color:#0f172a}
-#pwaSheet .pst{font-size:12.5px;color:#64748b;margin-bottom:12px}
-#pwaSheet .px{position:absolute;right:14px;top:12px;border:0;background:#f1f5f9;width:30px;height:30px;
-  border-radius:50%;font-size:15px;color:#334155;line-height:1;cursor:pointer}
-#pwaSheet .pbk{display:flex;align-items:flex-start;gap:10px;border:1.5px solid #e2e8f0;border-radius:12px;
-  padding:12px;margin-bottom:9px;font-size:13px;line-height:1.65;color:#334155}
-#pwaSheet .pbk.on{border-color:var(--pwa-pri,#1f5fd0);background:#f7fbff}
-#pwaSheet .pbk b{color:#0f172a}
-#pwaSheet .ptag{flex:none;font-size:10.5px;font-weight:800;color:var(--pwa-pri,#1f5fd0);background:#e6f0fd;
-  border-radius:6px;padding:3px 7px;white-space:nowrap}
-#pwaSheet .pgo{width:100%;border:0;border-radius:12px;background:var(--pwa-pri,#1f5fd0);color:#fff;
-  font-size:15px;font-weight:800;padding:14px 10px;margin-top:4px;cursor:pointer}
-#pwaSheet .pchk{font-size:11.5px;color:#64748b;line-height:1.8;margin-top:10px;
-  border-top:1px dashed #e2e8f0;padding-top:8px}
-</style>
-<div id="pwaCard">
-  <p class="ph" data-i18n="pwa_card_title">把它装成手机 APP</p>
-  <p class="ps" data-i18n="pwa_card_desc">装好后，手机桌面出现「Tychronic」图标；点开是全屏 APP，没有地址栏，断网也能打开。</p>
-  <div id="pwaMsg" class="warn"></div>
-  <button id="pwaBtn" data-i18n="pwa_btn">安装到手机桌面</button>
-</div>
-<div id="pwaMask"></div>
-<div id="pwaSheet" role="dialog" data-i18n-aria="pwa_sheet_aria">
-  <button class="px" id="pwaClose" data-i18n-aria="pwa_close_aria">✕</button>
-  <h3 data-i18n="pwa_sheet_h3">安装到手机桌面 · 1 分钟完成</h3>
-  <div class="pst" id="pwaSheetSub"></div>
-  <div id="pwaSheetBody"></div>
-  <button class="pgo" id="pwaGo" style="display:none"></button>
-  <div class="pchk" id="pwaChk">环境自检中…</div>
-</div>
-<script>
-/* ===== PWA 点击安装（点击必有反应）=====
-   参考 MDN《Making PWAs installable》《Customize PWA install》：
-   - Chromium：离线脚本激活后才判定可安装 → beforeinstallprompt 通常第二次打开才触发；
-   - iOS Safari：只支持「分享 → 添加到主屏幕」；微信内置浏览器完全不能装。
-   设计原则：能装直接弹系统安装框；不能装弹全屏引导（自动识别浏览器）。 */
-(function () {
-  var T = function (k) { return (window.TYCHRON_I18N && window.TYCHRON_I18N.t(k)) || k; };
-  var MANIFEST_URL = "./manifest.webmanifest";
-  var SW_URL = "./sw.js";
-  var $ = function (id) { return document.getElementById(id); };
-  var deferredPrompt = null;
-  var UA = navigator.userAgent;
-  var standalone = (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
-  var isiOS = /iPad|iPhone|iPod/.test(UA) && !window.MSStream;
-  var inWeChat = /MicroMessenger/i.test(UA);
-  var BROWSER = (function () {
-    if (inWeChat) return "wechat";
-    if (isiOS) return "ios";
-    if (/SamsungBrowser/i.test(UA)) return "samsung";
-    if (/HuaweiBrowser|HMSCore|Huawei/i.test(UA)) return "huawei";
-    if (/MiuiBrowser|XiaoMi|Redmi/i.test(UA)) return "xiaomi";
-    if (/HeyTapBrowser|Oppo|OnePlus/i.test(UA)) return "oppo";
-    if (/VivoBrowser/i.test(UA)) return "vivo";
-    if (/Edg\//i.test(UA)) return "edge";
-    if (/Chrome/i.test(UA)) return "chrome";
-    return "other";
-  })();
 
-  function msg(txt, ok) {
-    var el = $("pwaMsg");
-    el.style.display = "block";
-    el.className = ok ? "ok" : "warn";
-    el.innerHTML = txt;
-  }
-  function fillSheet() {
-    var body = $("pwaSheetBody"), sub = $("pwaSheetSub"), go = $("pwaGo");
-    if (inWeChat) {
-      sub.innerHTML = T("pwa_wx_title");
-      body.innerHTML = '<div class="pbk"><span class="ptag">' + T("pwa_tag_step") + '</span><div>' + T("pwa_wx_step") + '</div></div>';
-      go.style.display = "block";
-      go.textContent = T("pwa_wx_go");
-      go.onclick = copyLink;
-      return;
-    }
-    sub.innerHTML = T("pwa_detected");
-    var using = (BROWSER === "ios" || BROWSER === "other") ? T("pwa_tag_recommend") : T("pwa_tag_using");
-    body.innerHTML =
-      '<div class="pbk on"><span class="ptag">' + using + '</span><div>' + T("pwa_path_" + BROWSER) + '</div></div>' +
-      '<div class="pbk"><span class="ptag">' + T("pwa_tag_important") + '</span><div>' + T("pwa_first_time") + '</div></div>';
-    go.style.display = "none";
-  }
-  function selfCheck() {
-    var el = $("pwaChk"), lines = [];
-    function done() {
-      el.innerHTML = T("pwa_check_prefix") + lines.join("　") + T("pwa_both_ok");
-    }
-    fetch(MANIFEST_URL, { method: "GET" })
-      .then(function (r) { lines.push(r.ok ? T("pwa_manifest_ok") : T("pwa_manifest_fail") + r.status + ")"); })
-      .catch(function () { lines.push(T("pwa_manifest_ng")); })
-      .then(function () {
-        if (!("serviceWorker" in navigator)) { lines.push(T("pwa_sw_ng")); done(); return; }
-        navigator.serviceWorker.getRegistration("./").then(function (reg) {
-          lines.push(reg ? T("pwa_sw_ok") : T("pwa_sw_pending"));
-          done();
-        }).catch(function () { lines.push(T("pwa_sw_ng")); done(); });
-      });
-  }
-  function openSheet() {
-    fillSheet();
-    $("pwaMask").style.display = "block";
-    $("pwaSheet").style.display = "block";
-    selfCheck();
-  }
-  function closeSheet() {
-    $("pwaMask").style.display = "none";
-    $("pwaSheet").style.display = "none";
-  }
-  function fallbackCopy(t) {
-    var ta = document.createElement("textarea");
-    ta.value = t; document.body.appendChild(ta); ta.select();
-    try { document.execCommand("copy"); } catch (e) {}
-    document.body.removeChild(ta);
-  }
-  function copyLink() {
-    var url = location.href.split("#")[0];
-    function ok() { msg(T("pwa_msg_copy"), true); closeSheet(); }
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(url).then(ok, function () { fallbackCopy(url); ok(); });
-    } else { fallbackCopy(url); ok(); }
-  }
-  function install() {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      deferredPrompt.userChoice.then(function (c) {
-        if (c.outcome === "accepted") msg(T("pwa_msg_installing"), true);
-        else msg(T("pwa_msg_cancel"), false);
-        deferredPrompt = null;
-      });
-    } else {
-      openSheet();
-    }
-  }
-  $("pwaBtn").addEventListener("click", install);
-  $("pwaMask").addEventListener("click", closeSheet);
-  $("pwaClose").addEventListener("click", closeSheet);
-  window.addEventListener("beforeinstallprompt", function (e) {
-    e.preventDefault();
-    deferredPrompt = e;
-    msg(T("pwa_msg_detected"), true);
-  });
-  window.addEventListener("appinstalled", function () {
-    deferredPrompt = null;
-    msg(T("pwa_msg_done"), true);
-    var b = $("pwaBtn"); b.textContent = T("pwa_btn_done"); b.disabled = true;
-    closeSheet();
-  });
-  if (standalone) {
-    var b = $("pwaBtn"); b.textContent = T("pwa_btn_app"); b.disabled = true;
-    msg(T("pwa_msg_app"), true);
-  } else if (inWeChat) {
-    msg(T("pwa_msg_wechat"), false);
-  } else {
-    msg(T("pwa_msg_start"), false);
-  }
-  if ("serviceWorker" in navigator && location.protocol === "https:") {
-    window.addEventListener("load", function () {
-      navigator.serviceWorker.register(SW_URL).catch(function () {});
-    });
-  }
-  window.TYCHRON_PWA_REFRESH = function () {
-    var b = $("pwaBtn");
-    if (!standalone) { b.textContent = T("pwa_btn"); b.disabled = false; }
-    if (standalone) msg(T("pwa_msg_app"), true);
-    else if (inWeChat) msg(T("pwa_msg_wechat"), false);
-    else msg(T("pwa_msg_start"), false);
-    if ($("pwaSheet").style.display === "block") fillSheet();
-  };
-})();
-</script>
 </body>
 </html>
