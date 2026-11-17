@@ -93,6 +93,93 @@ window.TYCHRON_EXTRA = {
     pf_en_note: "Modelos y especificaciones se muestran en inglés.",
   },
 
+  /* ---------------- German ---------------- */
+  de: {
+    skip: "Zum Inhalt springen", skip_aria: "Zum Inhalt springen",
+    brand_aria: "Tychronic Startseite", nav_aria: "Hauptnavigation",
+    toggle_aria: "Navigation öffnen oder schließen", lang_aria: "Sprache auswählen",
+    nav_solutions: "Lösungen", nav_why: "Warum Tychronic", nav_about: "Über uns", nav_contact: "Kontakt",
+    header_cta: "Sprechen wir",
+
+    hero_eyebrow: "Globaler Partner für Energielösungen",
+    hero_sub: "Ein Partner für die gesamte Energiekette — Ladeinfrastruktur, BESS, Stromverteilung und Photovoltaik — getragen von drei der etabliertesten Hersteller Chinas.",
+    hero_btn1: "Lösungen ansehen", hero_btn2: "Sprechen wir <span aria-hidden=\"true\">→</span>",
+    stat1: "Partnermarken", stat2: "Bedeiente Länder", stat3: "Globaler Anteil bei PV-Glas",
+    tag1: "E-Laden", tag2: "BESS", tag3: "Stromnetz", tag4: "Photovoltaik",
+
+    partners_label: "Wir arbeiten mit etablierten Herstellern",
+    partner_sc: "E-Laden & BESS",
+    partner_by_name: "Baiyun Electric", partner_by: "Stromverteilungstechnik",
+    partner_xy_name: "XES", partner_xy: "Photovoltaik & neue Energien",
+
+    sol_eyebrow: "Unsere Lösungen",
+    sol_h2: "Drei Marken. Eine komplette Energiekette.",
+    sol_p: "Von der Erzeugung bis zur Ladestation: Wir stellen die Ausrüstung zusammen, die Ihr Projekt braucht — geprüft, verifiziert und geliefert mit einem einzigen Ansprechpartner.",
+
+    sc_index: "01 / E-LADEN", sc_h3: "E-Laden & BESS",
+    sc_desc: "Weltweit führender Anbieter von Ladeinfrastruktur und Mikronetzen mit über 700.000 öffentlichen Ladepunkten in mehr als 70 Ländern. Von Hochleistungs-DC-Schnellladen bis zu flüssigkeitsgekühlten C&amp;I-BESS liefern wir Ausrüstung für anspruchsvollste Standorte.",
+    sc_s1: "Nennenergie eBox261", sc_s2: "Nennausgangsleistung", sc_s3: "Ladeleistungsbereich", sc_s4: "Schutzart",
+    sc_f1: "eBox261: halbfestes LFP 314 Ah, 248 kWh nutzbar, Flüssigkühlung",
+    sc_f2: "KI-gestütztes EMS, Systemwirkungsgrad ≥91,5 %, schnelle globale OTA-Updates",
+    sc_f3: "Netzgekoppelte Mikronetze / Inselbetrieb / Black-Start-Unterstützung",
+    sc_f4: "Schnellladen von 7 kW AC bis 720 kW DC für globale Märkte, bis 2,56 MW",
+    quote: "Angebot anfordern <span aria-hidden=\"true\">→</span>",
+
+    by_index: "02 / STROMVERTEILUNG", by_h3: "Stromverteilungstechnik",
+    by_desc: "Börsennotierter Elektrotechnikkonzern (SSE: 603861) mit vollständigem Sortiment von 0,4 kV bis 1100 kV. Aktiv in intelligenten Netzen, Rechenzentren, Bahn und Projekten der neuen Energie, mit Lieferungen in 54 Länder.",
+    by_s1: "Spannungsbereich komplett", by_s2: "Gasisolierte Schaltanlagen", by_s3: "Länder mit Lieferungen", by_s4: "Gründungsjahr des Konzerns",
+    by_f1: "Mittel- und Niederspannungs-Schaltanlagen, Ringkabelverteiler, NS-Leistungsschalter",
+    by_f2: "Öl-, Trocken- und Spezialtransformatoren",
+    by_f3: "Leistungskondensatoren, Stromschienen, intelligente Komponenten",
+    by_f4: "Verteilungslösungen für Rechenzentren und Mikronetze",
+
+    xy_index: "03 / PHOTOVOLTAIK", xy_h3: "Photovoltaik & neue Energien",
+    xy_desc: "Größter PV-Glashersteller der Welt (HKEX: 00968), Zulieferer der großen Modulhersteller mit rund 30 % globalen Marktanteil. Auch aktiv bei EVA/POE-Folie, Zellen und BESS.",
+    xy_s1: "Globaler Anteil bei PV-Glas", xy_s2: "Schmelzkapazität (2025)", xy_s3: "Produktionsstandorte", xy_s4: "An der HKEX notiert",
+    xy_f1: "Extra-klare strukturierte PV-Gläser, roh und gehärtet",
+    xy_f2: "Antireflexbeschichtetes (AR) Glas und Rückseiten-Glas",
+    xy_f3: "PV-Encapsulant-Folie EVA / POE",
+    xy_f4: "Heim- und C&amp;I-BESS, Wechselrichter, E-Ladegeräte",
+
+    why_eyebrow: "Warum Tychronic", why_h2: "Ein Partner für eine komplexe Lieferkette",
+    why_p: "Wir machen die globale Beschaffung von Energieausrüstung einfach — mit technischer Tiefe, ehrlicher Kommunikation und Raum, um gemeinsam zu wachsen.",
+    why1_h: "Beschaffung aus einer Hand", why1_p: "Laden, BESS, Schalttechnik und Photovoltaik von drei etablierten Herstellern — koordiniert von einem einzigen Vertriebsteam.",
+    why2_h: "Internationale Erfahrung", why2_p: "Unsere Partnermarken liefern in mehr als 70 bzw. 54 Länder, mit passenden Zertifizierungen und Referenzen.",
+    why3_h: "Technisch statt nur kommerziell", why3_p: "Wir lesen die Datenblätter für Sie: Spannung, Leistung, Schutzart und Standortbedingungen, bevor wir irgendein Angebot senden.",
+    why4_h: "Für langfristige Beziehungen gebaut", why4_p: "Direkte, transparente Kommunikation und After-Sales-Support — der Partner, den Sie brauchen, wenn ein Projekt Jahre dauert.",
+
+    about_eyebrow: "Über Tychronic", about_h2: "Die Energie verändert sich.<br />Wir bewegen uns mit.",
+    about_p1: "Tychronic ist ein unabhängiger Beschaffungs- und Lieferpartner für den globalen Markt der neuen Energien. Wir verbinden Projektentwickler, EPC, Distributoren und Betreiber mit Ausrüstung etablierter chinesischer Hersteller — von der Solarerzeugung und Netzverteilung bis zu BESS und Ladeinfrastruktur.",
+    about_p2: "Unsere Rolle ist praktisch: Standort verstehen, passende Produkte vorselektieren, Spezifikationen prüfen und ein ehrliches Gespräch führen — von der Anfrage bis zur Lieferung. Die formalen Vertriebsvereinbarungen mit unseren Partnermarken befinden sich in der Endphase; bis dahin agieren wir als unabhängiger Repräsentant und Beschaffungspartner.",
+    about_btn: "Gespräch beginnen",
+
+    contact_eyebrow: "Kontakt", contact_h2: "Bauen wir etwas, das Bestand hat.",
+    contact_p: "Erzählen Sie uns von Ihrem Projekt: Standort, Leistungsanforderungen, Volumen und Zeitplan. Wir antworten mit einer Vorauswahl und einem ehrlichen Angebot.",
+    contact_email: "E-Mail", contact_web: "Website", contact_whatsapp: "WhatsApp",
+    f_name: "Ihr Name", f_name_ph: "Vollständiger Name", f_email: "E-Mail-Adresse",
+    f_interest: "Ich interessiere mich für", opt1: "E-Laden", opt2: "BESS", opt3: "Stromverteilung", opt4: "Photovoltaik", opt5: "Mehreres / noch unklar",
+    f_message: "Erzählen Sie uns von Ihrem Projekt", f_msg_ph: "Standort, Leistungsbedarf, Volumen, Zeitplan…",
+    f_send: "Anfrage senden", form_note_default: "Wir antworten in Kürze an Ihre E-Mail.",
+    form_err: "Bitte Name, gültige E-Mail und eine kurze Nachricht angeben.",
+    form_mail_open: "Ihre E-Mail-Anwendung öffnet sich mit der fertigen Nachricht.",
+    foot_slogan: "Charge Ahead · Power Beyond",
+    foot_legal: " Tychronic. Unabhängiger Beschaffungs- und Lieferpartner. Namen der Partnermarken werden nur als Referenz verwendet.",
+
+    app_eyebrow: "Mobile App",
+    app_h2: "Tychronic, auf Ihrem Handy.",
+    app_p: "Installieren Sie die Website als App — echtes Symbol auf dem Startbildschirm, Vollbild-Navigation und Seiten auch offline. Gleiche Inhalte, immer synchron, ohne App-Store.",
+    app_badge_android: "Android",
+    app_step_android: "Öffnen Sie diese Website in Chrome und tippen Sie auf <strong>App installieren</strong>.",
+    app_badge_iphone: "iPhone",
+    app_step_iphone: "In Safari auf <strong>Teilen</strong> tippen und <strong>Zum Home-Bildschirm</strong> wählen.",
+    app_scan: "Mit dem Handy scannen und installieren",
+
+    pf_label: "Produkte filtern", pf_none: "Keine", pf_all: "Alle Produkte",
+    pf_note: "Produktfamilien gemäß veröffentlichter Spezifikationen. Die endgültige Modellliste auf Anfrage.",
+    pf_empty: "Keine Produkte in diesem Bereich — fragen Sie uns nach der vollständigen Liste.",
+    pf_en_note: "Modelle und Spezifikationen werden auf Englisch angezeigt.",
+  },
+
   /* ---------------- Portuguese ---------------- */
   pt: {
     skip: "Ir para o conteúdo", skip_aria: "Ir para o conteúdo",
@@ -444,6 +531,11 @@ window.TYCHRON_EXTRA = {
 
 /* Band names for the product filter dropdowns */
 window.TYCHRON_BANDS = {
+  de: {
+    sc: { ac7: "AC-Laden · 7–21 kW", v2g: "V2G", dc60: "DC All-in-One · 60–80 kW", dc120: "DC All-in-One · 120–320 kW", dc400: "DC All-in-One · 400–640 kW", split: "DC Split · 360–960 kW", ultra: "Ultra-Hochleistung · bis 2,56 MW", terminal: "Ladeterminals", bess: "BESS" },
+    by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
+    xy: { glass: "Photovoltaikglas", film: "Encapsulant-Folie", bess: "BESS" }
+  },
   es: {
     sc: { ac7: "Carga CA · 7–21 kW", v2g: "V2G", dc60: "DC todo en uno · 60–80 kW", dc120: "DC todo en uno · 120–320 kW", dc400: "DC todo en uno · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potencia ultra alta · hasta 2,56 MW", terminal: "Terminales de carga", bess: "BESS" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
@@ -473,6 +565,11 @@ window.TYCHRON_BANDS = {
 
 /* Page metadata per language */
 window.TYCHRON_META = {
+  de: {
+    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    desc: "Tychronic ist Ihr Beschaffungs- und Lieferpartner für Ladeinfrastruktur, BESS, Stromverteilung und Photovoltaik — und vertritt StarCharge, Baiyun Electric und XES auf den globalen Märkten.",
+    ogDesc: "E-Laden · BESS · Stromverteilung · Photovoltaik. Drei etablierte Hersteller, ein Partner."
+  },
   es: {
     title: "TYCHRONIC — Charge Ahead. Power Beyond",
     desc: "Tychronic es su socio de abastecimiento y suministro de carga de vehículos eléctricos, BESS, distribución eléctrica y fotovoltaica, en representación de StarCharge, Baiyun Electric y XES para los mercados globales.",
