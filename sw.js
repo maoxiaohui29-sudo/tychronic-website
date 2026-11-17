@@ -1,5 +1,5 @@
 /* 由 make_pwa.py 生成：network-first + 离线回落 */
-const CACHE='tychronic-prod-v5-2611171405';
+const CACHE='tychronic-prod-v6-2611171415';
 const ASSETS=["./", "./index.html", "./styles.css", "./app.js", "./langs.js", "./manifest.webmanifest", "./assets/switchgear.png", "./assets/switchgear-lights-a.png", "./assets/switchgear-lights-b.png", "./assets/switchgear-lights-c.png", "./assets/solar-farm.jpg", "./assets/brand.png", "./assets/qr-app.svg", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png", "./icons/apple-touch-icon.png", "./app.ico"];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(ASSETS.map(u=>c.add(u)))).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});

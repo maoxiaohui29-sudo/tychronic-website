@@ -570,7 +570,24 @@
   // ---- Language dropdown ----
   var langSel = document.getElementById('langSel');
   if (langSel) {
-    langSel.addEventListener('change', function () { applyLang(langSel.value); });
+    // 'change' covers desktop/mobile browsers; 'input' covers in-app webviews
+    // that only fire input. Guard against double-apply (harmless but cheap).
+    var lastPicked = langSel.value;
+    function onLangPicked() {
+      if (langSel.value && langSel.value !== lastPicked) {
+        lastPicked = langSel.value;
+        applyLang(langSel.value);
+      } else if (langSel.value) {
+        applyLang(langSel.value);
+      }
+    }
+    langSel.addEventListener('change', onLangPicked);
+    langSel.addEventListener('input', onLangPicked);
+    // Back/forward cache restore: re-apply the saved choice so the page
+    // never comes back in a stale language.
+    window.addEventListener('pageshow', function () {
+      applyLang(detectLang());
+    });
   }
 
   // ---- Mobile nav ----
