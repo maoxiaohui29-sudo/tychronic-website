@@ -180,6 +180,93 @@ window.TYCHRON_EXTRA = {
     pf_en_note: "Modelle und Spezifikationen werden auf Englisch angezeigt.",
   },
 
+  /* ---------------- Vietnamese ---------------- */
+  vi: {
+    skip: "Chuyển đến nội dung", skip_aria: "Chuyển đến nội dung",
+    brand_aria: "Trang chủ Tychronic", nav_aria: "Điều hướng chính",
+    toggle_aria: "Mở hoặc đóng điều hướng", lang_aria: "Chọn ngôn ngữ",
+    nav_solutions: "Giải pháp", nav_why: "Vì sao chọn Tychronic", nav_about: "Về chúng tôi", nav_contact: "Liên hệ",
+    header_cta: "Trao đổi ngay",
+
+    hero_eyebrow: "Đối tác giải pháp năng lượng toàn cầu",
+    hero_sub: "Một đối tác duy nhất cho toàn chuỗi năng lượng — sạc xe điện, BESS, phân phối điện và quang điện mặt trời — với nền tảng là ba nhà sản xuất lâu đời hàng đầu của Trung Quốc.",
+    hero_btn1: "Xem giải pháp", hero_btn2: "Trao đổi ngay <span aria-hidden=\"true\">→</span>",
+    stat1: "Thương hiệu đối tác", stat2: "Quốc gia phục vụ", stat3: "Thị phần kính PV toàn cầu",
+    tag1: "Sạc xe điện", tag2: "BESS", tag3: "Lưới điện", tag4: "Quang điện",
+
+    partners_label: "Chúng tôi hợp tác với các nhà sản xuất uy tín lâu năm",
+    partner_sc: "Sạc xe điện & BESS",
+    partner_by_name: "Baiyun Electric", partner_by: "Thiết bị phân phối điện",
+    partner_xy_name: "XES", partner_xy: "Quang điện & năng lượng mới",
+
+    sol_eyebrow: "Giải pháp của chúng tôi",
+    sol_h2: "Ba thương hiệu. Một chuỗi năng lượng hoàn chỉnh.",
+    sol_p: "Từ khâu phát điện đến trụ sạc, chúng tôi hội tụ đầy đủ thiết bị mà dự án của bạn cần — tuyển chọn, kiểm tra kỹ thuật và giao hàng bởi một đầu mối duy nhất.",
+
+    sc_index: "01 / SẠC XE ĐIỆN", sc_h3: "Sạc xe điện & BESS",
+    sc_desc: "Nhà cung cấp hàng đầu thế giới về sạc và vi lưới, với hơn 700.000 điểm sạc công cộng tại hơn 70 quốc gia. Từ trụ sạc nhanh DC công suất lớn đến BESS làm mát bằng chất lỏng cho doanh nghiệp — thiết bị được chế tạo cho những ứng dụng đòi hỏi khắt khe.",
+    sc_s1: "Năng lượng định mức eBox261", sc_s2: "Công suất đầu ra định mức (AC)", sc_s3: "Dải công suất sạc", sc_s4: "Cấp bảo vệ IP",
+    sc_f1: "eBox261: tế bào LFP bán rắn 314 Ah, năng lượng khả dụng 248 kWh, làm mát bằng chất lỏng thông minh",
+    sc_f2: "Hệ EMS điều khiển bằng AI với cập nhật OTA toàn cầu nhanh; hiệu suất sạc-xả (round-trip) của hệ thống ≥91,5%",
+    sc_f3: "Vận hành vi lưới: nối lưới, chế độ đảo (island mode) và khởi động đen (black start)",
+    sc_f4: "Danh mục sạc từ 7 kW AC đến 720 kW DC cho thị trường toàn cầu, tới 2,56 MW",
+    quote: "Yêu cầu báo giá <span aria-hidden=\"true\">→</span>",
+
+    by_index: "02 / PHÂN PHỐI ĐIỆN", by_h3: "Thiết bị phân phối điện",
+    by_desc: "Tập đoàn thiết bị điện niêm yết (SSE: 603861) với chuỗi sản phẩm hoàn chỉnh từ 0,4 kV đến 1100 kV. Thiết bị ứng dụng trong lưới điện thông minh, trung tâm dữ liệu, đường sắt và các dự án năng lượng mới; đã giao hàng tới 54 quốc gia.",
+    by_s1: "Toàn dải điện áp", by_s2: "Tủ điện cách điện bằng khí (GIS)", by_s3: "Quốc gia đã giao hàng", by_s4: "Năm thành lập tập đoàn",
+    by_f1: "Tủ điện trung và hạ thế, tủ vòng (ring main unit), máy cắt hạ thế",
+    by_f2: "Máy biến áp dầu, khô và chuyên dụng",
+    by_f3: "Tụ bù công suất, thanh dẫn busway, linh kiện thông minh",
+    by_f4: "Giải pháp phân phối điện cho trung tâm dữ liệu và vi lưới",
+
+    xy_index: "03 / QUANG ĐIỆN", xy_h3: "Quang điện & năng lượng mới",
+    xy_desc: "Nhà sản xuất kính quang điện lớn nhất thế giới (HKEX: 00968), cung cấp cho các hãng module hàng đầu với khoảng 30% thị phần toàn cầu. Cũng hoạt động trong phim EVA/POE, pin quang điện và BESS.",
+    xy_s1: "Thị phần kính PV toàn cầu", xy_s2: "Công suất nấu kính (2025)", xy_s3: "Nhà máy sản xuất", xy_s4: "Niêm yết trên HKEX",
+    xy_f1: "Kính PV siêu trong có bề mặt nhám, nguyên bản và tôi cường lực",
+    xy_f2: "Kính tráng chống phản xạ (AR) và kính mặt sau",
+    xy_f3: "Phim đóng gói pin PV EVA / POE",
+    xy_f4: "BESS gia dụng và doanh nghiệp, biến tần (inverter), bộ sạc xe điện",
+
+    why_eyebrow: "Vì sao chọn Tychronic", why_h2: "Một đối tác cho chuỗi cung ứng phức tạp",
+    why_p: "Chúng tôi giúp việc mua sắm thiết bị năng lượng toàn cầu trở nên đơn giản — sâu về kỹ thuật, minh bạch trong trao đổi và cùng bạn phát triển dài lâu.",
+    why1_h: "Cung ứng trọn gói", why1_p: "Sạc, BESS, tủ điện và quang điện từ ba nhà sản xuất uy tín — phối hợp bởi một đội ngũ kinh doanh duy nhất.",
+    why2_h: "Kinh nghiệm quốc tế", why2_p: "Các thương hiệu đối tác giao hàng tới hơn 70 quốc gia và 54 thị trường, với chứng nhận và hồ sơ dự án tương ứng.",
+    why3_h: "Hiểu kỹ thuật, không chỉ bán hàng", why3_p: "Chúng tôi đọc datasheet thay bạn — điện áp, công suất, mức bảo vệ và điều kiện mặt bằng trước khi báo giá bất kỳ.",
+    why4_h: "Kiến tạo cho quan hệ bền lâu", why4_p: "Trao đổi trực tiếp, minh bạch và hỗ trợ sau bán hàng — đối tác bạn cần khi dự án kéo dài nhiều năm.",
+
+    about_eyebrow: "Về Tychronic", about_h2: "Năng lượng đang thay đổi.<br />Chúng tôi cùng tiến.",
+    about_p1: "Tychronic là đối tác mua sắm và cung ứng độc lập cho thị trường năng lượng mới toàn cầu. Chúng tôi kết nối chủ đầu tư, nhà thầu EPC, nhà phân phối và đơn vị vận hành với thiết bị từ các nhà sản xuất Trung Quốc uy tín — từ phát điện mặt trời và phân phối điện đến BESS và trạm sạc.",
+    about_p2: "Vai trò của chúng tôi rất thực tế: hiểu mặt bằng, tuyển chọn đúng sản phẩm, kiểm tra thông số và giữ trao đổi trung thực từ yêu cầu đến giao hàng. Các thỏa thuận phân phối chính thức với thương hiệu đối tác đang ở giai đoạn chốt cuối; trước đó chúng tôi hoạt động với vai trò đại diện độc lập và đối tác mua sắm.",
+    about_btn: "Bắt đầu trao đổi",
+
+    contact_eyebrow: "Liên hệ", contact_h2: "Cùng xây dựng điều bền vững.",
+    contact_p: "Hãy kể về dự án của bạn — mặt bằng, yêu cầu công suất, sản lượng và tiến độ. Chúng tôi sẽ phản hồi với danh sách đề xuất và báo giá trung thực.",
+    contact_email: "Email", contact_web: "Website", contact_whatsapp: "WhatsApp",
+    f_name: "Tên của bạn", f_name_ph: "Họ và tên", f_email: "Địa chỉ email",
+    f_interest: "Tôi quan tâm đến", opt1: "Sạc xe điện", opt2: "BESS", opt3: "Phân phối điện", opt4: "Quang điện", opt5: "Nhiều hạng mục / chưa rõ",
+    f_message: "Kể chúng tôi về dự án của bạn", f_msg_ph: "Địa điểm, nhu cầu công suất, sản lượng, tiến độ…",
+    f_send: "Gửi yêu cầu", form_note_default: "Chúng tôi sẽ phản hồi email của bạn sớm.",
+    form_err: "Vui lòng nhập tên, email hợp lệ và nội dung ngắn gọn.",
+    form_mail_open: "Ứng dụng email của bạn đang mở với nội dung sẵn sàng gửi.",
+    foot_slogan: "Charge Ahead · Power Beyond",
+    foot_legal: " Tychronic. Đối tác mua sắm và cung ứng độc lập. Tên thương hiệu đối tác chỉ dùng để tham chiếu.",
+
+    app_eyebrow: "Ứng dụng di động",
+    app_h2: "Tychronic, ngay trên điện thoại của bạn.",
+    app_p: "Cài đặt website thành ứng dụng — biểu tượng thật trên màn hình chính, duyệt toàn màn hình và xem trang offline. Cùng nội dung, luôn đồng bộ, không cần cửa hàng ứng dụng.",
+    app_badge_android: "Android",
+    app_step_android: "Mở website này bằng Chrome và nhấn <strong>Cài đặt ứng dụng</strong> trên biểu tượng.",
+    app_badge_iphone: "iPhone",
+    app_step_iphone: "Mở trong Safari, nhấn <strong>Chia sẻ</strong> và chọn <strong>Thêm vào Màn hình chính</strong>.",
+    app_scan: "Quét mã bằng điện thoại để cài đặt",
+
+    pf_label: "Lọc sản phẩm", pf_none: "Không", pf_all: "Tất cả sản phẩm",
+    pf_note: "Nhóm sản phẩm theo thông số công bố. Danh sách model đầy đủ có sẵn theo yêu cầu.",
+    pf_empty: "Không có sản phẩm trong dải này — hãy liên hệ để nhận danh sách đầy đủ.",
+    pf_en_note: "Model và thông số được hiển thị bằng tiếng Anh."
+  },
+
   /* ---------------- Portuguese ---------------- */
   pt: {
     skip: "Ir para o conteúdo", skip_aria: "Ir para o conteúdo",
@@ -560,6 +647,11 @@ window.TYCHRON_BANDS = {
     sc: { ac7: "شحن تيار متردد · 7–21 كيلوواط", v2g: "V2G", dc60: "تيار مستمر متكامل · 60–80 كيلوواط", dc120: "تيار مستمر متكامل · 120–320 كيلوواط", dc400: "تيار مستمر متكامل · 400–640 كيلوواط", split: "تيار مستمر منفصل · 360–960 كيلوواط", ultra: "قدرة فائقة · حتى 2.56 ميجاواط", terminal: "محطات الشحن", bess: "BESS" },
     by: { "0.4kV": "0.4 كيلوفولت", "10kV": "10 كيلوفولت", "35kV": "35 كيلوفولت", "110kV": "110 كيلوفولت", "1100kV": "1100 كيلوفولت" },
     xy: { glass: "زجاج كهروضوئي", film: "فيلم تغليف", bess: "BESS" }
+  },
+  vi: {
+    sc: { ac7: "Sạc AC · 7–21 kW", v2g: "V2G", dc60: "DC tích hợp · 60–80 kW", dc120: "DC tích hợp · 120–320 kW", dc400: "DC tích hợp · 400–640 kW", split: "DC tách rời · 360–960 kW", ultra: "Công suất siêu lớn · tới 2,56 MW", terminal: "Trụ sạc (terminal)", bess: "BESS" },
+    by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
+    xy: { glass: "Kính quang điện", film: "Phim đóng gói", bess: "BESS" }
   }
 };
 
@@ -594,5 +686,10 @@ window.TYCHRON_META = {
     title: "TYCHRONIC — Charge Ahead. Power Beyond",
     desc: "Tychronic شريكك في التوريد والإمداد لشحن المركبات الكهربائية وأنظمة BESS وتوزيع الطاقة والطاقة الكهروضوئية، وتمثّل StarCharge وBaiyun Electric وXES في الأسواق العالمية.",
     ogDesc: "شحن المركبات · BESS · توزيع الطاقة · الكهروضوئية. ثلاثة مصنّعين موثوقين، شريك واحد."
+  },
+  vi: {
+    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    desc: "Tychronic là đối tác mua sắm và cung ứng sạc xe điện, BESS, phân phối điện và quang điện mặt trời — đại diện cho StarCharge, Baiyun Electric và XES tại các thị trường toàn cầu.",
+    ogDesc: "Sạc xe điện · BESS · Phân phối điện · Quang điện. Ba nhà sản xuất uy tín, một đối tác duy nhất."
   }
 };

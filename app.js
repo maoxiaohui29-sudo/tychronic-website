@@ -254,7 +254,7 @@
   };
 
   /* Extra languages live in langs.js and are merged at runtime. */
-  var LANGS = ['en', 'zh', 'ar', 'ru', 'es', 'pt', 'fr', 'de'];
+  var LANGS = ['en', 'zh', 'ar', 'ru', 'es', 'pt', 'fr', 'de', 'vi'];
   if (window.TYCHRON_EXTRA) {
     LANGS.forEach(function (code) {
       if (window.TYCHRON_EXTRA[code]) {
