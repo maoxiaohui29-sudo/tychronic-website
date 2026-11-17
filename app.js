@@ -55,7 +55,7 @@
       xy_f4: 'Residential &amp; C&amp;I BESS, inverters, EV chargers',
 
       why_eyebrow: 'Why Tychronic', why_h2: 'A single partner for a complex supply chain',
-      why_p: 'We make global sourcing of Chinese energy equipment straightforward — with technical depth, honest communication and room to grow together.',
+      why_p: 'We make global sourcing of energy equipment straightforward — with technical depth, honest communication and room to grow together.',
       why1_h: 'One-stop sourcing', why1_p: 'Charging, BESS, switchgear and photovoltaic from three established manufacturers — coordinated through one account team.',
       why2_h: 'Global project experience', why2_p: 'Our partner brands deliver into 70+ countries and 54 markets respectively, with certifications and references to match.',
       why3_h: 'Technical, not just trading', why3_p: 'We read the datasheets for you — matching voltage, power, protection and site conditions before a quote ever reaches you.',
@@ -178,7 +178,7 @@
       xy_f4: '户用与工商业 BESS、逆变器、充电桩',
 
       why_eyebrow: '为什么选我们', why_h2: '复杂供应链，一个合作窗口',
-      why_p: '让中国新能源设备的全球采购变得简单——懂技术、说话实在，也愿意陪你长期做。',
+      why_p: '让新能源设备的全球采购变得简单——懂技术、说话实在，也愿意陪你长期做。',
       why1_h: '一站式采购', why1_p: '充电、BESS、开关柜与光伏来自三家成熟制造商，由一个客户经理统一对接。',
       why2_h: '全球项目经验', why2_p: '合作品牌分别覆盖 70+ 国家和 54 个市场，认证与项目案例齐备。',
       why3_h: '懂技术，不只是贸易', why3_p: '我们替你看规格书——报价前先核对电压、功率、防护等级和现场条件。',

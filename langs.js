@@ -55,7 +55,7 @@ window.TYCHRON_EXTRA = {
     xy_f4: "BESS residencial y C&amp;I, inversores, cargadores VE",
 
     why_eyebrow: "Por qué Tychronic", why_h2: "Un solo socio para una cadena de suministro compleja",
-    why_p: "Hacemos sencillo el abastecimiento global de equipos energéticos chinos: profundidad técnica, comunicación honesta y espacio para crecer juntos.",
+    why_p: "Hacemos sencillo el abastecimiento global de equipos energéticos: profundidad técnica, comunicación honesta y espacio para crecer juntos.",
     why1_h: "Abastecimiento integral", why1_p: "Carga, BESS, aparamenta y fotovoltaica de tres fabricantes consolidados, coordinados por un único equipo comercial.",
     why2_h: "Experiencia internacional", why2_p: "Nuestras marcas asociadas entregan en más de 70 países y 54 mercados respectivamente, con certificaciones y referencias acordes.",
     why3_h: "Técnicos, no solo comerciales", why3_p: "Leemos las fichas técnicas por usted: tensión, potencia, protección y condiciones del sitio antes de enviar cualquier cotización.",
@@ -142,7 +142,7 @@ window.TYCHRON_EXTRA = {
     xy_f4: "BESS residencial e C&amp;I, inversores, carregadores VE",
 
     why_eyebrow: "Por que a Tychronic", why_h2: "Um único parceiro para uma cadeia de suprimentos complexa",
-    why_p: "Tornamos simples o sourcing global de equipamentos chineses de energia — com profundidade técnica, comunicação honesta e espaço para crescer juntos.",
+    why_p: "Tornamos simples o sourcing global de equipamentos de energia — com profundidade técnica, comunicação honesta e espaço para crescer juntos.",
     why1_h: "Suprimento integrado", why1_p: "Recarga, BESS, conjuntos elétricos e fotovoltaica de três fabricantes consolidados, coordenados por uma única equipe comercial.",
     why2_h: "Experiência internacional", why2_p: "Nossas marcas parceiras entregam em mais de 70 países e 54 mercados, com certificações e referências compatíveis.",
     why3_h: "Técnicos, não apenas comerciais", why3_p: "Lemos as fichas técnicas por você — tensão, potência, proteção e condições do site antes de qualquer cotação.",
@@ -229,7 +229,7 @@ window.TYCHRON_EXTRA = {
     xy_f4: "BESS résidentiel et C&amp;I, onduleurs, bornes de recharge",
 
     why_eyebrow: "Pourquoi Tychronic", why_h2: "Un partenaire unique pour une chaîne d'approvisionnement complexe",
-    why_p: "Nous simplifions le sourcing mondial d'équipements énergétiques chinois — avec de la profondeur technique, une communication honnête et la place de grandir ensemble.",
+    why_p: "Nous simplifions le sourcing mondial d'équipements énergétiques — avec de la profondeur technique, une communication honnête et la place de grandir ensemble.",
     why1_h: "Sourcing intégré", why1_p: "Recharge, BESS, appareillage et photovoltaïque de trois fabricants établis — coordonnés par une seule équipe commerciale.",
     why2_h: "Expérience internationale", why2_p: "Nos marques partenaires livrent dans plus de 70 pays et 54 marchés, avec les certifications et références correspondantes.",
     why3_h: "Techniciens, pas seulement négociants", why3_p: "Nous lisons les fiches techniques pour vous — tension, puissance, protection et conditions de site avant tout devis.",
@@ -316,7 +316,7 @@ window.TYCHRON_EXTRA = {
     xy_f4: "BESS для домов и коммерции, инверторы, зарядные станции",
 
     why_eyebrow: "Почему Tychronic", why_h2: "Один партнёр для сложной цепочки поставок",
-    why_p: "Мы делаем глобальные закупки китайского энергооборудования простыми — с технической глубиной, честной коммуникацией и возможностью расти вместе.",
+    why_p: "Мы делаем глобальные закупки энергооборудования простыми — с технической глубиной, честной коммуникацией и возможностью расти вместе.",
     why1_h: "Комплексные закупки", why1_p: "Зарядка, BESS, распределительные устройства и фотоэлектрика от трёх проверенных производителей — в одной команде.",
     why2_h: "Опыт международных проектов", why2_p: "Наши бренды-партнёры поставляют в 70+ стран и 54 рынка соответственно, с соответствующими сертификатами и референсами.",
     why3_h: "Инженеры, а не только трейдеры", why3_p: "Мы читаем даташиты за вас — напряжение, мощность, защита и условия площадки до выставления цены.",
@@ -403,7 +403,7 @@ window.TYCHRON_EXTRA = {
     xy_f4: "أنظمة BESS سكنية وتجارية، عواكس، شواحن مركبات",
 
     why_eyebrow: "لماذا Tychronic", why_h2: "شريك واحد لسلسلة توريد معقّدة",
-    why_p: "نجعل التوريد العالمي لمعدات الطاقة الصينية أمرًا مباشرًا — بعمق فنّي وتواصل صادق ومساحة للنمو معًا.",
+    why_p: "نجعل التوريد العالمي لمعدات الطاقة أمرًا مباشرًا — بعمق فنّي وتواصل صادق ومساحة للنمو معًا.",
     why1_h: "توريد متكامل", why1_p: "الشحن وأنظمة BESS والمفاتيح الكهربائية والكهروضوئية من ثلاثة مصنّعين راسخين — بتنسيق من فريق حساب واحد.",
     why2_h: "خبرة مشاريع عالمية", why2_p: "علاماتنا الشريكة تسلّم إلى أكثر من 70 دولة و54 سوقًا، مع شهادات ومراجع مطابقة.",
     why3_h: "فنّيون لا تجّار فقط", why3_p: "نقرأ أوراق البيانات بدلاً عنك — الجهد والقدرة والحماية وظروف الموقع قبل أي عرض سعر.",
