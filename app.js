@@ -138,13 +138,13 @@
 
       hero_eyebrow: '全球新能源解决方案合作伙伴',
       hero_h1: '全力向前<br /><span>动力无界</span>',
-      hero_sub: '一个合作窗口，覆盖完整能源链——充电桩、BESS、输配电与光伏，由三家中国成熟制造商提供支撑。',
+      hero_sub: '一个合作窗口，覆盖完整能源链——充电桩、储能系统、输配电与光伏，由三家成熟制造商提供支撑。',
       hero_btn1: '了解方案', hero_btn2: '聊聊你的项目 <span aria-hidden="true">→</span>',
       stat1: '合作品牌', stat2: '服务国家和地区', stat3: '全球光伏玻璃份额',
-      tag1: '充电桩', tag2: 'BESS', tag3: '电网配电', tag4: '光伏',
+      tag1: '充电桩', tag2: '储能系统', tag3: '电网配电', tag4: '光伏',
 
       partners_label: '与成熟制造商携手',
-      partner_sc: '充电桩与 BESS',
+      partner_sc: '充电桩与储能系统',
       partner_by_name: '白云电气', partner_by: '输配电设备',
       partner_xy_name: 'XES', partner_xy: '光伏与新能源',
 
@@ -152,8 +152,8 @@
       sol_h2: '三大品牌，覆盖完整能源链',
       sol_p: '从发电端到充电终端，我们把项目需要的设备整合在一起——统一询价、核验与交付。',
 
-      sc_index: '01 / 充电桩', sc_h3: '充电桩与 BESS',
-      sc_desc: '全球头部充电与微电网方案商，公共充电点超过 70 万个，覆盖 70 多个国家。产品线从超快直流分体桩与功率柜，到液冷工商业 BESS，为严苛场景提供专业设备。',
+      sc_index: '01 / 充电桩', sc_h3: '充电桩与储能系统',
+      sc_desc: '全球头部充电与微电网方案商，公共充电点超过 70 万个，覆盖 70 多个国家。产品线从超快直流分体桩与功率柜，到液冷工商业储能系统，为严苛场景提供专业设备。',
       sc_s1: 'eBox261 标称电量', sc_s2: '额定交流输出功率', sc_s3: '充电功率范围', sc_s4: 'IP 防护等级',
       sc_f1: 'eBox261：314Ah 半固态磷酸铁锂电芯，可用电量 248kWh，智能液冷温控',
       sc_f2: 'AI 驱动 EMS，支持全球快速 OTA；系统往返效率 ≥91.5%',
@@ -170,22 +170,22 @@
       by_f4: '数据中心与微电网配电解决方案',
 
       xy_index: '03 / 光伏', xy_h3: '光伏与新能源',
-      xy_desc: '全球领先的光伏玻璃制造商（港交所 00968），为全球主要组件厂商供货，全球市场份额约 30%，同时布局 EVA/POE 胶膜、电池与 BESS。',
+      xy_desc: '全球领先的光伏玻璃制造商（港交所 00968），为全球主要组件厂商供货，全球市场份额约 30%，同时布局 EVA/POE 胶膜、电池与储能系统。',
       xy_s1: '全球光伏玻璃份额', xy_s2: '日熔化量（2025）', xy_s3: '生产基地', xy_s4: '香港上市',
       xy_f1: '超白压花光伏玻璃，原片与钢化',
       xy_f2: '减反射（AR）镀膜玻璃及背板玻璃',
       xy_f3: 'EVA / POE 光伏封装胶膜',
-      xy_f4: '户用与工商业 BESS、逆变器、充电桩',
+      xy_f4: '户用与工商业储能系统、逆变器、充电桩',
 
       why_eyebrow: '为什么选我们', why_h2: '复杂供应链，一个合作窗口',
       why_p: '让新能源设备的全球采购变得简单——懂技术、说话实在，也愿意陪你长期做。',
-      why1_h: '一站式采购', why1_p: '充电、BESS、开关柜与光伏来自三家成熟制造商，由一个客户经理统一对接。',
+      why1_h: '一站式采购', why1_p: '充电、储能系统、开关柜与光伏来自三家成熟制造商，由一个客户经理统一对接。',
       why2_h: '全球项目经验', why2_p: '合作品牌分别覆盖 70+ 国家和 54 个市场，认证与项目案例齐备。',
       why3_h: '懂技术，不只是贸易', why3_p: '我们替你看规格书——报价前先核对电压、功率、防护等级和现场条件。',
       why4_h: '为长期合作而设', why4_p: '直接透明的沟通与售后支持，项目做几年也放心。',
 
       about_eyebrow: '关于泰储云', about_h2: '能源在变。<br />我们跟着变。',
-      about_p1: '泰储云是面向全球新能源市场的独立采购与供应合作伙伴。我们为开发商、EPC、经销商和运营商对接中国成熟制造企业的设备——覆盖从光伏发电、电网配电到 BESS 与充电的完整链条。',
+      about_p1: '泰储云是面向全球新能源市场的独立采购与供应合作伙伴。我们为开发商、EPC、经销商和运营商对接成熟制造企业的设备——覆盖从光伏发电、电网配电到储能系统与充电的完整链条。',
       about_p2: '我们的工作很具体：看懂现场，筛对产品，核对参数，从询价到交付都保持坦诚沟通。我们与合作品牌的正式代理协议正在办理中；在此之前，我们以独立代表与采购合作伙伴的身份开展业务。',
       about_btn: '聊聊你的项目',
 
@@ -193,7 +193,7 @@
       contact_p: '把项目情况告诉我们——现场、功率需求、数量和周期。我们会给出选型建议和实在报价。',
       contact_email: '邮箱', contact_web: '网址', contact_whatsapp: 'WhatsApp',
       f_name: '您的姓名', f_name_ph: '姓名', f_email: '邮箱地址',
-      f_interest: '感兴趣的产品', opt1: '充电桩', opt2: 'BESS', opt3: '输配电', opt4: '光伏', opt5: '多项 / 暂不确定',
+      f_interest: '感兴趣的产品', opt1: '充电桩', opt2: '储能系统', opt3: '输配电', opt4: '光伏', opt5: '多项 / 暂不确定',
       f_message: '请介绍您的项目', f_msg_ph: '地点、功率需求、数量、周期…',
       f_send: '发送询价', form_note_default: '我们会尽快回复你的邮箱。',
       form_err: '请填写姓名、有效邮箱和简短留言。',
@@ -271,8 +271,8 @@
     },
     zh: {
       title: '泰储云 TYCHRONIC — 全力向前 动力无界',
-      desc: '泰储云是充电桩、BESS、输配电与光伏的采购与供应合作伙伴，为全球市场对接星星充电、白云电气与 XES 三家成熟制造商。',
-      ogDesc: '充电桩 · BESS · 输配电 · 光伏。三家成熟制造商，一个合作窗口。'
+      desc: '泰储云是充电桩、储能系统、输配电与光伏的采购与供应合作伙伴，为全球市场对接星星充电、白云电气与 XES 三家成熟制造商。',
+      ogDesc: '充电桩 · 储能系统 · 输配电 · 光伏。三家成熟制造商，一个合作窗口。'
     }
   };
 
@@ -322,7 +322,7 @@
       /* Charging terminals */
       { kw: 0,    band: 'terminal', en: 'Xinghai all-liquid-cooled terminal V6.0, 600 A',      zh: '星海全液冷终端 V6.0，600A' },
       { kw: 0,    band: 'terminal', en: 'Xinghai single / dual-gun terminal, 1200 A',         zh: '星海单枪 / 双枪终端，1200A' },
-      /* BESS */
+      /* 储能系统 */
       { kw: 0,    band: 'bess',     en: 'vBox residential BESS',                              zh: 'vBox 户用储能系统' },
       { kw: 0,    band: 'bess',     en: 'eBox-AL261 C&amp;I BESS, 261 kWh',                    zh: 'eBox-AL261 工商业储能，261kWh' },
       { kw: 0,    band: 'bess',     en: '3.44 MWh containerised grid-scale BESS',             zh: '3.44MWh 集装箱式大型储能系统' },
@@ -341,7 +341,7 @@
       { kw: 0,   band: 'glass',  en: 'Ultra-clear patterned photovoltaic glass — raw &amp; tempered', zh: '超白压花光伏玻璃 — 原片与钢化' },
       { kw: 0,   band: 'glass',  en: 'Anti-reflective (AR) coated glass &amp; back glass', zh: '减反射（AR）镀膜玻璃与背板玻璃' },
       { kw: 0,   band: 'film',   en: 'EVA / POE photovoltaic encapsulant film', zh: 'EVA / POE 光伏封装胶膜' },
-      { kw: 0,   band: 'bess',   en: 'Residential &amp; C&amp;I BESS, inverters and EV chargers', zh: '户用与工商业 BESS、逆变器与充电桩' }
+      { kw: 0,   band: 'bess',   en: 'Residential &amp; C&amp;I BESS, inverters and EV chargers', zh: '户用与工商业储能系统、逆变器与充电桩' }
     ]
   };
 
@@ -355,7 +355,7 @@
       'split':    { en: 'Split DC · 360–960 kW', zh: '分体直流 · 360–960kW' },
       'ultra':    { en: 'Ultra-high power · up to 2.56 MW', zh: '超大功率 · 最高 2.56MW' },
       'terminal': { en: 'Charging terminals', zh: '充电终端' },
-      'bess':     { en: 'BESS', zh: 'BESS' }
+      'bess':     { en: 'BESS', zh: '储能系统' }
     },
     by: {
       '0.4kV': { en: '0.4 kV', zh: '0.4kV' },
@@ -367,7 +367,7 @@
     xy: {
       'glass': { en: 'Photovoltaic glass', zh: '光伏玻璃' },
       'film': { en: 'Encapsulant film', zh: '封装胶膜' },
-      'bess': { en: 'BESS', zh: 'BESS' }
+      'bess': { en: 'BESS', zh: '储能系统' }
     }
   };
 
