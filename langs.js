@@ -32,14 +32,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / CARGA VE", sc_h3: "Soluciones de carga VE",
     sc_desc: "Proveedor líder mundial de carga VE y microrredes, con más de 700.000 puntos de carga públicos en más de 70 países. Desde cargadores CA de 7 kW hasta carga rápida CC de 720 kW, con armarios de potencia y terminales refrigerados por líquido.",
-    sc_s1: "Rango de potencia de carga", sc_s2: "Potencia máxima del sistema", sc_s3: "Grado de protección IP", sc_s4: "Puntos de carga públicos",
+    sc_s1: "Rango de potencia de carga", sc_s2: "Potencia máxima del sistema", sc_s3: "Grado de protección IP", sc_s4: "Puntos de carga públicos", sc_s5: "Armario utility",
     sc_f1: "Carga de 7 kW CA a 720 kW CC para mercados globales, hasta 2,56 MW",
     sc_f2: "Cargadores CC split, armarios de potencia y terminales totalmente refrigerados por líquido",
     sc_f3: "V2G y operación en microrred, incluido el arranque en negro",
     sc_f4: "BESS de 5 MWh en contenedor de 20 pies: 5.015,96 kWh LFP, 1P104S/1P416S, 12 clusters, 1331,2 V nominales, carga/descarga 0,5P",
     sc_f5: "Refrigeración líquida inteligente, eficiencia ida y vuelta ≥94 %, IP55, −30 °C a 55 °C, ≈43 t; certificado IEC 62619, UL 9540A, UL 9540 y NFPA 855",
-    sc_bess_tag: "También de StarCharge", sc_bess_h4: "Almacenamiento de batería de 5 MWh",
-    sc_bess_s1: "Capacidad nominal", sc_bess_s2: "Tasa de carga/descarga", sc_bess_s3: "Eficiencia ida y vuelta", sc_bess_s4: "Grado de protección",
     quote: "Solicitar cotización <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / DISTRIBUCIÓN ELÉCTRICA", by_h3: "Equipos de distribución eléctrica",
@@ -50,13 +48,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "Condensadores de potencia, canalizaciones busway, componentes inteligentes",
     by_f4: "Soluciones de distribución para centros de datos y microrredes",
 
-    xy_index: "03 / ALMACENAMIENTO", xy_h3: "Sistemas de almacenamiento de baterías",
+    xy_index: "03 / ALMACENAMIENTO", xy_h3: "Sistema de almacenamiento comercial",
     xy_desc: "Xinyi Energy Storage (HKEX: 08328) se centra en sistemas de almacenamiento de baterías para aplicaciones residenciales, comerciales, industriales y a escala de red.",
     xy_s1: "Energía nominal eBox261", xy_s2: "Potencia de salida CA nominal", xy_s3: "Energía utilizable", xy_s4: "Cotizado en HKEX",
     xy_f1: "eBox261: celdas LFP semisolidad de 314 Ah, 248 kWh utilizables, refrigeración líquida inteligente",
     xy_f2: "EMS con IA, OTA global rápido; eficiencia round-trip del sistema ≥91,5 %",
     xy_f3: "Operación conectada a red, modo isla y arranque en negro",
     xy_f4: "BESS residencial, C&amp;I y contenerizado hasta 3,44 MWh",
+    xy_prod_head: "Sistemas de almacenamiento destacados",
+    xy_prod1: "Sistema todo en uno de 125 kW / 261 kWh",
+    xy_prod2: "Armario C&amp;I refrigerado por líquido ETANK-5S, 261 kWh",
 
     why_eyebrow: "Por qué Tychronic", why_h2: "Un solo socio para una cadena de suministro compleja",
     why_p: "Hacemos sencillo el abastecimiento global de equipos energéticos: profundidad técnica, comunicación honesta y espacio para crecer juntos.",
@@ -123,14 +124,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / E-LADEN", sc_h3: "Ladeinfrastruktur-Lösungen",
     sc_desc: "Weltweiter Top-Anbieter für Ladeinfrastruktur und Mikronetze mit über 700.000 öffentlichen Ladepunkten in mehr als 70 Ländern. Von 7-kW-Wechselstromladern bis zu 720-kW-Gleichstrom-Schnellladung, mit Leistungsschränken und flüssigkeitsgekühlten Terminals.",
-    sc_s1: "Ladeleistungsbereich", sc_s2: "Maximale Systemleistung", sc_s3: "Schutzart", sc_s4: "Öffentliche Ladepunkte",
+    sc_s1: "Ladeleistungsbereich", sc_s2: "Maximale Systemleistung", sc_s3: "Schutzart", sc_s4: "Öffentliche Ladepunkte", sc_s5: "Utility-Schrank",
     sc_f1: "Ladeportfolio von 7 kW AC bis 720 kW DC für globale Märkte, bis 2,56 MW",
     sc_f2: "DC-Split-Lader, Leistungsschränke und vollständig flüssigkeitsgekühlte Ladeterminals",
     sc_f3: "V2G und Mikronetzbetrieb einschließlich Black Start",
     sc_f4: "5-MWh-BESS im 20-Fuß-Container: 5.015,96 kWh LFP, 1P104S/1P416S, 12 Cluster, 1331,2 V Nennspannung, 0,5P Laden/Entladen",
     sc_f5: "Intelligente Flüssigkeitskühlung, ≥94 % Wirkungsgrad, IP55, −30 °C bis 55 °C, ≈43 t; zertifiziert nach IEC 62619, UL 9540A, UL 9540 und NFPA 855",
-    sc_bess_tag: "Ebenfalls von StarCharge", sc_bess_h4: "5-MWh-Batteriespeicher",
-    sc_bess_s1: "Nennkapazität", sc_bess_s2: "Lade-/Entladerate", sc_bess_s3: "Wirkungsgrad", sc_bess_s4: "Schutzart",
     quote: "Angebot anfordern <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / STROMVERTEILUNG", by_h3: "Stromverteilungstechnik",
@@ -141,13 +140,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "Leistungskondensatoren, Stromschienen, intelligente Komponenten",
     by_f4: "Verteilungslösungen für Rechenzentren und Mikronetze",
 
-    xy_index: "03 / ENERGIESPEICHERUNG", xy_h3: "Batteriespeichersysteme",
+    xy_index: "03 / ENERGIESPEICHERUNG", xy_h3: "Kommerzielles Speichersystem",
     xy_desc: "Xinyi Energy Storage (HKEX: 08328) konzentriert sich auf Batteriespeichersysteme für private, gewerbliche, industrielle und Netzanwendungen.",
     xy_s1: "Nennenergie eBox261", xy_s2: "Nennausgangsleistung AC", xy_s3: "Nutzbare Energie", xy_s4: "An der HKEX notiert",
     xy_f1: "eBox261: halffeste LFP-Zellen 314 Ah, 248 kWh nutzbar, intelligente Flüssigkühlung",
     xy_f2: "KI-gestütztes EMS, schnelle globale OTA; System-Round-Trip-Wirkungsgrad ≥91,5 %",
     xy_f3: "Netzgekoppelter, Insel- und Black-Start-Betrieb",
     xy_f4: "Wohn-, Gewerbe- und Container-BESS bis 3,44 MWh",
+    xy_prod_head: "Empfohlene Speichersysteme",
+    xy_prod1: "125 kW / 261 kWh All-in-One-Speichersystem",
+    xy_prod2: "ETANK-5S flüssigkeitsgekühlter C&amp;I-Schrank, 261 kWh",
 
     why_eyebrow: "Warum Tychronic", why_h2: "Ein Partner für eine komplexe Lieferkette",
     why_p: "Wir machen die globale Beschaffung von Energieausrüstung einfach — mit technischer Tiefe, ehrlicher Kommunikation und Raum, um gemeinsam zu wachsen.",
@@ -214,14 +216,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / SẠC XE ĐIỆN", sc_h3: "Giải pháp sạc xe điện",
     sc_desc: "Nhà cung cấp hàng đầu thế giới về sạc xe điện và vi lưới, với hơn 700.000 điểm sạc công cộng tại hơn 70 quốc gia. Từ sạc AC 7 kW đến sạc nhanh DC 720 kW, với tủ công suất và trụ sạc làm mát bằng chất lỏng.",
-    sc_s1: "Dải công suất sạc", sc_s2: "Công suất hệ thống tối đa", sc_s3: "Cấp bảo vệ IP", sc_s4: "Điểm sạc công cộng",
+    sc_s1: "Dải công suất sạc", sc_s2: "Công suất hệ thống tối đa", sc_s3: "Cấp bảo vệ IP", sc_s4: "Điểm sạc công cộng", sc_s5: "Tủ Utility",
     sc_f1: "Danh mục sạc từ 7 kW AC đến 720 kW DC cho thị trường toàn cầu, tới 2,56 MW",
     sc_f2: "Trụ sạc DC tách rời, tủ công suất và trụ sạc làm mát hoàn toàn bằng chất lỏng",
     sc_f3: "V2G và vận hành vi lưới, bao gồm khởi động đen",
     sc_f4: "BESS 5 MWh trong container 20 ft: 5.015,96 kWh LFP, 1P104S/1P416S, 12 cụm pin, điện áp danh định 1331,2 V, sạc/xả 0,5P",
     sc_f5: "Làm mát chất lỏng thông minh, hiệu suất khứ hồi ≥94 %, IP55, −30 °C đến 55 °C, ≈43 t; đạt chứng nhận IEC 62619, UL 9540A, UL 9540 và NFPA 855",
-    sc_bess_tag: "Cũng từ StarCharge", sc_bess_h4: "Lưu trữ năng lượng 5 MWh",
-    sc_bess_s1: "Dung lượng định mức", sc_bess_s2: "Tỷ lệ sạc/xả", sc_bess_s3: "Hiệu suất khứ hồi", sc_bess_s4: "Cấp bảo vệ",
     quote: "Yêu cầu báo giá <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / PHÂN PHỐI ĐIỆN", by_h3: "Thiết bị phân phối điện",
@@ -232,13 +232,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "Tụ bù công suất, thanh dẫn busway, linh kiện thông minh",
     by_f4: "Giải pháp phân phối điện cho trung tâm dữ liệu và vi lưới",
 
-    xy_index: "03 / LƯU TRỮ NĂNG LƯỢNG", xy_h3: "Hệ thống lưu trữ pin",
+    xy_index: "03 / LƯU TRỮ NĂNG LƯỢNG", xy_h3: "Hệ thống lưu trữ thương mại",
     xy_desc: "Xinyi Energy Storage (HKEX: 08328) tập trung vào hệ thống lưu trữ pin cho ứng dụng dân dụng, thương mại, công nghiệp và quy mô lưới điện.",
     xy_s1: "Năng lượng định mức eBox261", xy_s2: "Công suất đầu ra AC định mức", xy_s3: "Năng lượng khả dụng", xy_s4: "Niêm yết trên HKEX",
     xy_f1: "eBox261: tế bào LFP bán rắn 314 Ah, 248 kWh khả dụng, làm mát bằng chất lỏng thông minh",
     xy_f2: "EMS dùng AI, OTA toàn cầu nhanh; hiệu suất round-trip hệ thống ≥91,5 %",
     xy_f3: "Vận hành nối lưới, chế độ đảo và khởi động đen",
     xy_f4: "BESS dân dụng, C&amp;I và containerized tới 3,44 MWh",
+    xy_prod_head: "Hệ thống lưu trữ nổi bật",
+    xy_prod1: "Hệ thống tích hợp 125 kW / 261 kWh",
+    xy_prod2: "Tủ C&amp;I làm mát chất lỏng ETANK-5S, 261 kWh",
 
     why_eyebrow: "Vì sao chọn Tychronic", why_h2: "Một đối tác cho chuỗi cung ứng phức tạp",
     why_p: "Chúng tôi giúp việc mua sắm thiết bị năng lượng toàn cầu trở nên đơn giản — sâu về kỹ thuật, minh bạch trong trao đổi và cùng bạn phát triển dài lâu.",
@@ -305,14 +308,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / CARREGAMENTO VE", sc_h3: "Soluções de carregamento VE",
     sc_desc: "Fornecedor líder mundial de carregamento VE e microrredes, com mais de 700.000 pontos de carga públicos em mais de 70 países. De carregadores CA de 7 kW a carga rápida CC de 720 kW, com armários de potência e terminais refrigerados a líquido.",
-    sc_s1: "Faixa de potência de carregamento", sc_s2: "Potência máxima do sistema", sc_s3: "Grau de proteção IP", sc_s4: "Pontos de carga públicos",
+    sc_s1: "Faixa de potência de carregamento", sc_s2: "Potência máxima do sistema", sc_s3: "Grau de proteção IP", sc_s4: "Pontos de carga públicos", sc_s5: "Armário utility",
     sc_f1: "Carregamento de 7 kW CA a 720 kW CC para mercados globais, até 2,56 MW",
     sc_f2: "Carregadores CC split, armários de potência e terminais totalmente refrigerados a líquido",
     sc_f3: "V2G e operação em microrrede, incluindo partida a negro",
     sc_f4: "BESS de 5 MWh em contentor de 20 pés: 5.015,96 kWh LFP, 1P104S/1P416S, 12 clusters, 1331,2 V nominais, carga/descarga 0,5P",
     sc_f5: "Arrefecimento líquido inteligente, eficiência de ida e volta ≥94 %, IP55, −30 °C a 55 °C, ≈43 t; certificado IEC 62619, UL 9540A, UL 9540 e NFPA 855",
-    sc_bess_tag: "Também da StarCharge", sc_bess_h4: "Armazenamento de bateria de 5 MWh",
-    sc_bess_s1: "Capacidade nominal", sc_bess_s2: "Taxa de carga/descarga", sc_bess_s3: "Eficiência de ida e volta", sc_bess_s4: "Grau de proteção",
     quote: "Solicitar cotação <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / DISTRIBUIÇÃO ELÉTRICA", by_h3: "Equipamentos de distribuição elétrica",
@@ -323,13 +324,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "Capacitores de potência, barramentos busway, componentes inteligentes",
     by_f4: "Soluções de distribuição para data centers e microrredes",
 
-    xy_index: "03 / ARMAZENAMENTO", xy_h3: "Sistemas de armazenamento de baterias",
+    xy_index: "03 / ARMAZENAMENTO", xy_h3: "Sistema de armazenamento comercial",
     xy_desc: "A Xinyi Energy Storage (HKEX: 08328) foca em sistemas de armazenamento de baterias para aplicações residenciais, comerciais, industriais e em escala de rede.",
     xy_s1: "Energia nominal eBox261", xy_s2: "Potência de saída CA nominal", xy_s3: "Energia utilizável", xy_s4: "Listada na HKEX",
     xy_f1: "eBox261: células LFP semissólidas de 314 Ah, 248 kWh utilizáveis, refrigeração líquida inteligente",
     xy_f2: "EMS com IA, OTA global rápido; eficiência round-trip do sistema ≥91,5 %",
     xy_f3: "Operação conectada à rede, modo ilha e partida a negro",
     xy_f4: "BESS residencial, C&amp;I e containerizado até 3,44 MWh",
+    xy_prod_head: "Sistemas de armazenamento em destaque",
+    xy_prod1: "Sistema all-in-one de 125 kW / 261 kWh",
+    xy_prod2: "Armário C&amp;I refrigerado a líquido ETANK-5S, 261 kWh",
 
     why_eyebrow: "Por que a Tychronic", why_h2: "Um único parceiro para uma cadeia de suprimentos complexa",
     why_p: "Tornamos simples o sourcing global de equipamentos de energia — com profundidade técnica, comunicação honesta e espaço para crescer juntos.",
@@ -396,14 +400,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / RECHARGE VE", sc_h3: "Solutions de recharge VE",
     sc_desc: "Fournisseur mondial de premier plan de recharge VE et de micro-réseaux, avec plus de 700 000 points de recharge publics dans plus de 70 pays. Des chargeurs CA 7 kW à la recharge rapide CC 720 kW, avec armoires de puissance et bornes à refroidissement liquide.",
-    sc_s1: "Plage de puissance de recharge", sc_s2: "Puissance système maximale", sc_s3: "Indice de protection IP", sc_s4: "Points de recharge publics",
+    sc_s1: "Plage de puissance de recharge", sc_s2: "Puissance système maximale", sc_s3: "Indice de protection IP", sc_s4: "Points de recharge publics", sc_s5: "Armoire utility",
     sc_f1: "Recharge de 7 kW CA à 720 kW CC pour les marchés mondiaux, jusqu’à 2,56 MW",
     sc_f2: "Chargeurs CC split, armoires de puissance et bornes entièrement à refroidissement liquide",
     sc_f3: "V2G et fonctionnement en micro-réseau, y compris le démarrage en black start",
     sc_f4: "BESS de 5 MWh en conteneur 20 pieds : 5 015,96 kWh LFP, 1P104S/1P416S, 12 clusters, 1 331,2 V nominal, charge/décharge 0,5P",
     sc_f5: "Refroidissement liquide intelligent, rendement aller-retour ≥94 %, IP55, −30 °C à 55 °C, ≈43 t ; certifié IEC 62619, UL 9540A, UL 9540 et NFPA 855",
-    sc_bess_tag: "Également chez StarCharge", sc_bess_h4: "Stockage batterie de 5 MWh",
-    sc_bess_s1: "Capacité nominale", sc_bess_s2: "Taux de charge/décharge", sc_bess_s3: "Rendement aller-retour", sc_bess_s4: "Indice de protection",
     quote: "Demander un devis <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / DISTRIBUTION ÉLECTRIQUE", by_h3: "Équipements de distribution électrique",
@@ -414,13 +416,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "Condensateurs de puissance, canalisations préfabriquées, composants intelligents",
     by_f4: "Solutions de distribution pour data centers et micro-réseaux",
 
-    xy_index: "03 / STOCKAGE D’ÉNERGIE", xy_h3: "Systèmes de stockage de batteries",
+    xy_index: "03 / STOCKAGE D’ÉNERGIE", xy_h3: "Système de stockage commercial",
     xy_desc: "Xinyi Energy Storage (HKEX : 08328) se concentre sur les systèmes de stockage de batteries pour les applications résidentielles, commerciales, industrielles et à l’échelle du réseau.",
     xy_s1: "Énergie nominale eBox261", xy_s2: "Puissance de sortie CA nominale", xy_s3: "Énergie utilisable", xy_s4: "Cotée à la HKEX",
     xy_f1: "eBox261 : cellules LFP semi-solides 314 Ah, 248 kWh utiles, refroidissement liquide intelligent",
     xy_f2: "EMS piloté par IA, OTA mondial rapide ; rendement round-trip système ≥ 91,5 %",
     xy_f3: "Fonctionnement raccordé au réseau, mode îlot et démarrage en black start",
     xy_f4: "BESS résidentiel, C&amp;I et conteneurisé jusqu’à 3,44 MWh",
+    xy_prod_head: "Systèmes de stockage en vedette",
+    xy_prod1: "Système tout-en-un 125 kW / 261 kWh",
+    xy_prod2: "Armoire C&amp;I à refroidissement liquide ETANK-5S, 261 kWh",
 
     why_eyebrow: "Pourquoi Tychronic", why_h2: "Un partenaire unique pour une chaîne d'approvisionnement complexe",
     why_p: "Nous simplifions le sourcing mondial d'équipements énergétiques — avec de la profondeur technique, une communication honnête et la place de grandir ensemble.",
@@ -487,14 +492,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / ЗАРЯДКА ЭМ", sc_h3: "Решения для зарядки ЭМ",
     sc_desc: "Ведущий мировой поставщик зарядной инфраструктуры и микросетей: более 700 000 общественных зарядных точек в 70+ странах. От AC-зарядок 7 кВт до быстрой DC-зарядки 720 кВт, с силовыми шкафами и жидкостными терминалами.",
-    sc_s1: "Диапазон мощности зарядки", sc_s2: "Максимальная мощность системы", sc_s3: "Степень защиты IP", sc_s4: "Общественные зарядные точки",
+    sc_s1: "Диапазон мощности зарядки", sc_s2: "Максимальная мощность системы", sc_s3: "Степень защиты IP", sc_s4: "Общественные зарядные точки", sc_s5: "Утилити-шкаф",
     sc_f1: "Зарядка от 7 кВт AC до 720 кВт DC для мировых рынков, до 2,56 МВт",
     sc_f2: "Раздельные DC-зарядки, силовые шкафы и полностью жидкостные зарядные терминалы",
     sc_f3: "V2G и работа в микросети, включая чёрный старт",
     sc_f4: "BESS на 5 МВт·ч в 20-футовом контейнере: 5015,96 кВт·ч LFP, 1P104S/1P416S, 12 кластеров, номинальное напряжение 1331,2 В, заряд/разряд 0,5P",
     sc_f5: "Умное жидкостное охлаждение, эффективность цикл-цикл ≥94 %, IP55, −30…+55 °C, ≈43 т; сертификаты IEC 62619, UL 9540A, UL 9540 и NFPA 855",
-    sc_bess_tag: "Также от StarCharge", sc_bess_h4: "Накопитель энергии 5 МВт·ч",
-    sc_bess_s1: "Номинальная ёмкость", sc_bess_s2: "Скорость заряда/разряда", sc_bess_s3: "Эффективность цикл-цикл", sc_bess_s4: "Степень защиты",
     quote: "Запросить цену <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / РАСПРЕДЕЛЕНИЕ ЭНЕРГИИ", by_h3: "Оборудование распределения электроэнергии",
@@ -505,13 +508,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "Силовые конденсаторы, шинопроводы, интеллектуальные компоненты",
     by_f4: "Решения для ЦОД и микросистем",
 
-    xy_index: "03 / НАКОПИТЕЛИ ЭНЕРГИИ", xy_h3: "Системы накопления энергии",
+    xy_index: "03 / НАКОПИТЕЛИ ЭНЕРГИИ", xy_h3: "Коммерческая система накопления",
     xy_desc: "Xinyi Energy Storage (HKEX: 08328) специализируется на системах накопления энергии для бытовых, коммерческих, промышленных и сетевых применений.",
     xy_s1: "Номинальная ёмкость eBox261", xy_s2: "Номинальная выходная мощность AC", xy_s3: "Полезная ёмкость", xy_s4: "Листинг на HKEX",
     xy_f1: "eBox261: полутвёрдые LFP-элементы 314 А·ч, 248 кВт·ч полезной ёмкости, интеллектуальное жидкостное охлаждение",
     xy_f2: "EMS на базе ИИ, быстрые OTA; КПД системы ≥91,5 %",
     xy_f3: "Работа в сети, островной режим и чёрный старт",
     xy_f4: "Бытовые, C&amp;I и контейнерные BESS до 3,44 МВт·ч",
+    xy_prod_head: "Рекомендуемые системы накопления",
+    xy_prod1: "Универсальная система 125 кВт / 261 кВт·ч",
+    xy_prod2: "Жидкостный шкаф ETANK-5S для C&amp;I, 261 кВт·ч",
 
     why_eyebrow: "Почему Tychronic", why_h2: "Один партнёр для сложной цепочки поставок",
     why_p: "Мы делаем глобальные закупки энергооборудования простыми — с технической глубиной, честной коммуникацией и возможностью расти вместе.",
@@ -578,14 +584,12 @@ window.TYCHRON_EXTRA = {
 
     sc_index: "01 / شحن المركبات", sc_h3: "حلول شحن المركبات",
     sc_desc: "مزوّد عالمي رائد لشحن المركبات والشبكات الصغيرة، مع أكثر من 700 ألف نقطة شحن عامة في أكثر من 70 دولة. من شحن تيار متردد 7 كيلوواط إلى شحن سريع تيار مستمر 720 كيلوواط، مع خزانات قدرة ومحطات تبريد سائل.",
-    sc_s1: "نطاق قدرة الشحن", sc_s2: "أقصى قدرة للنظام", sc_s3: "درجة الحماية IP", sc_s4: "نقاط الشحن العامة",
+    sc_s1: "نطاق قدرة الشحن", sc_s2: "أقصى قدرة للنظام", sc_s3: "درجة الحماية IP", sc_s4: "نقاط الشحن العامة", sc_s5: "خزانة مرافق",
     sc_f1: "شحن من 7 كيلوواط تيار متردد إلى 720 كيلوواط تيار مستمر للأسواق العالمية، حتى 2,56 ميجاواط",
     sc_f2: "شواحن تيار مستمر منفصلة وخزانات قدرة ومحطات شحن مبردة بالكامل بالسائل",
     sc_f3: "المركبة إلى الشبكة V2G وتشغيل الشبكة الصغيرة، بما في ذلك البدء الذاتي",
     sc_f4: "نظام تخزين طاقة 5 ميجاواط-ساعة في حاوية 20 قدماً: 5015.96 كيلوواط-ساعة LFP، 1P104S/1P416S، 12 مجموعة، جهد اسمي 1331.2 فولت، شحن/تفريغ 0.5P",
     sc_f5: "تبريد سائل ذكي، كفاءة ذهاب وعودة ≥94%، حماية IP55، من −30 إلى 55 درجة مئوية، ≈43 طناً؛ حاصل على IEC 62619 و UL 9540A و UL 9540 و NFPA 855",
-    sc_bess_tag: "أيضاً من StarCharge", sc_bess_h4: "تخزين بطاريات بسعة 5 ميجاواط-ساعة",
-    sc_bess_s1: "السعة الاسمية", sc_bess_s2: "معدل الشحن/التفريغ", sc_bess_s3: "كفاءة الذهاب والعودة", sc_bess_s4: "درجة الحماية",
     quote: "اطلب عرض سعر <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / توزيع الطاقة", by_h3: "معدات توزيع الطاقة",
@@ -596,13 +600,16 @@ window.TYCHRON_EXTRA = {
     by_f3: "مكثفات قدرة، مسارات كابلات، مكونات ذكية",
     by_f4: "حلول توزيع لمراكز البيانات والشبكات الصغيرة",
 
-    xy_index: "03 / تخزين الطاقة", xy_h3: "أنظمة تخزين البطاريات",
+    xy_index: "03 / تخزين الطاقة", xy_h3: "نظام تخزين تجاري",
     xy_desc: "شركة Xinyi Energy Storage (HKEX: 08328) تركز على أنظمة تخزين البطاريات للتطبيقات السكنية والتجارية والصناعية وعلى نطاق الشبكة.",
     xy_s1: "الطاقة الاسمية eBox261", xy_s2: "قدرة الخرج الاسمية تيار متردد", xy_s3: "الطاقة القابلة للاستخدام", xy_s4: "مدرجة في HKEX",
     xy_f1: "eBox261: خلايا LFP شبه صلبة 314 أمبير-ساعة، 248 كيلوواط-ساعة قابلة للاستخدام، تبريد سائل ذكي",
     xy_f2: "نظام إدارة طاقة بالذكاء الاصطناعي، تحديثات OTA عالمية سريعة؛ كفاءة النظام ≥91,5٪",
     xy_f3: "التشغيل المتصل بالشبكة ووضع الجزيرة والبدء الذاتي",
     xy_f4: "أنظمة BESS سكنية وتجارية وحاوياتية حتى 3,44 ميجاواط-ساعة",
+    xy_prod_head: "أنظمة التخزين المميزة",
+    xy_prod1: "نظام متكامل 125 كيلوواط / 261 كيلوواط-ساعة",
+    xy_prod2: "خزانة ETANK-5S مبردة بالسائل للتطبيقات التجارية، 261 كيلوواط-ساعة",
 
     why_eyebrow: "لماذا Tychronic", why_h2: "شريك واحد لسلسلة توريد معقّدة",
     why_p: "نجعل التوريد العالمي لمعدات الطاقة أمرًا مباشرًا — بعمق فنّي وتواصل صادق ومساحة للنمو معًا.",
@@ -647,37 +654,37 @@ window.TYCHRON_EXTRA = {
 /* Band names for the product filter dropdowns */
 window.TYCHRON_BANDS = {
   de: {
-    sc: { ac7: "AC-Laden · 7–21 kW", v2g: "V2G", dc60: "DC All-in-One · 60–80 kW", dc120: "DC All-in-One · 120–320 kW", dc400: "DC All-in-One · 400–640 kW", split: "DC Split · 360–960 kW", ultra: "Ultra-Hochleistung · bis 2,56 MW", terminal: "Ladeterminals" },
+    sc: { ac7: "AC-Laden · 7–21 kW", v2g: "V2G", dc60: "DC All-in-One · 60–80 kW", dc120: "DC All-in-One · 120–320 kW", dc400: "DC All-in-One · 400–640 kW", split: "DC Split · 360–960 kW", ultra: "Ultra-Hochleistung · bis 2,56 MW", terminal: "Ladeterminals", utility: "Best · Utility-Schrank 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
     xy: { bess: "Batteriespeicher" }
   },
   es: {
-    sc: { ac7: "Carga CA · 7–21 kW", v2g: "V2G", dc60: "DC todo en uno · 60–80 kW", dc120: "DC todo en uno · 120–320 kW", dc400: "DC todo en uno · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potencia ultra alta · hasta 2,56 MW", terminal: "Terminales de carga" },
+    sc: { ac7: "Carga CA · 7–21 kW", v2g: "V2G", dc60: "DC todo en uno · 60–80 kW", dc120: "DC todo en uno · 120–320 kW", dc400: "DC todo en uno · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potencia ultra alta · hasta 2,56 MW", terminal: "Terminales de carga", utility: "Best · Armario utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
     xy: { bess: "Almacenamiento de energía" }
   },
   pt: {
-    sc: { ac7: "Recarga CA · 7–21 kW", v2g: "V2G", dc60: "DC all-in-one · 60–80 kW", dc120: "DC all-in-one · 120–320 kW", dc400: "DC all-in-one · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potência ultra alta · até 2,56 MW", terminal: "Terminais de recarga" },
+    sc: { ac7: "Recarga CA · 7–21 kW", v2g: "V2G", dc60: "DC all-in-one · 60–80 kW", dc120: "DC all-in-one · 120–320 kW", dc400: "DC all-in-one · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potência ultra alta · até 2,56 MW", terminal: "Terminais de recarga", utility: "Best · Armário utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
     xy: { bess: "Armazenamento de energia" }
   },
   fr: {
-    sc: { ac7: "Recharge AC · 7–21 kW", v2g: "V2G", dc60: "DC tout-en-un · 60–80 kW", dc120: "DC tout-en-un · 120–320 kW", dc400: "DC tout-en-un · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Très haute puissance · jusqu'à 2,56 MW", terminal: "Bornes de recharge" },
+    sc: { ac7: "Recharge AC · 7–21 kW", v2g: "V2G", dc60: "DC tout-en-un · 60–80 kW", dc120: "DC tout-en-un · 120–320 kW", dc400: "DC tout-en-un · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Très haute puissance · jusqu'à 2,56 MW", terminal: "Bornes de recharge", utility: "Best · Armoire utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
     xy: { bess: "Stockage d’énergie" }
   },
   ru: {
-    sc: { ac7: "AC-зарядка · 7–21 кВт", v2g: "V2G", dc60: "DC всё-в-одном · 60–80 кВт", dc120: "DC всё-в-одном · 120–320 кВт", dc400: "DC всё-в-одном · 400–640 кВт", split: "Раздельный DC · 360–960 кВт", ultra: "Сверхвысокая мощность · до 2,56 МВт", terminal: "Зарядные терминалы" },
+    sc: { ac7: "AC-зарядка · 7–21 кВт", v2g: "V2G", dc60: "DC всё-в-одном · 60–80 кВт", dc120: "DC всё-в-одном · 120–320 кВт", dc400: "DC всё-в-одном · 400–640 кВт", split: "Раздельный DC · 360–960 кВт", ultra: "Сверхвысокая мощность · до 2,56 МВт", terminal: "Зарядные терминалы", utility: "Best · Утилити-шкаф 5 МВт·ч" },
     by: { "0.4kV": "0,4 кВ", "10kV": "10 кВ", "35kV": "35 кВ", "110kV": "110 кВ", "1100kV": "1100 кВ" },
     xy: { bess: "Накопители энергии" }
   },
   ar: {
-    sc: { ac7: "شحن تيار متردد · 7–21 كيلوواط", v2g: "V2G", dc60: "تيار مستمر متكامل · 60–80 كيلوواط", dc120: "تيار مستمر متكامل · 120–320 كيلوواط", dc400: "تيار مستمر متكامل · 400–640 كيلوواط", split: "تيار مستمر منفصل · 360–960 كيلوواط", ultra: "قدرة فائقة · حتى 2.56 ميجاواط", terminal: "محطات الشحن" },
+    sc: { ac7: "شحن تيار متردد · 7–21 كيلوواط", v2g: "V2G", dc60: "تيار مستمر متكامل · 60–80 كيلوواط", dc120: "تيار مستمر متكامل · 120–320 كيلوواط", dc400: "تيار مستمر متكامل · 400–640 كيلوواط", split: "تيار مستمر منفصل · 360–960 كيلوواط", ultra: "قدرة فائقة · حتى 2.56 ميجاواط", terminal: "محطات الشحن", utility: "Best · خزانة مرافق 5 ميجاواط-ساعة" },
     by: { "0.4kV": "0.4 كيلوفولت", "10kV": "10 كيلوفولت", "35kV": "35 كيلوفولت", "110kV": "110 كيلوفولت", "1100kV": "1100 كيلوفولت" },
     xy: { bess: "تخزين الطاقة" }
   },
   vi: {
-    sc: { ac7: "Sạc AC · 7–21 kW", v2g: "V2G", dc60: "DC tích hợp · 60–80 kW", dc120: "DC tích hợp · 120–320 kW", dc400: "DC tích hợp · 400–640 kW", split: "DC tách rời · 360–960 kW", ultra: "Công suất siêu lớn · tới 2,56 MW", terminal: "Trụ sạc (terminal)" },
+    sc: { ac7: "Sạc AC · 7–21 kW", v2g: "V2G", dc60: "DC tích hợp · 60–80 kW", dc120: "DC tích hợp · 120–320 kW", dc400: "DC tích hợp · 400–640 kW", split: "DC tách rời · 360–960 kW", ultra: "Công suất siêu lớn · tới 2,56 MW", terminal: "Trụ sạc (terminal)", utility: "Best · Tủ Utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
     xy: { bess: "Lưu trữ năng lượng" }
   }

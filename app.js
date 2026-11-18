@@ -32,14 +32,12 @@
 
       sc_index: '01 / EV CHARGING', sc_h3: 'EV Charging Solutions',
       sc_desc: 'A global tier-one provider of EV charging and microgrids, with 700,000+ public charge points across 70+ countries. From 7 kW AC chargers to 720 kW DC fast charging, with power cabinets and liquid-cooled terminals for demanding sites.',
-      sc_s1: 'Charging power range', sc_s2: 'Max system power', sc_s3: 'IP rating', sc_s4: 'Public charge points',
+      sc_s1: 'Charging power range', sc_s2: 'Max system power', sc_s3: 'IP rating', sc_s4: 'Public charge points', sc_s5: 'Utility Cabinet',
       sc_f1: 'AC 7 kW to DC 720 kW charging portfolio for global markets, up to 2.56 MW',
       sc_f2: 'DC split chargers, power cabinets and all-liquid-cooled charging terminals',
       sc_f3: 'V2G vehicle-to-grid and microgrid operation, including black start',
       sc_f4: '5 MWh BESS in a 20 ft container: 5,015.96 kWh LFP, 1P104S/1P416S, 12 clusters, 1331.2 V nominal, 0.5P charge/discharge',
       sc_f5: 'Smart liquid cooling, ≥94% round-trip efficiency, IP55, −30°C to 55°C, ≈43 t; certified to IEC 62619, UL 9540A, UL 9540 and NFPA 855',
-      sc_bess_tag: 'Also from StarCharge', sc_bess_h4: '5 MWh Battery Energy Storage',
-      sc_bess_s1: 'Rated capacity', sc_bess_s2: 'Charge / discharge rate', sc_bess_s3: 'Round-trip efficiency', sc_bess_s4: 'Ingress protection',
       quote: 'Request a quote <span aria-hidden="true">→</span>',
 
       by_index: '02 / POWER DISTRIBUTION', by_h3: 'Power Distribution Equipment',
@@ -50,13 +48,16 @@
       by_f3: 'Power capacitors, busway, intelligent components',
       by_f4: 'Data-centre and microgrid power distribution solutions',
 
-      xy_index: '03 / ENERGY STORAGE', xy_h3: 'Battery Energy Storage Systems',
+      xy_index: '03 / ENERGY STORAGE', xy_h3: 'Commercial storage system',
       xy_desc: 'Xinyi Energy Storage (HKEX: 08328) focuses on battery energy storage systems for residential, commercial &amp; industrial and grid-scale applications.',
       xy_s1: 'eBox261 nominal energy', xy_s2: 'Rated AC output power', xy_s3: 'Usable energy', xy_s4: 'HKEX listed',
       xy_f1: 'eBox261: 314 Ah semi-solid-state LFP cells, 248 kWh usable energy, intelligent liquid cooling',
       xy_f2: 'AI-driven EMS with fast global OTA; system round-trip efficiency ≥91.5%',
       xy_f3: 'Grid-connected, island mode and black-start microgrid operation',
       xy_f4: 'Residential, C&amp;I and containerised BESS up to 3.44 MWh',
+      xy_prod_head: 'Featured storage systems',
+      xy_prod1: '125 kW / 261 kWh all-in-one storage system',
+      xy_prod2: 'ETANK-5S liquid-cooled C&amp;I cabinet, 261 kWh',
 
       why_eyebrow: 'Why Tychronic', why_h2: 'A single partner for a complex supply chain',
       why_p: 'We make global sourcing of energy equipment straightforward — with technical depth, honest communication and room to grow together.',
@@ -159,14 +160,12 @@
 
       sc_index: '01 / 充电桩', sc_h3: '电动汽车充电',
       sc_desc: '全球头部充电与微电网方案商，公共充电点超 70 万个，覆盖 70 多个国家。从 7kW 交流桩到 720kW 直流快充，功率柜与全液冷终端一应俱全，为严苛场景提供可靠设备。',
-      sc_s1: '充电功率范围', sc_s2: '最大系统功率', sc_s3: 'IP 防护等级', sc_s4: '公共充电点',
+      sc_s1: '充电功率范围', sc_s2: '最大系统功率', sc_s3: 'IP 防护等级', sc_s4: '公共充电点', sc_s5: '大储',
       sc_f1: '交流 7kW 至直流 720kW 全系列，最高 2.56MW',
       sc_f2: '直流分体桩、功率柜与全液冷充电终端，覆盖高功率场景',
       sc_f3: 'V2G 车网互动，支持微电网与黑启动',
       sc_f4: '20 尺集装箱 5MWh 储能系统：5015.96kWh 磷酸铁锂电芯，1P104S/1P416S，12 个电池簇，标称电压 1331.2V，0.5P 充放电',
       sc_f5: '智能液冷，往返效率 ≥94%，IP55 防护，−30℃～55℃ 运行，约 43 吨；通过 IEC 62619、UL 9540A、UL 9540、NFPA 855 认证',
-      sc_bess_tag: '星星充电储能产品', sc_bess_h4: '5MWh 集装箱储能系统',
-      sc_bess_s1: '额定容量', sc_bess_s2: '充放电倍率', sc_bess_s3: '往返效率', sc_bess_s4: '防护等级',
       quote: '获取报价 <span aria-hidden="true">→</span>',
 
       by_index: '02 / 输配电', by_h3: '输配电设备',
@@ -177,13 +176,16 @@
       by_f3: '电力电容器、母线槽、智能元件',
       by_f4: '数据中心与微电网配电解决方案',
 
-      xy_index: '03 / 储能系统', xy_h3: '电池储能系统',
+      xy_index: '03 / 储能系统', xy_h3: '工商储能系统',
       xy_desc: '信义储电（08328.HK）专注电池储能系统，覆盖户用、工商业与电网侧应用。',
       xy_s1: 'eBox261 标称电量', xy_s2: '额定交流输出功率', xy_s3: '可用电量', xy_s4: '港股代码',
       xy_f1: 'eBox261：314Ah 半固态磷酸铁锂电芯，可用电量 248kWh，智能液冷',
       xy_f2: 'AI 驱动 EMS，全球快速 OTA，系统往返效率 ≥91.5%',
       xy_f3: '支持并网、孤岛运行与黑启动微电网',
       xy_f4: '户用、工商业与 3.44MWh 集装箱式储能系统',
+      xy_prod_head: '重点储能产品',
+      xy_prod1: '125kW/261kWh 储能一体机',
+      xy_prod2: 'ETANK-5S 工商业液冷储能一体柜，261kWh',
 
       why_eyebrow: '为什么选我们', why_h2: '复杂供应链，一个合作窗口',
       why_p: '新能源设备采购，我们把它做简单——懂技术，说话实在，也愿意长期合作。',
@@ -330,6 +332,8 @@
       /* Charging terminals */
       { kw: 0,    band: 'terminal', en: 'Xinghai all-liquid-cooled terminal V6.0, 600 A',      zh: '星海全液冷终端 V6.0，600A' },
       { kw: 0,    band: 'terminal', en: 'Xinghai single / dual-gun terminal, 1200 A',         zh: '星海单枪 / 双枪终端，1200A' },
+      /* Utility-scale storage — shown under "Best" */
+      { kw: 5000, band: 'utility',  en: '5 MWh Utility Cabinet · 5,015.96 kWh LFP · 0.5P · ≥94% RTE · IP55 · 20 ft', zh: '5MWh 大储机柜 · 5015.96kWh 磷酸铁锂 · 0.5P · 往返效率 ≥94% · IP55 · 20 尺' },
     ],
     by: [
       { kw: 0.4,   band: '0.4kV',   en: 'Low-voltage switchgear &amp; LV switches, 0.4 kV class', zh: '低压开关柜与低压开关，0.4kV 级' },
@@ -357,7 +361,8 @@
       'dc400':    { en: 'DC all-in-one · 400–640 kW', zh: '直流一体 · 400–640kW' },
       'split':    { en: 'Split DC · 360–960 kW', zh: '分体直流 · 360–960kW' },
       'ultra':    { en: 'Ultra-high power · up to 2.56 MW', zh: '超大功率 · 最高 2.56MW' },
-      'terminal': { en: 'Charging terminals', zh: '充电终端' }
+      'terminal': { en: 'Charging terminals', zh: '充电终端' },
+      'utility':  { en: 'Best · Utility Cabinet 5 MWh', zh: '最佳 · 5MWh 大储' }
     },
     by: {
       '0.4kV': { en: '0.4 kV', zh: '0.4kV' },

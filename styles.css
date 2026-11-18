@@ -236,14 +236,14 @@ p { margin: 0 0 1rem; }
 .spec { background: #fff; padding: 14px 16px; }
 .spec strong { display: block; font-size: 1.15rem; color: var(--navy); letter-spacing: -.02em; }
 .spec span { display: block; font-size: .76rem; color: var(--muted); margin-top: 2px; }
-.bess-intro { margin: 0 0 22px; padding: 18px; background: var(--bg-tint); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius-sm); }
-.bess-intro-head .eyebrow { display: block; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
-.bess-intro h4 { margin: 4px 0 8px; font-size: 1.05rem; color: var(--navy); }
-.bess-intro > p { margin: 0 0 12px; font-size: .9rem; line-height: 1.6; color: #33465c; }
-.bess-intro .spec-grid { margin: 0; }
-.bess-intro .spec { padding: 10px 12px; }
-.bess-intro .spec strong { font-size: 1.02rem; }
-.bess-intro .bess-note { margin: 12px 0 0; font-size: .82rem; color: var(--muted); }
+.spec-grid .spec-utility { grid-column: 1 / -1; }
+.xy-highlight { margin: 0 0 20px; }
+.xy-highlight-head { font-size: .76rem; font-weight: 700; letter-spacing: .04em; color: var(--navy); margin-bottom: 8px; }
+.xy-products { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.xy-product { background: var(--bg-tint); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: var(--radius-sm); padding: 12px; }
+.xy-product strong { display: block; font-size: .9rem; color: var(--navy); word-break: break-word; }
+.xy-product span { display: block; font-size: .82rem; color: #33465c; margin-top: 4px; }
+.xy-product small { display: block; font-size: .72rem; color: var(--muted); margin-top: 6px; line-height: 1.45; }
 .feature-list li { position: relative; padding-left: 22px; margin-bottom: 8px; font-size: .93rem; color: #33465c; }
 .feature-list li::before { content: ""; position: absolute; left: 2px; top: 10px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 .text-link { display: inline-flex; align-items: center; gap: 6px; color: var(--navy); font-weight: 650; margin-top: 14px; border-bottom: 2px solid transparent; transition: border-color .15s ease; }
@@ -366,6 +366,7 @@ p { margin: 0 0 1rem; }
   .why-grid { grid-template-columns: 1fr; }
   .brand-card-visual { min-height: 220px; }
   .sc-charger { transform: scale(.85); }
+  .xy-products { grid-template-columns: 1fr; }
 }
 /* ---------- right-to-left (Arabic) ---------- */
 [dir="rtl"] body { direction: rtl; }
