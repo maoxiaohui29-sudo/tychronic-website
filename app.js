@@ -36,7 +36,8 @@
       sc_f1: 'AC 7 kW to DC 720 kW charging portfolio for global markets, up to 2.56 MW',
       sc_f2: 'DC split chargers, power cabinets and all-liquid-cooled charging terminals',
       sc_f3: 'V2G vehicle-to-grid and microgrid operation, including black start',
-      sc_f4: '5 MWh BESS — detailed documentation to follow',
+      sc_f4: '5 MWh BESS in a 20 ft container: 5,015.96 kWh LFP, 1P104S/1P416S, 12 clusters, 1331.2 V nominal, 0.5P charge/discharge',
+      sc_f5: 'Smart liquid cooling, ≥94% round-trip efficiency, IP55, −30°C to 55°C, ≈43 t; certified to IEC 62619, UL 9540A, UL 9540 and NFPA 855',
       quote: 'Request a quote <span aria-hidden="true">→</span>',
 
       by_index: '02 / POWER DISTRIBUTION', by_h3: 'Power Distribution Equipment',
@@ -160,7 +161,8 @@
       sc_f1: '交流 7kW 至直流 720kW 全系列，最高 2.56MW',
       sc_f2: '直流分体桩、功率柜与全液冷充电终端，覆盖高功率场景',
       sc_f3: 'V2G 车网互动，支持微电网与黑启动',
-      sc_f4: '5MWh 储能系统，详细规格待资料确认',
+      sc_f4: '20 尺集装箱 5MWh 储能系统：5015.96kWh 磷酸铁锂电芯，1P104S/1P416S，12 个电池簇，标称电压 1331.2V，0.5P 充放电',
+      sc_f5: '智能液冷，往返效率 ≥94%，IP55 防护，−30℃～55℃ 运行，约 43 吨；通过 IEC 62619、UL 9540A、UL 9540、NFPA 855 认证',
       quote: '获取报价 <span aria-hidden="true">→</span>',
 
       by_index: '02 / 输配电', by_h3: '输配电设备',

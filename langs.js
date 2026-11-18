@@ -36,7 +36,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "Carga de 7 kW CA a 720 kW CC para mercados globales, hasta 2,56 MW",
     sc_f2: "Cargadores CC split, armarios de potencia y terminales totalmente refrigerados por líquido",
     sc_f3: "V2G y operación en microrred, incluido el arranque en negro",
-    sc_f4: "BESS de 5 MWh — documentación detallada próximamente",
+    sc_f4: "BESS de 5 MWh en contenedor de 20 pies: 5.015,96 kWh LFP, 1P104S/1P416S, 12 clusters, 1331,2 V nominales, carga/descarga 0,5P",
+    sc_f5: "Refrigeración líquida inteligente, eficiencia ida y vuelta ≥94 %, IP55, −30 °C a 55 °C, ≈43 t; certificado IEC 62619, UL 9540A, UL 9540 y NFPA 855",
     quote: "Solicitar cotización <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / DISTRIBUCIÓN ELÉCTRICA", by_h3: "Equipos de distribución eléctrica",
@@ -124,7 +125,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "Ladeportfolio von 7 kW AC bis 720 kW DC für globale Märkte, bis 2,56 MW",
     sc_f2: "DC-Split-Lader, Leistungsschränke und vollständig flüssigkeitsgekühlte Ladeterminals",
     sc_f3: "V2G und Mikronetzbetrieb einschließlich Black Start",
-    sc_f4: "5-MWh-BESS — detaillierte Unterlagen folgen",
+    sc_f4: "5-MWh-BESS im 20-Fuß-Container: 5.015,96 kWh LFP, 1P104S/1P416S, 12 Cluster, 1331,2 V Nennspannung, 0,5P Laden/Entladen",
+    sc_f5: "Intelligente Flüssigkeitskühlung, ≥94 % Wirkungsgrad, IP55, −30 °C bis 55 °C, ≈43 t; zertifiziert nach IEC 62619, UL 9540A, UL 9540 und NFPA 855",
     quote: "Angebot anfordern <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / STROMVERTEILUNG", by_h3: "Stromverteilungstechnik",
@@ -212,7 +214,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "Danh mục sạc từ 7 kW AC đến 720 kW DC cho thị trường toàn cầu, tới 2,56 MW",
     sc_f2: "Trụ sạc DC tách rời, tủ công suất và trụ sạc làm mát hoàn toàn bằng chất lỏng",
     sc_f3: "V2G và vận hành vi lưới, bao gồm khởi động đen",
-    sc_f4: "BESS 5 MWh — tài liệu kỹ thuật sẽ cập nhật sau",
+    sc_f4: "BESS 5 MWh trong container 20 ft: 5.015,96 kWh LFP, 1P104S/1P416S, 12 cụm pin, điện áp danh định 1331,2 V, sạc/xả 0,5P",
+    sc_f5: "Làm mát chất lỏng thông minh, hiệu suất khứ hồi ≥94 %, IP55, −30 °C đến 55 °C, ≈43 t; đạt chứng nhận IEC 62619, UL 9540A, UL 9540 và NFPA 855",
     quote: "Yêu cầu báo giá <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / PHÂN PHỐI ĐIỆN", by_h3: "Thiết bị phân phối điện",
@@ -300,7 +303,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "Carregamento de 7 kW CA a 720 kW CC para mercados globais, até 2,56 MW",
     sc_f2: "Carregadores CC split, armários de potência e terminais totalmente refrigerados a líquido",
     sc_f3: "V2G e operação em microrrede, incluindo partida a negro",
-    sc_f4: "BESS de 5 MWh — documentação detalhada a seguir",
+    sc_f4: "BESS de 5 MWh em contentor de 20 pés: 5.015,96 kWh LFP, 1P104S/1P416S, 12 clusters, 1331,2 V nominais, carga/descarga 0,5P",
+    sc_f5: "Arrefecimento líquido inteligente, eficiência de ida e volta ≥94 %, IP55, −30 °C a 55 °C, ≈43 t; certificado IEC 62619, UL 9540A, UL 9540 e NFPA 855",
     quote: "Solicitar cotação <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / DISTRIBUIÇÃO ELÉTRICA", by_h3: "Equipamentos de distribuição elétrica",
@@ -388,7 +392,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "Recharge de 7 kW CA à 720 kW CC pour les marchés mondiaux, jusqu’à 2,56 MW",
     sc_f2: "Chargeurs CC split, armoires de puissance et bornes entièrement à refroidissement liquide",
     sc_f3: "V2G et fonctionnement en micro-réseau, y compris le démarrage en black start",
-    sc_f4: "BESS de 5 MWh — documentation détaillée à suivre",
+    sc_f4: "BESS de 5 MWh en conteneur 20 pieds : 5 015,96 kWh LFP, 1P104S/1P416S, 12 clusters, 1 331,2 V nominal, charge/décharge 0,5P",
+    sc_f5: "Refroidissement liquide intelligent, rendement aller-retour ≥94 %, IP55, −30 °C à 55 °C, ≈43 t ; certifié IEC 62619, UL 9540A, UL 9540 et NFPA 855",
     quote: "Demander un devis <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / DISTRIBUTION ÉLECTRIQUE", by_h3: "Équipements de distribution électrique",
@@ -476,7 +481,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "Зарядка от 7 кВт AC до 720 кВт DC для мировых рынков, до 2,56 МВт",
     sc_f2: "Раздельные DC-зарядки, силовые шкафы и полностью жидкостные зарядные терминалы",
     sc_f3: "V2G и работа в микросети, включая чёрный старт",
-    sc_f4: "BESS на 5 МВт·ч — подробная документация ожидается",
+    sc_f4: "BESS на 5 МВт·ч в 20-футовом контейнере: 5015,96 кВт·ч LFP, 1P104S/1P416S, 12 кластеров, номинальное напряжение 1331,2 В, заряд/разряд 0,5P",
+    sc_f5: "Умное жидкостное охлаждение, эффективность цикл-цикл ≥94 %, IP55, −30…+55 °C, ≈43 т; сертификаты IEC 62619, UL 9540A, UL 9540 и NFPA 855",
     quote: "Запросить цену <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / РАСПРЕДЕЛЕНИЕ ЭНЕРГИИ", by_h3: "Оборудование распределения электроэнергии",
@@ -564,7 +570,8 @@ window.TYCHRON_EXTRA = {
     sc_f1: "شحن من 7 كيلوواط تيار متردد إلى 720 كيلوواط تيار مستمر للأسواق العالمية، حتى 2,56 ميجاواط",
     sc_f2: "شواحن تيار مستمر منفصلة وخزانات قدرة ومحطات شحن مبردة بالكامل بالسائل",
     sc_f3: "المركبة إلى الشبكة V2G وتشغيل الشبكة الصغيرة، بما في ذلك البدء الذاتي",
-    sc_f4: "نظام BESS بسعة 5 ميجاواط-ساعة — الوثائق التفصيلية قريبًا",
+    sc_f4: "نظام تخزين طاقة 5 ميجاواط-ساعة في حاوية 20 قدماً: 5015.96 كيلوواط-ساعة LFP، 1P104S/1P416S، 12 مجموعة، جهد اسمي 1331.2 فولت، شحن/تفريغ 0.5P",
+    sc_f5: "تبريد سائل ذكي، كفاءة ذهاب وعودة ≥94%، حماية IP55، من −30 إلى 55 درجة مئوية، ≈43 طناً؛ حاصل على IEC 62619 و UL 9540A و UL 9540 و NFPA 855",
     quote: "اطلب عرض سعر <span aria-hidden=\"true\">→</span>",
 
     by_index: "02 / توزيع الطاقة", by_h3: "معدات توزيع الطاقة",
