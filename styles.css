@@ -183,7 +183,7 @@ p { margin: 0 0 1rem; }
 .led-overlay { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; pointer-events: none; z-index: 2; mix-blend-mode: screen; animation: ledBlink 6.8s steps(1, end) infinite; }
 .led-b { animation-duration: 7.6s; animation-delay: -2.4s; }
 .led-c { animation-duration: 6.2s; animation-delay: -4.1s; }
-.xy-visual { background: #dce9e5; }
+.xy-visual { background: radial-gradient(circle at 30% 20%, #eaf3fb, #cfe0ef); }
 .visual-index { position: absolute; bottom: 18px; left: 20px; font-size: .7rem; font-weight: 700; letter-spacing: .14em; color: var(--navy); opacity: .85; z-index: 4; background: rgba(255,255,255,.55); padding: 3px 8px; border-radius: 4px; backdrop-filter: blur(3px); }
 
 /* CSS-built product illustrations (no external images needed) — animated */
@@ -208,9 +208,21 @@ p { margin: 0 0 1rem; }
 .sg-cabinet:nth-child(3)::after, .sg-cabinet:nth-child(3)::before { animation-delay: 1.4s; }
 .sg-cabinet:nth-child(2) { height: 205px; animation-delay: -.7s; }
 .sg-cabinet:nth-child(3) { height: 168px; animation-delay: -1.4s; }
-/* photovoltaic photo with a restrained light sweep and a thin energy line */
-.pv-hero { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 58%; display: block; z-index: 0; animation: pvBreathe 14s ease-in-out infinite; }
-.pv-glint { position: absolute; inset: -10%; z-index: 1; pointer-events: none; background: linear-gradient(105deg, transparent 38%, rgba(255,255,255,.18) 47%, rgba(120,190,255,.12) 52%, transparent 61%); mix-blend-mode: screen; transform: translateX(-110%); animation: pvGlint 9.5s ease-in-out infinite; }
+/* CSS-built 261 kWh liquid-cooled storage cabinet group — current flows between cabinets */
+.ess-rack { display: flex; align-items: center; justify-content: center; gap: 0; position: relative; z-index: 2; }
+.ess-cab { width: 78px; height: 190px; background: linear-gradient(160deg,#ffffff,#cfdae6); border: 2px solid #9db6cc; border-radius: 7px; box-shadow: 0 20px 30px -20px rgba(15,46,78,.55), inset -7px 0 14px -10px rgba(0,0,0,.45); position: relative; animation: cabinetFloat 4.2s ease-in-out infinite; }
+.ess-cab:nth-of-type(3) { height: 208px; animation-delay: -.8s; }
+.ess-cab:nth-of-type(5) { height: 176px; animation-delay: -1.6s; }
+.ess-screen { position: absolute; top: 16px; left: 11px; right: 11px; height: 40px; border-radius: 3px; background: radial-gradient(circle at 84% 26%, #7fe0d2 0 2px, transparent 3px), #174a7c; box-shadow: inset 0 0 0 2px #0d355a; overflow: hidden; animation: screenGlow 2.6s ease-in-out infinite; }
+.ess-screen::before { content:""; position:absolute; left:9px; right:9px; top:20px; height:4px; border-radius:2px; background:linear-gradient(90deg,transparent,#7fe0d2,transparent); box-shadow:0 0 9px rgba(127,224,210,.7); opacity:0; animation:dataScan 2.2s linear infinite; }
+.ess-vent { position: absolute; top: 70px; left: 13px; right: 13px; height: 62px; border-radius: 2px; background: repeating-linear-gradient(180deg, #9db6cc 0 2px, transparent 2px 9px); opacity: .75; }
+.ess-led { position: absolute; left: 14px; right: 14px; bottom: 14px; height: 6px; border-radius: 3px; background: linear-gradient(90deg, #7fe0d2 0 18%, rgba(127,224,210,.18) 18% 100%); box-shadow: 0 0 10px rgba(127,224,210,.55); animation: panelBlink 2.6s ease-in-out infinite; }
+.ess-cab:nth-of-type(3) .ess-screen, .ess-cab:nth-of-type(3) .ess-screen::before, .ess-cab:nth-of-type(3) .ess-led { animation-delay: .7s; }
+.ess-cab:nth-of-type(5) .ess-screen, .ess-cab:nth-of-type(5) .ess-screen::before, .ess-cab:nth-of-type(5) .ess-led { animation-delay: 1.4s; }
+/* glowing link + travelling current between two neighbouring cabinets */
+.ess-link { width: 30px; height: 4px; border-radius: 4px; background: linear-gradient(90deg, rgba(127,224,210,.15), rgba(127,224,210,.45), rgba(127,224,210,.15)); position: relative; overflow: hidden; }
+.ess-current { position: absolute; top: -3px; left: -40%; width: 40%; height: 10px; border-radius: 8px; background: radial-gradient(ellipse at center, #ffffff 0%, #cbe6ff 30%, rgba(23,74,124,0) 100%); box-shadow: 0 0 14px 3px rgba(127,224,210,.95); animation: essFlow 2.4s linear infinite; }
+.ess-link:nth-of-type(4) .ess-current { animation-delay: -1.2s; }
 .pv-glow { position: absolute; top: -20%; right: -10%; width: 70%; height: 70%; z-index: 1; pointer-events: none; background: radial-gradient(circle, rgba(120,190,255,.22), rgba(23,74,124,.08) 45%, transparent 72%); animation: pvSunBreath 11s ease-in-out infinite; }
 .pv-bus { position: absolute; left: 7%; right: 7%; bottom: 5%; height: 3px; z-index: 3; border-radius: 3px; background: linear-gradient(90deg, rgba(120,190,255,.04), rgba(120,190,255,.26), rgba(120,190,255,.04)); overflow: hidden; mix-blend-mode: screen; }
 .pv-flow { position: absolute; top: -4px; left: -28%; width: 28%; height: 11px; border-radius: 8px; background: radial-gradient(ellipse at center, #fff 0%, #cbe6ff 30%, rgba(23,74,124,0) 100%); box-shadow: 0 0 16px 3px rgba(120,190,255,.8); animation: pvFlow 6.4s linear infinite; }
@@ -224,10 +236,9 @@ p { margin: 0 0 1rem; }
 @keyframes panelBlink { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
 @keyframes dataScan { 0% { top: 30px; opacity: 0; } 18% { opacity: 1; } 82% { opacity: 1; } 100% { top: 62px; opacity: 0; } }
 @keyframes ledBlink { 0%, 39% { opacity: .05; } 40%, 61% { opacity: 1; } 62%, 100% { opacity: .05; } }
-@keyframes pvBreathe { 0%,100% { filter: brightness(1) saturate(1); transform: scale(1); } 50% { filter: brightness(1.08) saturate(1.06); transform: scale(1.025); } }
-@keyframes pvGlint { 0%, 18% { transform: translateX(-110%); } 68%, 100% { transform: translateX(110%); } }
 @keyframes pvSunBreath { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
 @keyframes pvFlow { 0% { left: -28%; opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { left: 100%; opacity: 0; } }
+@keyframes essFlow { 0% { left: -40%; opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { left: 100%; opacity: 0; } }
 
 .brand-card-body { padding: clamp(28px, 4vw, 46px); }
 .brand-kicker { font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
@@ -237,13 +248,6 @@ p { margin: 0 0 1rem; }
 .spec strong { display: block; font-size: 1.15rem; color: var(--navy); letter-spacing: -.02em; }
 .spec span { display: block; font-size: .76rem; color: var(--muted); margin-top: 2px; }
 .spec-grid .spec-utility { grid-column: 1 / -1; }
-.xy-highlight { margin: 0 0 20px; }
-.xy-highlight-head { font-size: .76rem; font-weight: 700; letter-spacing: .04em; color: var(--navy); margin-bottom: 8px; }
-.xy-products { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.xy-product { background: var(--bg-tint); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: var(--radius-sm); padding: 12px; }
-.xy-product strong { display: block; font-size: .9rem; color: var(--navy); word-break: break-word; }
-.xy-product span { display: block; font-size: .82rem; color: #33465c; margin-top: 4px; }
-.xy-product small { display: block; font-size: .72rem; color: var(--muted); margin-top: 6px; line-height: 1.45; }
 .feature-list li { position: relative; padding-left: 22px; margin-bottom: 8px; font-size: .93rem; color: #33465c; }
 .feature-list li::before { content: ""; position: absolute; left: 2px; top: 10px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
 .text-link { display: inline-flex; align-items: center; gap: 6px; color: var(--navy); font-weight: 650; margin-top: 14px; border-bottom: 2px solid transparent; transition: border-color .15s ease; }
@@ -366,7 +370,7 @@ p { margin: 0 0 1rem; }
   .why-grid { grid-template-columns: 1fr; }
   .brand-card-visual { min-height: 220px; }
   .sc-charger { transform: scale(.85); }
-  .xy-products { grid-template-columns: 1fr; }
+  .ess-rack { transform: scale(.82); }
 }
 /* ---------- right-to-left (Arabic) ---------- */
 [dir="rtl"] body { direction: rtl; }

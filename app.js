@@ -348,7 +348,10 @@
       { kw: 0,   band: 'bess',   en: 'eBox-AL261 C&amp;I BESS, 261 kWh',                    zh: 'eBox-AL261 工商业储能，261kWh' },
       { kw: 0,   band: 'bess',   en: '3.44 MWh containerised grid-scale BESS',             zh: '3.44MWh 集装箱式大型储能系统' },
       { kw: 0,   band: 'bess',   en: '20 ft liquid-cooled BESS (UL 9540A certified)',      zh: '20 尺液冷储能系统（UL 9540A 认证）' },
-      { kw: 0,   band: 'bess',   en: 'Metis 215-L liquid-cooled PCS',                      zh: 'Metis 215-L 液冷储能变流器' }
+      { kw: 0,   band: 'bess',   en: 'Metis 215-L liquid-cooled PCS',                      zh: 'Metis 215-L 液冷储能变流器' },
+      /* Featured 261 kWh C&I storage systems — retired from the card grid */
+      { kw: 0,   band: 'cabinet', en: 'XES-M125/261-YB · 125 kW / 261 kWh all-in-one · LFP 3.2V/314Ah · 832 V · IP54', zh: 'XES-M125/261-YB · 125kW/261kWh 储能一体机 · LFP 3.2V/314Ah · 832V · IP54' },
+      { kw: 0,   band: 'cabinet', en: 'XES-261YB(5S)-06-07-CE · ETANK-5S liquid-cooled C&amp;I cabinet, 261 kWh · LFP 314 Ah · 832 V · 0.5C · IP54 · 8000 cycles', zh: 'XES-261YB(5S)-06-07-CE · ETANK-5S 工商业液冷储能一体柜，261kWh · LFP 314Ah · 832V · 0.5C · IP54 · 8000 次循环' }
     ]
   };
 
@@ -362,7 +365,7 @@
       'split':    { en: 'Split DC · 360–960 kW', zh: '分体直流 · 360–960kW' },
       'ultra':    { en: 'Ultra-high power · up to 2.56 MW', zh: '超大功率 · 最高 2.56MW' },
       'terminal': { en: 'Charging terminals', zh: '充电终端' },
-      'utility':  { en: 'Best · Utility Cabinet 5 MWh', zh: '最佳 · 5MWh 大储' }
+      'utility':  { en: 'Utility Cabinet 5 MWh', zh: '5MWh 大储' }
     },
     by: {
       '0.4kV': { en: '0.4 kV', zh: '0.4kV' },
@@ -372,7 +375,8 @@
       '1100kV': { en: '1100 kV', zh: '1100kV' }
     },
     xy: {
-      'bess': { en: 'Battery energy storage', zh: '电池储能系统' }
+      'bess': { en: 'Battery energy storage', zh: '电池储能系统' },
+      'cabinet': { en: '261 kWh C&I storage systems', zh: '261kWh 工商储能系统' }
     }
   };
 

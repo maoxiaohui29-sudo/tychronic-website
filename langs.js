@@ -654,39 +654,39 @@ window.TYCHRON_EXTRA = {
 /* Band names for the product filter dropdowns */
 window.TYCHRON_BANDS = {
   de: {
-    sc: { ac7: "AC-Laden · 7–21 kW", v2g: "V2G", dc60: "DC All-in-One · 60–80 kW", dc120: "DC All-in-One · 120–320 kW", dc400: "DC All-in-One · 400–640 kW", split: "DC Split · 360–960 kW", ultra: "Ultra-Hochleistung · bis 2,56 MW", terminal: "Ladeterminals", utility: "Best · Utility-Schrank 5 MWh" },
+    sc: { ac7: "AC-Laden · 7–21 kW", v2g: "V2G", dc60: "DC All-in-One · 60–80 kW", dc120: "DC All-in-One · 120–320 kW", dc400: "DC All-in-One · 400–640 kW", split: "DC Split · 360–960 kW", ultra: "Ultra-Hochleistung · bis 2,56 MW", terminal: "Ladeterminals", utility: "Utility-Schrank 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Batteriespeicher" }
+    xy: { bess: "Batteriespeicher", cabinet: "261-kWh-C&I-Speichersysteme" }
   },
   es: {
-    sc: { ac7: "Carga CA · 7–21 kW", v2g: "V2G", dc60: "DC todo en uno · 60–80 kW", dc120: "DC todo en uno · 120–320 kW", dc400: "DC todo en uno · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potencia ultra alta · hasta 2,56 MW", terminal: "Terminales de carga", utility: "Best · Armario utility 5 MWh" },
+    sc: { ac7: "Carga CA · 7–21 kW", v2g: "V2G", dc60: "DC todo en uno · 60–80 kW", dc120: "DC todo en uno · 120–320 kW", dc400: "DC todo en uno · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potencia ultra alta · hasta 2,56 MW", terminal: "Terminales de carga", utility: "Armario utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Almacenamiento de energía" }
+    xy: { bess: "Almacenamiento de energía", cabinet: "Sistemas de almacenamiento C&I de 261 kWh" }
   },
   pt: {
-    sc: { ac7: "Recarga CA · 7–21 kW", v2g: "V2G", dc60: "DC all-in-one · 60–80 kW", dc120: "DC all-in-one · 120–320 kW", dc400: "DC all-in-one · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potência ultra alta · até 2,56 MW", terminal: "Terminais de recarga", utility: "Best · Armário utility 5 MWh" },
+    sc: { ac7: "Recarga CA · 7–21 kW", v2g: "V2G", dc60: "DC all-in-one · 60–80 kW", dc120: "DC all-in-one · 120–320 kW", dc400: "DC all-in-one · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potência ultra alta · até 2,56 MW", terminal: "Terminais de recarga", utility: "Armário utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Armazenamento de energia" }
+    xy: { bess: "Armazenamento de energia", cabinet: "Sistemas de armazenamento C&I de 261 kWh" }
   },
   fr: {
-    sc: { ac7: "Recharge AC · 7–21 kW", v2g: "V2G", dc60: "DC tout-en-un · 60–80 kW", dc120: "DC tout-en-un · 120–320 kW", dc400: "DC tout-en-un · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Très haute puissance · jusqu'à 2,56 MW", terminal: "Bornes de recharge", utility: "Best · Armoire utility 5 MWh" },
+    sc: { ac7: "Recharge AC · 7–21 kW", v2g: "V2G", dc60: "DC tout-en-un · 60–80 kW", dc120: "DC tout-en-un · 120–320 kW", dc400: "DC tout-en-un · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Très haute puissance · jusqu'à 2,56 MW", terminal: "Bornes de recharge", utility: "Armoire utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Stockage d’énergie" }
+    xy: { bess: "Stockage d’énergie", cabinet: "Systèmes de stockage C&I 261 kWh" }
   },
   ru: {
-    sc: { ac7: "AC-зарядка · 7–21 кВт", v2g: "V2G", dc60: "DC всё-в-одном · 60–80 кВт", dc120: "DC всё-в-одном · 120–320 кВт", dc400: "DC всё-в-одном · 400–640 кВт", split: "Раздельный DC · 360–960 кВт", ultra: "Сверхвысокая мощность · до 2,56 МВт", terminal: "Зарядные терминалы", utility: "Best · Утилити-шкаф 5 МВт·ч" },
+    sc: { ac7: "AC-зарядка · 7–21 кВт", v2g: "V2G", dc60: "DC всё-в-одном · 60–80 кВт", dc120: "DC всё-в-одном · 120–320 кВт", dc400: "DC всё-в-одном · 400–640 кВт", split: "Раздельный DC · 360–960 кВт", ultra: "Сверхвысокая мощность · до 2,56 МВт", terminal: "Зарядные терминалы", utility: "Утилити-шкаф 5 МВт·ч" },
     by: { "0.4kV": "0,4 кВ", "10kV": "10 кВ", "35kV": "35 кВ", "110kV": "110 кВ", "1100kV": "1100 кВ" },
-    xy: { bess: "Накопители энергии" }
+    xy: { bess: "Накопители энергии", cabinet: "Системы накопления C&I 261 кВт·ч" }
   },
   ar: {
-    sc: { ac7: "شحن تيار متردد · 7–21 كيلوواط", v2g: "V2G", dc60: "تيار مستمر متكامل · 60–80 كيلوواط", dc120: "تيار مستمر متكامل · 120–320 كيلوواط", dc400: "تيار مستمر متكامل · 400–640 كيلوواط", split: "تيار مستمر منفصل · 360–960 كيلوواط", ultra: "قدرة فائقة · حتى 2.56 ميجاواط", terminal: "محطات الشحن", utility: "Best · خزانة مرافق 5 ميجاواط-ساعة" },
+    sc: { ac7: "شحن تيار متردد · 7–21 كيلوواط", v2g: "V2G", dc60: "تيار مستمر متكامل · 60–80 كيلوواط", dc120: "تيار مستمر متكامل · 120–320 كيلوواط", dc400: "تيار مستمر متكامل · 400–640 كيلوواط", split: "تيار مستمر منفصل · 360–960 كيلوواط", ultra: "قدرة فائقة · حتى 2.56 ميجاواط", terminal: "محطات الشحن", utility: "خزانة مرافق 5 ميجاواط-ساعة" },
     by: { "0.4kV": "0.4 كيلوفولت", "10kV": "10 كيلوفولت", "35kV": "35 كيلوفولت", "110kV": "110 كيلوفولت", "1100kV": "1100 كيلوفولت" },
-    xy: { bess: "تخزين الطاقة" }
+    xy: { bess: "تخزين الطاقة", cabinet: "أنظمة تخزين تجارية وصناعية 261 كيلوواط-ساعة" }
   },
   vi: {
-    sc: { ac7: "Sạc AC · 7–21 kW", v2g: "V2G", dc60: "DC tích hợp · 60–80 kW", dc120: "DC tích hợp · 120–320 kW", dc400: "DC tích hợp · 400–640 kW", split: "DC tách rời · 360–960 kW", ultra: "Công suất siêu lớn · tới 2,56 MW", terminal: "Trụ sạc (terminal)", utility: "Best · Tủ Utility 5 MWh" },
+    sc: { ac7: "Sạc AC · 7–21 kW", v2g: "V2G", dc60: "DC tích hợp · 60–80 kW", dc120: "DC tích hợp · 120–320 kW", dc400: "DC tích hợp · 400–640 kW", split: "DC tách rời · 360–960 kW", ultra: "Công suất siêu lớn · tới 2,56 MW", terminal: "Trụ sạc (terminal)", utility: "Tủ Utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Lưu trữ năng lượng" }
+    xy: { bess: "Lưu trữ năng lượng", cabinet: "Hệ thống lưu trữ C&I 261 kWh" }
   }
 };
 
