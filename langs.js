@@ -51,7 +51,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / ALMACENAMIENTO", xy_h3: "Sistema de almacenamiento comercial",
     xy_desc: "XES (HKEX: 08328) sistemas de almacenamiento comercial: el todo en uno XES-M125/261-YB de 125 kW / 261 kWh y el armario refrigerado por líquido ETANK-5S de 261 kWh, con celdas LFP de 314 Ah.",
     xy_s1: "Capacidad del sistema", xy_s2: "Salida CA nominal", xy_s3: "Tensión nominal", xy_s4: "Ciclos de vida (veces)",
-    xy_f1: "XES-M125/261-YB: 261 kWh LFP (3,2V/314Ah), salida CA de 125 kW, entrada PV de 250 kW hasta 1000 V, 10 MPPT",
+    xy_f1: "Todo en uno PV y almacenamiento · XES-M125/261-YB: 261 kWh LFP (3,2V/314Ah), salida CA de 125 kW, entrada PV de 250 kW hasta 1000 V, 10 MPPT",
     xy_f2: "Refrigeración líquida inteligente, IP54, de −25 °C a 55 °C, altitud de 2000 m; 1485×1422×2343 mm, ≈2810 kg",
     xy_f3: "ETANK-5S: 261 kWh LFP 314 Ah, 832 V (650–949 V), carga/descarga 0,5C, eficiencia del sistema ≥90 %",
     xy_f4: "8000 ciclos / 70 % EOL, IP54, de −20 °C a 55 °C, triple protección contra incendios, RS485 / CAN / LAN, ≤70 dB",
@@ -143,7 +143,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / ENERGIESPEICHERUNG", xy_h3: "Kommerzielles Speichersystem",
     xy_desc: "XES (HKEX: 08328) gewerbliche Speichersysteme: das XES-M125/261-YB All-in-One mit 125 kW / 261 kWh und der ETANK-5S Flüssigkühlschrank mit 261 kWh, beide mit 314-Ah-LFP-Zellen.",
     xy_s1: "Systemkapazität", xy_s2: "Nennausgang AC", xy_s3: "Nennspannung", xy_s4: "Ladezyklen (Anzahl)",
-    xy_f1: "XES-M125/261-YB: 261 kWh LFP (3,2 V/314 Ah), 125 kW AC-Ausgang, 250 kW PV-Eingang bis 1000 V, 10 MPPT",
+    xy_f1: "PV-Speicher-All-in-One · XES-M125/261-YB: 261 kWh LFP (3,2 V/314 Ah), 125 kW AC-Ausgang, 250 kW PV-Eingang bis 1000 V, 10 MPPT",
     xy_f2: "Intelligente Flüssigkühlung, IP54, −25 °C bis 55 °C, 2000 m Höhe; 1485×1422×2343 mm, ≈2810 kg",
     xy_f3: "ETANK-5S: 261 kWh LFP 314 Ah, 832 V (650–949 V), 0,5C Laden/Entladen, Systemwirkungsgrad ≥90 %",
     xy_f4: "8000 Zyklen / 70 % EOL, IP54, −20 °C bis 55 °C, dreifacher Brandschutz, RS485 / CAN / LAN, ≤70 dB",
@@ -235,7 +235,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / LƯU TRỮ NĂNG LƯỢNG", xy_h3: "Hệ thống lưu trữ thương mại",
     xy_desc: "XES (HKEX: 08328) hệ thống lưu trữ thương mại: tích hợp XES-M125/261-YB 125 kW / 261 kWh và tủ làm mát chất lỏng ETANK-5S 261 kWh, dùng cell LFP 314 Ah.",
     xy_s1: "Dung lượng hệ thống", xy_s2: "Công suất đầu ra AC định mức", xy_s3: "Điện áp định mức", xy_s4: "Số chu kỳ (lần)",
-    xy_f1: "XES-M125/261-YB: 261 kWh LFP (3,2V/314Ah), đầu ra AC 125 kW, đầu vào PV 250 kW tới 1000 V, 10 MPPT",
+    xy_f1: "Tích hợp PV và lưu trữ · XES-M125/261-YB: 261 kWh LFP (3,2V/314Ah), đầu ra AC 125 kW, đầu vào PV 250 kW tới 1000 V, 10 MPPT",
     xy_f2: "Làm mát chất lỏng thông minh, IP54, −25 °C đến 55 °C, độ cao 2000 m; 1485×1422×2343 mm, ≈2810 kg",
     xy_f3: "ETANK-5S: 261 kWh LFP 314 Ah, 832 V (650–949 V), sạc/xả 0,5C, hiệu suất hệ thống ≥90 %",
     xy_f4: "8000 chu kỳ / 70 % EOL, IP54, −20 °C đến 55 °C, chữa cháy ba lớp, RS485 / CAN / LAN, ≤70 dB",
@@ -327,7 +327,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / ARMAZENAMENTO", xy_h3: "Sistema de armazenamento comercial",
     xy_desc: "A XES (HKEX: 08328) oferece sistemas de armazenamento comercial: o all-in-one XES-M125/261-YB de 125 kW / 261 kWh e o armário refrigerado a líquido ETANK-5S de 261 kWh, com células LFP de 314 Ah.",
     xy_s1: "Capacidade do sistema", xy_s2: "Saída CA nominal", xy_s3: "Tensão nominal", xy_s4: "Ciclos de vida (vezes)",
-    xy_f1: "XES-M125/261-YB: 261 kWh LFP (3,2V/314Ah), saída CA de 125 kW, entrada PV de 250 kW até 1000 V, 10 MPPT",
+    xy_f1: "All-in-one PV e armazenamento · XES-M125/261-YB: 261 kWh LFP (3,2V/314Ah), saída CA de 125 kW, entrada PV de 250 kW até 1000 V, 10 MPPT",
     xy_f2: "Refrigeração líquida inteligente, IP54, −25 °C a 55 °C, altitude de 2000 m; 1485×1422×2343 mm, ≈2810 kg",
     xy_f3: "ETANK-5S: 261 kWh LFP 314 Ah, 832 V (650–949 V), carga/descarga 0,5C, eficiência do sistema ≥90 %",
     xy_f4: "8000 ciclos / 70 % EOL, IP54, −20 °C a 55 °C, tripla proteção contra incêndio, RS485 / CAN / LAN, ≤70 dB",
@@ -419,7 +419,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / STOCKAGE D’ÉNERGIE", xy_h3: "Système de stockage commercial",
     xy_desc: "XES (HKEX : 08328) systèmes de stockage commercial : le tout-en-un XES-M125/261-YB 125 kW / 261 kWh et l’armoire à refroidissement liquide ETANK-5S 261 kWh, avec cellules LFP 314 Ah.",
     xy_s1: "Capacité du système", xy_s2: "Sortie CA nominale", xy_s3: "Tension nominale", xy_s4: "Cycles de vie (nombre)",
-    xy_f1: "XES-M125/261-YB : 261 kWh LFP (3,2V/314Ah), sortie CA 125 kW, entrée PV 250 kW jusqu’à 1000 V, 10 MPPT",
+    xy_f1: "Tout-en-un PV et stockage · XES-M125/261-YB : 261 kWh LFP (3,2V/314Ah), sortie CA 125 kW, entrée PV 250 kW jusqu’à 1000 V, 10 MPPT",
     xy_f2: "Refroidissement liquide intelligent, IP54, −25 °C à 55 °C, altitude 2000 m ; 1485×1422×2343 mm, ≈2810 kg",
     xy_f3: "ETANK-5S : 261 kWh LFP 314 Ah, 832 V (650–949 V), charge/décharge 0,5C, rendement système ≥ 90 %",
     xy_f4: "8000 cycles / 70 % EOL, IP54, −20 °C à 55 °C, triple protection incendie, RS485 / CAN / LAN, ≤70 dB",
@@ -511,7 +511,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / НАКОПИТЕЛИ ЭНЕРГИИ", xy_h3: "Коммерческая система накопления",
     xy_desc: "XES (HKEX: 08328) коммерческие системы накопления: моноблок XES-M125/261-YB 125 кВт / 261 кВт·ч и жидкостный шкаф ETANK-5S на 261 кВт·ч с элементами LFP 314 А·ч.",
     xy_s1: "Ёмкость системы", xy_s2: "Номинальный выход AC", xy_s3: "Номинальное напряжение", xy_s4: "Ресурс (циклы)",
-    xy_f1: "XES-M125/261-YB: 261 кВт·ч LFP (3,2В/314А·ч), выход AC 125 кВт, вход PV 250 кВт до 1000 В, 10 MPPT",
+    xy_f1: "Моноблок PV и накопителя · XES-M125/261-YB: 261 кВт·ч LFP (3,2В/314А·ч), выход AC 125 кВт, вход PV 250 кВт до 1000 В, 10 MPPT",
     xy_f2: "Интеллектуальное жидкостное охлаждение, IP54, −25…+55 °C, высота 2000 м; 1485×1422×2343 мм, ≈2810 кг",
     xy_f3: "ETANK-5S: 261 кВт·ч LFP 314 А·ч, 832 В (650–949 В), заряд/разряд 0,5C, КПД системы ≥90 %",
     xy_f4: "8000 циклов / 70 % EOL, IP54, −20…+55 °C, трёхступенчатая противопожарная защита, RS485 / CAN / LAN, ≤70 дБ",
@@ -603,7 +603,7 @@ window.TYCHRON_EXTRA = {
     xy_index: "03 / تخزين الطاقة", xy_h3: "نظام تخزين تجاري",
     xy_desc: "أنظمة XES (HKEX: 08328) للتخزين التجاري: الجهاز المتكامل XES-M125/261-YB بقدرة 125 كيلوواط / 261 كيلوواط-ساعة، وخزانة ETANK-5S المبردة بالسائل بسعة 261 كيلوواط-ساعة، بخلايا LFP 314 أمبير-ساعة.",
     xy_s1: "سعة النظام", xy_s2: "الخرج الاسمي تيار متردد", xy_s3: "الجهد الاسمي", xy_s4: "عدد الدورات",
-    xy_f1: "XES-M125/261-YB: 261 كيلوواط-ساعة LFP (3,2 فولت/314 أمبير-ساعة)، خرج تيار متردد 125 كيلوواط، دخل طاقة شمسية 250 كيلوواط حتى 1000 فولت، 10 قنوات MPPT",
+    xy_f1: "جهاز متكامل للطاقة الشمسية والتخزين · XES-M125/261-YB: 261 كيلوواط-ساعة LFP (3,2 فولت/314 أمبير-ساعة)، خرج تيار متردد 125 كيلوواط، دخل طاقة شمسية 250 كيلوواط حتى 1000 فولت، 10 قنوات MPPT",
     xy_f2: "تبريد سائل ذكي، IP54، من −25 إلى 55 درجة مئوية، ارتفاع 2000 م؛ 1485×1422×2343 مم، ≈2810 كغ",
     xy_f3: "ETANK-5S: 261 كيلوواط-ساعة LFP 314 أمبير-ساعة، 832 فولت (650–949 فولت)، شحن/تفريغ 0,5C، كفاءة النظام ≥90%",
     xy_f4: "8000 دورة / 70% EOL، IP54، من −20 إلى 55 درجة مئوية، حماية ثلاثية من الحريق، RS485 / CAN / LAN، ≤70 ديسيبل",
@@ -656,37 +656,37 @@ window.TYCHRON_BANDS = {
   de: {
     sc: { ac7: "AC-Laden · 7–21 kW", v2g: "V2G", dc60: "DC All-in-One · 60–80 kW", dc120: "DC All-in-One · 120–320 kW", dc400: "DC All-in-One · 400–640 kW", split: "DC Split · 360–960 kW", ultra: "Ultra-Hochleistung · bis 2,56 MW", terminal: "Ladeterminals", utility: "Utility-Schrank 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Batteriespeicher", cabinet: "261-kWh-C&I-Speichersysteme" }
+    xy: { allinone: "PV-Speicher-All-in-One", etank: "Flüssigkeitsgekühlter C&I-Speicherschrank" }
   },
   es: {
     sc: { ac7: "Carga CA · 7–21 kW", v2g: "V2G", dc60: "DC todo en uno · 60–80 kW", dc120: "DC todo en uno · 120–320 kW", dc400: "DC todo en uno · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potencia ultra alta · hasta 2,56 MW", terminal: "Terminales de carga", utility: "Armario utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Almacenamiento de energía", cabinet: "Sistemas de almacenamiento C&I de 261 kWh" }
+    xy: { allinone: "Todo en uno PV y almacenamiento", etank: "Armario de almacenamiento C&I refrigerado por líquido" }
   },
   pt: {
     sc: { ac7: "Recarga CA · 7–21 kW", v2g: "V2G", dc60: "DC all-in-one · 60–80 kW", dc120: "DC all-in-one · 120–320 kW", dc400: "DC all-in-one · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Potência ultra alta · até 2,56 MW", terminal: "Terminais de recarga", utility: "Armário utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Armazenamento de energia", cabinet: "Sistemas de armazenamento C&I de 261 kWh" }
+    xy: { allinone: "All-in-one PV e armazenamento", etank: "Armário de armazenamento C&I refrigerado a líquido" }
   },
   fr: {
     sc: { ac7: "Recharge AC · 7–21 kW", v2g: "V2G", dc60: "DC tout-en-un · 60–80 kW", dc120: "DC tout-en-un · 120–320 kW", dc400: "DC tout-en-un · 400–640 kW", split: "DC split · 360–960 kW", ultra: "Très haute puissance · jusqu'à 2,56 MW", terminal: "Bornes de recharge", utility: "Armoire utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Stockage d’énergie", cabinet: "Systèmes de stockage C&I 261 kWh" }
+    xy: { allinone: "Tout-en-un PV et stockage", etank: "Armoire de stockage C&I à refroidissement liquide" }
   },
   ru: {
     sc: { ac7: "AC-зарядка · 7–21 кВт", v2g: "V2G", dc60: "DC всё-в-одном · 60–80 кВт", dc120: "DC всё-в-одном · 120–320 кВт", dc400: "DC всё-в-одном · 400–640 кВт", split: "Раздельный DC · 360–960 кВт", ultra: "Сверхвысокая мощность · до 2,56 МВт", terminal: "Зарядные терминалы", utility: "Утилити-шкаф 5 МВт·ч" },
     by: { "0.4kV": "0,4 кВ", "10kV": "10 кВ", "35kV": "35 кВ", "110kV": "110 кВ", "1100kV": "1100 кВ" },
-    xy: { bess: "Накопители энергии", cabinet: "Системы накопления C&I 261 кВт·ч" }
+    xy: { allinone: "Моноблок PV и накопителя", etank: "Жидкостный шкаф накопителя C&I" }
   },
   ar: {
     sc: { ac7: "شحن تيار متردد · 7–21 كيلوواط", v2g: "V2G", dc60: "تيار مستمر متكامل · 60–80 كيلوواط", dc120: "تيار مستمر متكامل · 120–320 كيلوواط", dc400: "تيار مستمر متكامل · 400–640 كيلوواط", split: "تيار مستمر منفصل · 360–960 كيلوواط", ultra: "قدرة فائقة · حتى 2.56 ميجاواط", terminal: "محطات الشحن", utility: "خزانة مرافق 5 ميجاواط-ساعة" },
     by: { "0.4kV": "0.4 كيلوفولت", "10kV": "10 كيلوفولت", "35kV": "35 كيلوفولت", "110kV": "110 كيلوفولت", "1100kV": "1100 كيلوفولت" },
-    xy: { bess: "تخزين الطاقة", cabinet: "أنظمة تخزين تجارية وصناعية 261 كيلوواط-ساعة" }
+    xy: { allinone: "جهاز متكامل للطاقة الشمسية والتخزين", etank: "خزانة تخزين تجارية مبردة بالسائل" }
   },
   vi: {
     sc: { ac7: "Sạc AC · 7–21 kW", v2g: "V2G", dc60: "DC tích hợp · 60–80 kW", dc120: "DC tích hợp · 120–320 kW", dc400: "DC tích hợp · 400–640 kW", split: "DC tách rời · 360–960 kW", ultra: "Công suất siêu lớn · tới 2,56 MW", terminal: "Trụ sạc (terminal)", utility: "Tủ Utility 5 MWh" },
     by: { "0.4kV": "0,4 kV", "10kV": "10 kV", "35kV": "35 kV", "110kV": "110 kV", "1100kV": "1100 kV" },
-    xy: { bess: "Lưu trữ năng lượng", cabinet: "Hệ thống lưu trữ C&I 261 kWh" }
+    xy: { allinone: "Tích hợp PV và lưu trữ", etank: "Tủ lưu trữ C&I làm mát chất lỏng" }
   }
 };
 

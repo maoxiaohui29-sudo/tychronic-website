@@ -51,7 +51,7 @@
       xy_index: '03 / ENERGY STORAGE', xy_h3: 'Commercial storage system',
       xy_desc: 'XES (HKEX: 08328) commercial storage systems: the XES-M125/261-YB 125 kW / 261 kWh all-in-one and the ETANK-5S 261 kWh liquid-cooled cabinet, built on 314 Ah LFP cells.',
       xy_s1: 'System capacity', xy_s2: 'Rated AC output', xy_s3: 'Nominal voltage', xy_s4: 'Cycle life (cycles)',
-      xy_f1: 'XES-M125/261-YB: 261 kWh LFP (3.2V/314Ah), 125 kW AC output, 250 kW PV input up to 1000 V, 10 MPPT',
+      xy_f1: 'PV & storage all-in-one · XES-M125/261-YB: 261 kWh LFP (3.2V/314Ah), 125 kW AC output, 250 kW PV input up to 1000 V, 10 MPPT',
       xy_f2: 'Smart liquid cooling, IP54, −25°C to 55°C, 2000 m altitude; 1485×1422×2343 mm, ≈2810 kg',
       xy_f3: 'ETANK-5S: 261 kWh LFP 314 Ah, 832 V (650–949 V), 0.5C charge/discharge, ≥90% system efficiency',
       xy_f4: '8000 cycles / 70% EOL, IP54, −20°C to 55°C, triple fire protection, RS485 / CAN / LAN, ≤70 dB',
@@ -179,7 +179,7 @@
       xy_index: '03 / 储能系统', xy_h3: '工商储能系统',
       xy_desc: '信义储电（08328.HK）工商储能系统：XES-M125/261-YB 光储一体机与 ETANK-5S 工商业液冷储能一体柜，均采用 LFP 314Ah 电芯。',
       xy_s1: '系统容量', xy_s2: '额定交流输出', xy_s3: '标称电压', xy_s4: '循环寿命（次）',
-      xy_f1: 'XES-M125/261-YB：261kWh 磷酸铁锂（3.2V/314Ah），125kW 交流输出，250kW 光伏输入（最高 1000V），10 路 MPPT',
+      xy_f1: '光储一体机 · XES-M125/261-YB：261kWh 磷酸铁锂（3.2V/314Ah），125kW 交流输出，250kW 光伏输入（最高 1000V），10 路 MPPT',
       xy_f2: '智能液冷，IP54 防护，−25℃～55℃ 运行，2000m 海拔；1485×1422×2343mm，约 2810kg',
       xy_f3: 'ETANK-5S：261kWh 磷酸铁锂 314Ah，832V（650～949V），0.5C 充放电，系统效率 ≥90%',
       xy_f4: '8000 次循环（70% EOL），IP54，−20℃～55℃，三重消防，RS485 / CAN / LAN 通讯，噪音 ≤70dB',
@@ -343,15 +343,9 @@
       { kw: 1100,  band: '1100kV',  en: 'Gas-insulated switchgear (GIS / C-GIS), up to 1100 kV', zh: '气体绝缘开关设备（GIS / C-GIS），最高 1100kV' }
     ],
     xy: [
-      /* 储能系统（BESS） */
-      { kw: 0,   band: 'bess',   en: 'vBox residential BESS',                              zh: 'vBox 户用储能系统' },
-      { kw: 0,   band: 'bess',   en: 'eBox-AL261 C&amp;I BESS, 261 kWh',                    zh: 'eBox-AL261 工商业储能，261kWh' },
-      { kw: 0,   band: 'bess',   en: '3.44 MWh containerised grid-scale BESS',             zh: '3.44MWh 集装箱式大型储能系统' },
-      { kw: 0,   band: 'bess',   en: '20 ft liquid-cooled BESS (UL 9540A certified)',      zh: '20 尺液冷储能系统（UL 9540A 认证）' },
-      { kw: 0,   band: 'bess',   en: 'Metis 215-L liquid-cooled PCS',                      zh: 'Metis 215-L 液冷储能变流器' },
-      /* Featured 261 kWh C&I storage systems — retired from the card grid */
-      { kw: 0,   band: 'cabinet', en: 'XES-M125/261-YB · 125 kW / 261 kWh all-in-one · LFP 3.2V/314Ah · 832 V · IP54', zh: 'XES-M125/261-YB · 125kW/261kWh 储能一体机 · LFP 3.2V/314Ah · 832V · IP54' },
-      { kw: 0,   band: 'cabinet', en: 'XES-261YB(5S)-06-07-CE · ETANK-5S liquid-cooled C&amp;I cabinet, 261 kWh · LFP 314 Ah · 832 V · 0.5C · IP54 · 8000 cycles', zh: 'XES-261YB(5S)-06-07-CE · ETANK-5S 工商业液冷储能一体柜，261kWh · LFP 314Ah · 832V · 0.5C · IP54 · 8000 次循环' }
+      /* Two XES products, exactly as documented in the supplied datasheets */
+      { kw: 0, band: 'allinone', en: 'XES-M125/261-YB · 261 kWh LFP (3.2V/314Ah) · 125 kW AC output · 250 kW PV input up to 1000 V · 10 MPPT · 832 V · −25°C to 55°C · 2000 m · 1485×1422×2343 mm · ≈2810 kg · smart liquid cooling · IP54', zh: 'XES-M125/261-YB · 261kWh 磷酸铁锂（3.2V/314Ah）· 125kW 交流输出 · 250kW 光伏输入（最高 1000V）· 10 路 MPPT · 832V · −25℃～55℃ · 2000m · 1485×1422×2343mm · 约 2810kg · 智能液冷 · IP54' },
+      { kw: 0, band: 'etank', en: 'XES-261YB(5S)-06-07-CE · ETANK-5S liquid-cooled C&amp;I cabinet · 261 kWh LFP 314 Ah · 832 V (650–949 V) · 0.5C · 8000 cycles / 70% EOL · ≥90% system efficiency · triple fire protection · −20°C to 55°C · 980×1330×2251.5 mm · ≈2500 kg · RS485 / CAN / LAN · ≤70 dB · IP54', zh: 'XES-261YB(5S)-06-07-CE · ETANK-5S 工商业液冷储能一体柜 · 261kWh 磷酸铁锂 314Ah · 832V（650～949V）· 0.5C · 8000 次循环（70% EOL）· 系统效率 ≥90% · 三重消防 · −20℃～55℃ · 980×1330×2251.5mm · 约 2500kg · RS485 / CAN / LAN · ≤70dB · IP54' }
     ]
   };
 
@@ -375,8 +369,8 @@
       '1100kV': { en: '1100 kV', zh: '1100kV' }
     },
     xy: {
-      'bess': { en: 'Battery energy storage', zh: '电池储能系统' },
-      'cabinet': { en: '261 kWh C&I storage systems', zh: '261kWh 工商储能系统' }
+      'allinone': { en: 'PV & storage all-in-one', zh: '光储一体机' },
+      'etank': { en: 'Liquid-cooled C&I storage cabinet', zh: '工商业储能液冷一体柜' }
     }
   };
 
