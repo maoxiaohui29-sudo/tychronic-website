@@ -208,24 +208,31 @@ p { margin: 0 0 1rem; }
 .sg-cabinet:nth-child(3)::after, .sg-cabinet:nth-child(3)::before { animation-delay: 1.4s; }
 .sg-cabinet:nth-child(2) { height: 205px; animation-delay: -.7s; }
 .sg-cabinet:nth-child(3) { height: 168px; animation-delay: -1.4s; }
-/* CSS-built 261 kWh liquid-cooled storage cabinet group — current flows between cabinets */
-.ess-rack { display: flex; align-items: center; justify-content: center; gap: 0; position: relative; z-index: 2; }
-.ess-cab { width: 78px; height: 190px; background: linear-gradient(160deg,#ffffff,#cfdae6); border: 2px solid #9db6cc; border-radius: 7px; box-shadow: 0 20px 30px -20px rgba(15,46,78,.55), inset -7px 0 14px -10px rgba(0,0,0,.45); position: relative; animation: cabinetFloat 4.2s ease-in-out infinite; }
-.ess-cab:nth-of-type(3) { height: 208px; animation-delay: -.8s; }
-.ess-cab:nth-of-type(5) { height: 176px; animation-delay: -1.6s; }
-.ess-screen { position: absolute; top: 16px; left: 11px; right: 11px; height: 40px; border-radius: 3px; background: radial-gradient(circle at 84% 26%, #7fe0d2 0 2px, transparent 3px), #174a7c; box-shadow: inset 0 0 0 2px #0d355a; overflow: hidden; animation: screenGlow 2.6s ease-in-out infinite; }
-.ess-screen::before { content:""; position:absolute; left:9px; right:9px; top:20px; height:4px; border-radius:2px; background:linear-gradient(90deg,transparent,#7fe0d2,transparent); box-shadow:0 0 9px rgba(127,224,210,.7); opacity:0; animation:dataScan 2.2s linear infinite; }
-.ess-vent { position: absolute; top: 70px; left: 13px; right: 13px; height: 62px; border-radius: 2px; background: repeating-linear-gradient(180deg, #9db6cc 0 2px, transparent 2px 9px); opacity: .75; }
-.ess-led { position: absolute; left: 14px; right: 14px; bottom: 14px; height: 6px; border-radius: 3px; background: linear-gradient(90deg, #7fe0d2 0 18%, rgba(127,224,210,.18) 18% 100%); box-shadow: 0 0 10px rgba(127,224,210,.55); animation: panelBlink 2.6s ease-in-out infinite; }
-.ess-cab:nth-of-type(3) .ess-screen, .ess-cab:nth-of-type(3) .ess-screen::before, .ess-cab:nth-of-type(3) .ess-led { animation-delay: .7s; }
-.ess-cab:nth-of-type(5) .ess-screen, .ess-cab:nth-of-type(5) .ess-screen::before, .ess-cab:nth-of-type(5) .ess-led { animation-delay: 1.4s; }
-/* glowing link + travelling current between two neighbouring cabinets */
-.ess-link { width: 30px; height: 4px; border-radius: 4px; background: linear-gradient(90deg, rgba(127,224,210,.15), rgba(127,224,210,.45), rgba(127,224,210,.15)); position: relative; overflow: hidden; }
-.ess-current { position: absolute; top: -3px; left: -40%; width: 40%; height: 10px; border-radius: 8px; background: radial-gradient(ellipse at center, #ffffff 0%, #cbe6ff 30%, rgba(23,74,124,0) 100%); box-shadow: 0 0 14px 3px rgba(127,224,210,.95); animation: essFlow 2.4s linear infinite; }
-.ess-link:nth-of-type(4) .ess-current { animation-delay: -1.2s; }
+/* CSS-built storage cabinets, modelled on the two product photos — no link between them */
+.ess-rack { display: flex; align-items: center; justify-content: center; gap: 46px; position: relative; z-index: 2; }
+.ess-unit { width: 92px; height: 208px; background: linear-gradient(155deg,#ffffff,#d8e1ea); border: 2px solid #a9bccd; border-radius: 6px; box-shadow: 0 20px 30px -20px rgba(15,46,78,.55), inset -8px 0 14px -10px rgba(0,0,0,.45); position: relative; animation: cabinetFloat 4.4s ease-in-out infinite; }
+.ess-b { height: 218px; animation-delay: -.9s; }
+/* --- left: XES-M125/261-YB all-in-one, with side PCS box --- */
+.ess-cap { position: absolute; top: -6px; left: 12px; right: 12px; height: 7px; border-radius: 3px 3px 0 0; background: #eef2f6; border: 1px solid #b9c9d7; box-shadow: 0 -2px 0 -1px #cfdae6; }
+.ess-cap::before, .ess-cap::after { content:""; position:absolute; top:-4px; width:4px; height:4px; border-radius:50%; background:#8ea5ba; }
+.ess-cap::before { left: 9px; } .ess-cap::after { right: 9px; }
+.ess-pcs { position: absolute; left: -27px; top: 44px; width: 26px; height: 92px; background: linear-gradient(160deg,#eef2f6,#c3d0dc); border: 2px solid #9db6cc; border-radius: 4px; box-shadow: -6px 8px 16px -10px rgba(0,0,0,.5); }
+.ess-pcs::before { content:""; position:absolute; inset: 8px 5px; border-radius:2px; background: repeating-linear-gradient(180deg, #9db6cc 0 2px, transparent 2px 8px); opacity:.7; }
+.ess-dial { position: absolute; top: 26px; left: 16px; width: 26px; height: 26px; border-radius: 50%; background: radial-gradient(circle at 50% 50%, #7fe0d2 0 3px, #0d355a 4px 6px, #eaf3fb 7px 100%); border: 2px solid #9db6cc; box-shadow: inset 0 0 6px rgba(23,74,124,.35); animation: screenGlow 2.8s ease-in-out infinite; }
+.ess-panel { position: absolute; top: 30px; left: 50px; right: 12px; height: 20px; border-radius: 3px; background: #0d355a; box-shadow: inset 0 0 0 2px #081f36; overflow: hidden; animation: screenGlow 2.6s ease-in-out infinite; }
+.ess-panel::before { content:""; position:absolute; inset: 5px 6px; border-radius:2px; background: repeating-linear-gradient(90deg, #7fe0d2 0 3px, transparent 3px 7px); opacity:.85; animation: dataScan 2.4s linear infinite; }
+.ess-warn { position: absolute; top: 68px; left: 16px; width: 18px; height: 16px; background: #f2c14e; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.ess-warn::after { content:"!"; position:absolute; inset:0; display:grid; place-items:center; font: 700 10px/1 var(--font); color:#5a4300; }
+/* --- right: ETANK-5S liquid-cooled cabinet --- */
+.ess-brand { position: absolute; top: 18px; left: 0; right: 0; text-align: center; font: 700 11px/1 var(--font); letter-spacing: .12em; color: var(--navy); }
+.ess-slit { position: absolute; top: 40px; left: 0; right: 0; height: 12px; background: repeating-linear-gradient(180deg, #9db6cc 0 2px, transparent 2px 6px); opacity:.7; }
+.ess-status { position: absolute; top: 70px; left: 50%; margin-left: -7px; width: 14px; height: 62px; border-radius: 7px; background: linear-gradient(180deg,#eef2f6,#d2dde7); border: 1px solid #9db6cc; overflow: hidden; }
+.ess-status::before { content:""; position:absolute; left:5px; top:8px; width:4px; height:44px; border-radius:2px; background:linear-gradient(180deg,#7fe0d2,#3fbfae); box-shadow:0 0 10px rgba(127,224,210,.8); animation: dataScan 2.8s linear infinite; }
+.ess-status::after { content:""; position:absolute; left:5px; top:58px; width:4px; height:4px; border-radius:50%; background:#e0603c; box-shadow:0 0 8px rgba(224,96,60,.8); }
+.ess-button { position: absolute; top: 146px; left: 50%; margin-left: -5px; width: 10px; height: 10px; border-radius: 50%; background: #e0603c; box-shadow: 0 0 0 3px #f4d9d2, 0 0 10px rgba(224,96,60,.45); animation: panelBlink 2.6s ease-in-out infinite; }
+/* shared lower louvers */
+.ess-louver { position: absolute; left: 13px; right: 13px; bottom: 14px; height: 32px; border-radius: 2px; background: repeating-linear-gradient(180deg, #9db6cc 0 2px, transparent 2px 8px); opacity:.75; }
 .pv-glow { position: absolute; top: -20%; right: -10%; width: 70%; height: 70%; z-index: 1; pointer-events: none; background: radial-gradient(circle, rgba(120,190,255,.22), rgba(23,74,124,.08) 45%, transparent 72%); animation: pvSunBreath 11s ease-in-out infinite; }
-.pv-bus { position: absolute; left: 7%; right: 7%; bottom: 5%; height: 3px; z-index: 3; border-radius: 3px; background: linear-gradient(90deg, rgba(120,190,255,.04), rgba(120,190,255,.26), rgba(120,190,255,.04)); overflow: hidden; mix-blend-mode: screen; }
-.pv-flow { position: absolute; top: -4px; left: -28%; width: 28%; height: 11px; border-radius: 8px; background: radial-gradient(ellipse at center, #fff 0%, #cbe6ff 30%, rgba(23,74,124,0) 100%); box-shadow: 0 0 16px 3px rgba(120,190,255,.8); animation: pvFlow 6.4s linear infinite; }
 @keyframes heroBreathe { 0%,100% { filter: brightness(1); } 50% { filter: brightness(1.07); } }
 @keyframes chargeBar { 0% { width: 8%; } 70%, 100% { width: 78%; } }
 @keyframes screenGlow { 0%,100% { box-shadow: inset 0 0 0 3px #0d355a, 0 0 8px rgba(43,179,163,.25); } 50% { box-shadow: inset 0 0 0 3px #0d355a, 0 0 18px rgba(43,179,163,.6); } }
@@ -237,8 +244,6 @@ p { margin: 0 0 1rem; }
 @keyframes dataScan { 0% { top: 30px; opacity: 0; } 18% { opacity: 1; } 82% { opacity: 1; } 100% { top: 62px; opacity: 0; } }
 @keyframes ledBlink { 0%, 39% { opacity: .05; } 40%, 61% { opacity: 1; } 62%, 100% { opacity: .05; } }
 @keyframes pvSunBreath { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
-@keyframes pvFlow { 0% { left: -28%; opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { left: 100%; opacity: 0; } }
-@keyframes essFlow { 0% { left: -40%; opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { left: 100%; opacity: 0; } }
 
 .brand-card-body { padding: clamp(28px, 4vw, 46px); }
 .brand-kicker { font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
