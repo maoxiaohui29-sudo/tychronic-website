@@ -292,6 +292,11 @@ p { margin: 0 0 1rem; }
 .contact-list small { display: block; font-size: .74rem; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
 .contact-list a { font-weight: 650; color: var(--navy); }
 .contact-list a:hover { text-decoration: underline; }
+.email-line { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.copy-email { border: 1px solid var(--line); background: var(--bg-tint); color: var(--navy); font-size: .74rem; font-weight: 650; padding: 4px 9px; border-radius: 6px; cursor: pointer; transition: background .15s ease, color .15s ease, border-color .15s ease; }
+.copy-email:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+.copy-email.copied { background: #11796f; color: #fff; border-color: #11796f; }
+.form-row button[type="submit"]:disabled { opacity: .6; cursor: not-allowed; }
 .contact-form { background: #fff; padding: clamp(24px, 4vw, 40px); border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); }
 .form-row { margin-bottom: 18px; }
 .form-row label { display: block; font-size: .86rem; font-weight: 650; margin-bottom: 7px; }

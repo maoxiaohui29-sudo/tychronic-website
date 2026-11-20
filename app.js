@@ -68,18 +68,23 @@
 
       about_eyebrow: 'About Tychronic', about_h2: 'Energy is changing.<br />We move with it.',
       about_p1: 'Tychronic is an independent sourcing and supply partner for the global new-energy market. We connect developers, EPCs, distributors and operators with equipment from established manufacturers — covering the chain from grid distribution to energy storage and charging.',
-      about_p2: 'Our role is practical: understand the site, shortlist the right products, verify the specifications and keep the conversation honest from inquiry to delivery. Formal distribution agreements with our partner brands are being finalised; until then we operate as an independent representative and sourcing partner.',
+      about_p2: 'Our role is practical: understand the site, shortlist the right products, verify the specifications and keep the conversation honest from inquiry to delivery.',
       about_btn: 'Start a conversation',
 
       contact_eyebrow: 'Contact', contact_h2: "Let's build something that lasts.",
       contact_p: "Tell us about your project — site, power requirements, volume and timeline. We'll come back with a shortlist and an honest quote.",
-      contact_email: 'Email', contact_web: 'Website', contact_whatsapp: 'WhatsApp',
+      contact_email: 'Email', contact_web: 'Website', contact_whatsapp: 'WhatsApp', contact_phone: 'Phone',
+      copy_email: 'Copy email', copy_ok: 'Email copied',
       f_name: 'Your name', f_name_ph: 'Full name', f_email: 'Email address',
+      f_phone: 'Phone / WhatsApp', f_phone_ph: 'Optional — include country code',
       f_interest: "I'm interested in", opt1: 'EV Charging', opt2: 'Energy Storage', opt3: 'Power Distribution', opt4: 'Microgrid', opt5: 'Multiple / not sure yet',
       f_message: 'Tell us about your project', f_msg_ph: 'Location, power needs, volume, timeline…',
       f_send: 'Send inquiry', form_note_default: "We'll reply to your email shortly.",
       form_err: 'Please fill in your name, a valid email and a short message.',
       form_mail_open: 'Your email app is opening with the message ready to send.',
+      form_sending: 'Sending your inquiry…',
+      form_sent: "Inquiry sent. We'll get back to you shortly.",
+      form_fail: "Couldn't send right now. Please email us directly at",
       foot_slogan: 'Charge Ahead · Power Beyond',
       foot_legal: ' Tychronic. Independent sourcing and supply partner. Partner brand names are used for reference only.',
 
@@ -196,18 +201,23 @@
 
       about_eyebrow: '关于泰储云能', about_h2: '能源在变。<br />我们跟着变。',
       about_p1: '泰储云能是面向全球新能源市场的独立采购与供应伙伴。我们帮开发商、EPC、经销商和运营商对接成熟制造企业的设备——从电网配电到储能与充电，一条链打通。',
-      about_p2: '我们做的事很具体：看懂现场、选对产品、核对参数，从询价到交付都坦诚沟通。与合作品牌的正式代理协议正在办理，在此之前，我们以独立代表和采购伙伴身份开展业务。',
+      about_p2: '我们做的事很具体：看懂现场、选对产品、核对参数，从询价到交付都坦诚沟通。',
       about_btn: '聊聊你的项目',
 
       contact_eyebrow: '联系我们', contact_h2: '一起做点长久的事',
       contact_p: '把项目情况告诉我们——现场条件、功率需求、数量、工期，我们给你选型建议和实在报价。',
-      contact_email: '邮箱', contact_web: '网址', contact_whatsapp: 'WhatsApp',
+      contact_email: '邮箱', contact_web: '网址', contact_whatsapp: 'WhatsApp', contact_phone: '电话',
+      copy_email: '复制邮箱', copy_ok: '邮箱已复制',
       f_name: '您的姓名', f_name_ph: '姓名', f_email: '邮箱地址',
+      f_phone: '电话 / WhatsApp', f_phone_ph: '选填，请带国家区号',
       f_interest: '感兴趣的产品', opt1: '充电桩', opt2: '储能系统', opt3: '输配电', opt4: '微电网', opt5: '多项 / 暂不确定',
       f_message: '请介绍您的项目', f_msg_ph: '地点、功率需求、数量、周期…',
       f_send: '发送询价', form_note_default: '我们会尽快回复你的邮箱。',
       form_err: '请填写姓名、有效邮箱和简短留言。',
       form_mail_open: '邮件客户端已打开，请发送预填好的邮件。',
+      form_sending: '正在发送询价…',
+      form_sent: '询价已发送，我们会尽快回复您。',
+      form_fail: '暂时发送失败，请直接发邮件至',
       foot_slogan: '全力向前 · 动力无界',
       foot_legal: ' 泰储云能。独立采购与供应合作伙伴。合作品牌名称仅供参考。',
 
@@ -626,14 +636,16 @@
     Array.prototype.forEach.call(items, function (el) { el.classList.add('in'); });
   }
 
-  // ---- Contact form: validate then open mail client with prefilled body ----
+  // ---- Contact form: validate then POST to FormSubmit.co (AJAX, no page reload) ----
   var form = document.getElementById('contactForm');
   var note = document.getElementById('formNote');
+  var INBOX = 'sam.mao@tychronic.com';
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var name = form.elements.name.value.trim();
       var email = form.elements.email.value.trim();
+      var phone = form.elements.phone ? form.elements.phone.value.trim() : '';
       var interest = form.elements.interest.value;
       var message = form.elements.message.value.trim();
       var ok = true;
@@ -654,14 +666,61 @@
       }
 
       var subject = (curLang === 'zh' ? '网站询价 — ' : 'Website inquiry — ') + interest;
-      var labelName = curLang === 'zh' ? '姓名' : 'Name';
-      var labelEmail = curLang === 'zh' ? '邮箱' : 'Email';
-      var labelInterest = curLang === 'zh' ? '感兴趣的产品' : 'Interested in';
-      var labelMsg = curLang === 'zh' ? '项目详情' : 'Project details';
-      var body = labelName + ': ' + name + '\n' + labelEmail + ': ' + email + '\n' + labelInterest + ': ' + interest + '\n\n' + labelMsg + ':\n' + message;
-      window.location.href = 'mailto:sam.mao@tychronic.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      note.textContent = t('form_mail_open');
-      note.classList.add('ok');
+      var fd = new FormData(form);
+      fd.append('_subject', subject);
+      fd.append('_replyto', email);
+      fd.append('_captcha', 'false');   // reCAPTCHA is not usable with AJAX; honeypot below guards spam
+      fd.append('_honey', '');          // honeypot: leave empty
+
+      var submitBtn = form.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
+      note.textContent = t('form_sending');
+      note.classList.remove('ok');
+
+      fetch('https://formsubmit.co/ajax/' + INBOX, {
+        method: 'POST',
+        body: fd,
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        if (data && (data.success === 'true' || data.success === true)) {
+          note.textContent = t('form_sent');
+          note.classList.add('ok');
+          form.reset();
+        } else {
+          throw new Error('submit rejected');
+        }
+      })
+      .catch(function () {
+        note.textContent = t('form_fail') + ' ' + INBOX;
+        note.classList.remove('ok');
+      })
+      .then(function () {
+        if (submitBtn) submitBtn.disabled = false;
+      });
+    });
+  }
+
+  // ---- Copy email address button ----
+  var copyBtn = document.getElementById('copyEmail');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function () {
+      function done() {
+        var old = copyBtn.textContent;
+        copyBtn.textContent = t('copy_ok');
+        copyBtn.classList.add('copied');
+        window.setTimeout(function () {
+          copyBtn.textContent = old;
+          copyBtn.classList.remove('copied');
+        }, 1800);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(INBOX).then(done).catch(function () {});
+      }
     });
   }
 
