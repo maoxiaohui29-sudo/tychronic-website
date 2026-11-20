@@ -693,37 +693,37 @@ window.TYCHRON_BANDS = {
 /* Page metadata per language */
 window.TYCHRON_META = {
   de: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — Voran laden. Energie ohne Grenzen.",
     desc: "Tychronic ist Ihr Beschaffungs- und Lieferpartner für Ladeinfrastruktur, Energiespeicherung und Stromverteilung — für StarCharge, Baiyun Electric und XES auf den globalen Märkten.",
     ogDesc: "E-Laden · Energiespeicherung · Stromverteilung. Drei etablierte Hersteller, ein Partner."
   },
   es: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — Carga hacia adelante. Energía sin límites.",
     desc: "Tychronic es su socio de abastecimiento y suministro de carga de vehículos eléctricos, almacenamiento de energía y distribución eléctrica, en representación de StarCharge, Baiyun Electric y XES para los mercados globales.",
     ogDesc: "Carga VE · Almacenamiento de energía · Distribución eléctrica. Tres fabricantes consolidados, un solo socio."
   },
   pt: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — Carregue à frente. Energia além.",
     desc: "A Tychronic é sua parceira de sourcing e fornecimento de carregamento de veículos elétricos, armazenamento de energia e distribuição elétrica — representando StarCharge, Baiyun Electric e XES para os mercados globais.",
     ogDesc: "Carregamento VE · Armazenamento de energia · Distribuição elétrica. Três fabricantes consolidados, um único parceiro."
   },
   fr: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — Chargez de l'avant. Énergie sans limites.",
     desc: "Tychronic est votre partenaire de sourcing et d'approvisionnement pour la recharge de véhicules électriques, le stockage d'énergie et la distribution électrique — représentant StarCharge, Baiyun Electric et XES sur les marchés mondiaux.",
     ogDesc: "Recharge VE · Stockage d'énergie · Distribution électrique. Trois fabricants éprouvés, un seul partenaire."
   },
   ru: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — Вперёд к зарядке. Энергия без границ.",
     desc: "Tychronic — ваш партнёр по закупкам и поставкам зарядной инфраструктуры, накопителей энергии и распределения электроэнергии, представляющий StarCharge, Baiyun Electric и XES на мировых рынках.",
     ogDesc: "Зарядка ЭМ · Накопители энергии · Распределение энергии. Три проверенных производителя, один партнёр."
   },
   ar: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — اشحن للأمام. طاقة بلا حدود.",
     desc: "Tychronic شريكك في التوريد والإمداد لشحن المركبات الكهربائية وتخزين الطاقة وتوزيع الطاقة، وتمثّل StarCharge وBaiyun Electric وXES في الأسواق العالمية.",
     ogDesc: "شحن المركبات · تخزين الطاقة · توزيع الطاقة. ثلاثة مصنّعين موثوقين، شريك واحد."
   },
   vi: {
-    title: "TYCHRONIC — Charge Ahead. Power Beyond",
+    title: "TYCHRONIC — Sạc tiến phía trước. Năng lượng vượt trội.",
     desc: "Tychronic là đối tác mua sắm và cung ứng sạc xe điện, lưu trữ năng lượng và phân phối điện — đại diện cho StarCharge, Baiyun Electric và XES tại các thị trường toàn cầu.",
     ogDesc: "Sạc xe điện · Lưu trữ năng lượng · Phân phối điện. Ba nhà sản xuất uy tín, một đối tác duy nhất."
   }

@@ -13,7 +13,7 @@
   "orientation": "any",
   "background_color": "#f2f4f7",
   "theme_color": "#174A7C",
-  "lang": "zh-CN",
+  "lang": "en",
   "icons": [
     {
       "src": "./icons/icon-192.png",
