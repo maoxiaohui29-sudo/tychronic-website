@@ -560,12 +560,11 @@
     });
 
     if (typeof window.TYCHRON_PF_REFRESH === 'function') window.TYCHRON_PF_REFRESH();
-    if (typeof window.TYCHRON_PWA_REFRESH === 'function') window.TYCHRON_PWA_REFRESH();
 
     try { localStorage.setItem(STORAGE_KEY, curLang); } catch (e) {}
   }
 
-  // Public API used by the PWA install block
+  // Public i18n API
   window.TYCHRON_I18N = { t: t, getLang: function () { return curLang; }, setLang: applyLang };
 
   // ---- Year in footer ----
@@ -666,9 +665,16 @@
     });
   }
 
+  // ---- Register service worker for offline support ----
+  // Kept deliberately minimal: the install card/sheet were removed by request,
+  // only the SW registration is restored so "offline-ready" is truthful.
+  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('./sw.js').catch(function () {});
+    });
+  }
+
   // ---- Apply detected language on load ----
-  // Wait until the full DOM (including the injected PWA block) is parsed,
-  // so data-i18n nodes inside it are present when we translate.
   function boot() {
     initProductFilters();
     applyLang(detectLang());
