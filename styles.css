@@ -381,13 +381,44 @@ p { margin: 0 0 1rem; }
   .ess-rack { transform: scale(.82); }
 }
 /* ---------- right-to-left (Arabic) ---------- */
-[dir="rtl"] body { direction: rtl; }
-[dir="rtl"] .app-steps li { flex-direction: row; }
-[dir="rtl"] .qr-caption, [dir="rtl"] .footer-legal { text-align: right; }
+/* Layout flips via direction:rtl (flex/grid auto-mirror); only physical
+   left/right offsets and directional glyphs are overridden here. */
+[dir="rtl"] body { direction: rtl; text-align: right; }
+[dir="rtl"] .brand-word { unicode-bidi: isolate; }
 [dir="rtl"] .brand, [dir="rtl"] .lang-picker { direction: ltr; }
-[dir="rtl"] .footer-nav { justify-content: flex-start; }
+/* header: nav/cta push to the opposite side in RTL */
+[dir="rtl"] .nav { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .header-cta { margin-left: 0; margin-right: 4px; }
+[dir="rtl"] .lang-picker { padding: 0 10px 0 8px; }
+[dir="rtl"] .lang-picker select { padding: 6px 0 6px 16px; background-position: 8px 51%, 3px 51%; }
+[dir="rtl"] .nav-toggle { margin-left: 0; margin-right: auto; }
+/* bullet list markers move to the right */
+[dir="rtl"] .feature-list li { padding-left: 0; padding-right: 22px; }
+[dir="rtl"] .feature-list li::before { left: auto; right: 2px; }
+/* product filter: dropdown arrow + card flow */
+[dir="rtl"] .pf-select { padding: 9px 12px 9px 34px; background-position: left 11px center; }
+[dir="rtl"] .pf-list li { direction: rtl; }
+[dir="rtl"] .pf-dot { margin-left: 0; margin-right: 0; }
+/* contact: emails/phones/URLs stay LTR; labels align right */
 [dir="rtl"] .contact-list a, [dir="rtl"] .contact-list small { direction: ltr; display: inline-block; }
+[dir="rtl"] .email-line { direction: ltr; }
+[dir="rtl"] .contact-list small { text-align: right; }
+/* form fields follow reading direction, but email/phone inputs stay LTR */
+[dir="rtl"] .form-row input, [dir="rtl"] .form-row select, [dir="rtl"] .form-row textarea { direction: rtl; }
+[dir="rtl"] .form-row input[type="email"], [dir="rtl"] .form-row input[type="tel"] { direction: ltr; }
+[dir="rtl"] .form-row select option { direction: rtl; }
+/* app steps + QR card */
+[dir="rtl"] .app-steps li { flex-direction: row; }
 [dir="rtl"] .step-badge { letter-spacing: 0; }
+[dir="rtl"] .qr-card { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .qr-caption, [dir="rtl"] .footer-legal { text-align: right; }
+/* footer links stay on the reading side */
+[dir="rtl"] .footer-nav { justify-content: flex-start; }
+/* spec values (numbers, model codes, units) read LTR */
+[dir="rtl"] .spec strong, [dir="rtl"] .spec span { direction: ltr; unicode-bidi: isolate; }
+@media (max-width: 720px) {
+  [dir="rtl"] .qr-card, [dir="rtl"] .nav-toggle { margin-inline: auto; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
