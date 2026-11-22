@@ -431,9 +431,14 @@ p { margin: 0 0 1rem; }
 
 .cs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 22px; }
 .cs-card { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #fff; box-shadow: var(--shadow); display: flex; flex-direction: column; }
-.cs-card-img { aspect-ratio: 16/9; background: #eef2f6; overflow: hidden; }
-.cs-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
-.cs-card:hover .cs-card-img img { transform: scale(1.03); }
+.cs-card-img { aspect-ratio: 16/9; background: #eef2f6 center/cover no-repeat; overflow: hidden; transition: background-size .35s ease; }
+.cs-card:hover .cs-card-img { background-size: 108% auto; }
+.cs-img-norway    { background-image: url('assets/cases/sc-norway.jpeg'); }
+.cs-img-singapore { background-image: url('assets/cases/sc-singapore.jpeg'); }
+.cs-img-turpan    { background-image: url('assets/cases/sc-turpan.jpeg'); }
+.cs-img-australia { background-image: url('assets/cases/sc-australia.jpeg'); }
+.cs-img-bulgaria  { background-image: url('assets/cases/sc-bulgaria.jpeg'); }
+.cs-img-latvia    { background-image: url('assets/cases/sc-latvia.jpeg'); }
 .cs-card-body { padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .cs-tag { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
 .cs-card h4 { font-size: 1.08rem; margin: 0; color: var(--navy-deep); line-height: 1.3; }
