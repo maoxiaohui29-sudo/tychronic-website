@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" /></noscript>
-  <link rel="stylesheet" href="styles.css?v=28" />
+  <link rel="stylesheet" href="styles.css?v=29" />
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Tychronic">
@@ -77,6 +77,7 @@
 
       <nav class="nav" id="nav" data-i18n-aria="nav_aria">
         <a href="#solutions" data-i18n="nav_solutions">Solutions</a>
+        <a href="#cases" data-i18n="nav_cases">Cases</a>
         <a href="#why" data-i18n="nav_why">Why Tychronic</a>
         <a href="#about" data-i18n="nav_about">About</a>
         <a href="#contact" data-i18n="nav_contact">Contact</a>
@@ -345,6 +346,57 @@
       </div>
     </section>
 
+    <!-- ============ CASES / SELECTED REFERENCES ============ -->
+    <section class="section" id="cases">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow" data-i18n="cases_eyebrow">Selected references</span>
+          <h2 data-i18n="cases_h2">Real projects, real hardware.</h2>
+          <p data-i18n="cases_p">Every figure below is taken from our partner brands' own 2026 documents. Source page is shown on each card — nothing is invented.</p>
+        </header>
+
+        <div class="cs-brandhead reveal">
+          <h3 data-i18n="cases_sc_h">Charging &amp; storage projects</h3>
+          <span class="cs-brandpill">StarCharge</span>
+        </div>
+        <p class="cs-desc" data-i18n="cases_sc_p">Utility-scale storage, public and fleet charging, and extreme-environment deployments — all six documented in the StarCharge Group Introduction 2026.</p>
+        <div class="cs-grid" id="csScGrid"></div>
+        <div class="cs-panel reveal">
+          <h3 data-i18n="cases_more_h">More global references</h3>
+          <p class="cs-small" data-i18n="cases_more_p">From the same official overview (p.58), listed without further expansion.</p>
+          <ul class="cs-global" id="csGlobalList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="cases-xes">
+      <div class="container">
+        <div class="cs-brandhead reveal">
+          <h3 data-i18n="cases_xy_h">Storage &amp; solar deployments</h3>
+          <span class="cs-brandpill cs-brandpill-xy">XES</span>
+        </div>
+        <p class="cs-desc" data-i18n="cases_xy_p">Residential PV-plus-storage systems and commercial &amp; industrial rooftop PV stations, as listed in the XES 2026 product handbook (Xinyi Energy Storage, 08328.HK).</p>
+        <div class="cs-cols">
+          <div class="cs-panel reveal">
+            <h3 data-i18n="cases_res_h">Residential PV + storage</h3>
+            <ul class="cs-list" id="csXesRes"></ul>
+            <figure class="cs-figure">
+              <img src="assets/cases/xes-residential.jpg" alt="XES residential case page" loading="lazy" />
+              <figcaption data-i18n="cases_res_src">Source: XES 2026 handbook · p.12 — typical residential storage applications (document scan)</figcaption>
+            </figure>
+          </div>
+          <div class="cs-panel reveal">
+            <h3 data-i18n="cases_cif_h">C&amp;I rooftop PV stations</h3>
+            <ul class="cs-list cs-list-num" id="csXesCif"></ul>
+          </div>
+        </div>
+        <figure class="cs-figure reveal">
+          <img src="assets/cases/xes-cif-pv.jpg" alt="XES C&I PV case page" loading="lazy" />
+          <figcaption data-i18n="cases_cif_src">Source: XES 2026 handbook · p.14 — typical applications (document scan)</figcaption>
+        </figure>
+      </div>
+    </section>
+
     <!-- ============ ABOUT ============ -->
     <section class="section" id="about">
       <div class="container about-grid">
@@ -473,6 +525,7 @@
       </div>
       <nav class="footer-nav" aria-label="Footer navigation">
         <a href="#solutions" data-i18n="nav_solutions">Solutions</a>
+        <a href="#cases" data-i18n="nav_cases">Cases</a>
         <a href="#why" data-i18n="nav_why">Why Tychronic</a>
         <a href="#about" data-i18n="nav_about">About</a>
         <a href="#contact" data-i18n="nav_contact">Contact</a>
@@ -481,8 +534,8 @@
     </div>
   </footer>
 
-  <script src="langs.js?v=28"></script>
-  <script src="app.js?v=28"></script>
+  <script src="langs.js?v=29"></script>
+  <script src="app.js?v=29"></script>
 
 </body>
 </html>
