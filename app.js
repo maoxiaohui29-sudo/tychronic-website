@@ -607,7 +607,7 @@
         // Note: rendered after the scroll-reveal observer has run, so no
         // .reveal class here — cards must be visible immediately.
         return '<article class="cs-card">' +
-          '<div class="cs-card-img"><img src="assets/cases/' + c.img + '.jpeg" alt="" loading="lazy" /></div>' +
+          '<div class="cs-card-img"><img src="assets/cases/' + c.img + '.jpeg" alt="" /></div>' +
           '<div class="cs-card-body">' +
             '<span class="cs-tag">' + loc(c.tag) + '</span>' +
             '<h4>' + loc(c.title) + '</h4>' +
