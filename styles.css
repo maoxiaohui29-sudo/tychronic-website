@@ -420,6 +420,56 @@ p { margin: 0 0 1rem; }
   [dir="rtl"] .qr-card, [dir="rtl"] .nav-toggle { margin-inline: auto; }
 }
 
+/* ============================================================
+   Selected references (case studies)
+   ============================================================ */
+.cs-brandhead { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 6px 0 10px; }
+.cs-brandhead h3 { margin: 0; font-size: clamp(1.35rem, 2.6vw, 1.9rem); color: var(--navy); }
+.cs-brandpill { font-family: Montserrat, var(--font); font-weight: 600; font-size: 12px; letter-spacing: .04em; color: var(--accent); border: 1px solid var(--accent); padding: 5px 14px; border-radius: 20px; }
+.cs-brandpill-xy { color: var(--navy); border-color: var(--navy); }
+.cs-desc { color: var(--muted); max-width: 860px; margin: 0 0 26px; }
+
+.cs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 22px; }
+.cs-card { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #fff; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.cs-card-img { aspect-ratio: 16/9; background: #eef2f6; overflow: hidden; }
+.cs-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+.cs-card:hover .cs-card-img img { transform: scale(1.03); }
+.cs-card-body { padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.cs-tag { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+.cs-card h4 { font-size: 1.08rem; margin: 0; color: var(--navy-deep); line-height: 1.3; }
+.cs-card p { margin: 0; }
+.cs-zh { color: var(--muted); }
+.cs-small { font-size: 13px; }
+.cs-stats { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 12px; }
+.cs-stat { background: var(--bg-tint); border-radius: var(--radius-sm); padding: 8px 12px; min-width: 78px; }
+.cs-stat b { display: block; color: var(--navy); font-size: 1.02rem; line-height: 1.2; }
+.cs-stat span { font-size: 11px; color: var(--muted); line-height: 1.3; display: block; }
+.cs-src { font-size: 10.5px; color: #9aa7b6; border-top: 1px dashed var(--line); padding-top: 8px; margin-top: 2px; }
+
+.cs-panel { background: var(--bg-tint); border-radius: var(--radius); padding: 24px; margin-top: 24px; border: 1px solid var(--line); }
+.cs-panel h3 { color: var(--navy); font-size: 1.12rem; margin: 0 0 6px; }
+.cs-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px; }
+.cs-cols .cs-panel { margin-top: 0; }
+.cs-list, .cs-global { list-style: none; margin: 12px 0 0; padding: 0; }
+.cs-list li, .cs-global li { display: flex; gap: 10px; justify-content: space-between; border-bottom: 1px solid #e3eaf1; padding: 9px 0; font-size: 14px; align-items: center; flex-wrap: wrap; }
+.cs-list li b, .cs-global li b { color: var(--navy-deep); font-weight: 600; }
+.cs-list li span, .cs-global li span { color: var(--muted); font-size: 13px; text-align: right; }
+.cs-list-num li { justify-content: flex-start; }
+.cs-n { display: inline-flex; width: 22px; height: 22px; background: var(--navy); color: #fff; border-radius: 50%; align-items: center; justify-content: center; font-size: 11px; flex: none; }
+.cs-figure { margin: 22px 0 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #fff; }
+.cs-figure img { width: 100%; }
+.cs-figure figcaption { font-size: 11px; color: var(--muted); padding: 8px 14px; background: var(--bg-tint); }
+
+@media (max-width: 720px) {
+  .cs-cols { grid-template-columns: 1fr; }
+  .cs-global li, .cs-list li { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .cs-global li span, .cs-list li span { text-align: left; }
+}
+/* RTL: case cards flow automatically; keep spec values/dates LTR for legibility */
+[dir="rtl"] .cs-stat b, [dir="rtl"] .cs-stat span, [dir="rtl"] .cs-n { direction: ltr; unicode-bidi: isolate; }
+[dir="rtl"] .cs-global li, [dir="rtl"] .cs-list li { text-align: right; }
+[dir="rtl"] .cs-global li span, [dir="rtl"] .cs-list li span { text-align: right; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
