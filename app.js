@@ -10,7 +10,7 @@
       skip: 'Skip to content', skip_aria: 'Skip to content',
       brand_aria: 'Tychronic home', nav_aria: 'Main navigation',
       toggle_aria: 'Toggle navigation', lang_aria: 'Select language',
-      nav_solutions: 'Solutions', nav_why: 'Why Tychronic', nav_about: 'About', nav_contact: 'Contact',
+      nav_solutions: 'Solutions', nav_cases: 'Cases', nav_why: 'Why Tychronic', nav_about: 'About', nav_contact: 'Contact',
       header_cta: 'Get in touch',
 
       hero_eyebrow: 'Global energy solutions partner',
@@ -65,6 +65,18 @@
       why2_h: 'Global project experience', why2_p: 'Our partner brands deliver into 70+ countries and 54 markets respectively, with certifications and references to match.',
       why3_h: 'Technical, not just trading', why3_p: 'We read the datasheets for you — matching voltage, power, protection and site conditions before a quote ever reaches you.',
       why4_h: 'Built for long-term deals', why4_p: 'Direct, transparent communication and after-sales support — the kind of partner you want when a project runs for years.',
+
+      /* Selected references */
+      cases_eyebrow: 'Selected references', cases_h2: 'Real projects, real hardware.',
+      cases_p: "Every figure below is taken from our partner brands' own 2026 documents. Source page is shown on each card — nothing is invented.",
+      cases_sc_h: 'Charging &amp; storage projects',
+      cases_sc_p: 'Utility-scale storage, public and fleet charging, and extreme-environment deployments — all six documented in the StarCharge Group Introduction 2026.',
+      cases_more_h: 'More global references', cases_more_p: 'From the same official overview (p.58), listed without further expansion.',
+      cases_xy_h: 'Storage &amp; solar deployments',
+      cases_xy_p: 'Residential PV-plus-storage systems and commercial &amp; industrial rooftop PV stations, as listed in the XES 2026 product handbook (Xinyi Energy Storage, 08328.HK).',
+      cases_res_h: 'Residential PV + storage', cases_cif_h: 'C&amp;I rooftop PV stations',
+      cases_res_src: 'Source: XES 2026 handbook · p.12 — typical residential storage applications (document scan)',
+      cases_cif_src: 'Source: XES 2026 handbook · p.14 — typical applications (document scan)',
 
       about_eyebrow: 'About Tychronic', about_h2: 'Energy is changing.<br />We move with it.',
       about_p1: 'Tychronic is an independent sourcing and supply partner for the global new-energy market. We connect developers, EPCs, distributors and operators with equipment from established manufacturers — covering the chain from grid distribution to energy storage and charging.',
@@ -143,7 +155,7 @@
       skip: '跳到主要内容', skip_aria: '跳到主要内容',
       brand_aria: '泰储云能首页', nav_aria: '主导航',
       toggle_aria: '展开或收起导航', lang_aria: '选择语言',
-      nav_solutions: '解决方案', nav_why: '为什么选我们', nav_about: '关于我们', nav_contact: '联系我们',
+      nav_solutions: '解决方案', nav_cases: '案例', nav_why: '为什么选我们', nav_about: '关于我们', nav_contact: '联系我们',
       header_cta: '联系我们',
 
       hero_eyebrow: '全球新能源解决方案合作伙伴',
@@ -198,6 +210,18 @@
       why2_h: '全球项目经验', why2_p: '合作品牌分别覆盖 70+ 国家和 54 个市场，认证与项目案例齐备。',
       why3_h: '懂技术，不只是贸易', why3_p: '我们替你看规格书——报价前先核对电压、功率、防护等级和现场条件。',
       why4_h: '为长期合作而设', why4_p: '沟通直接透明，售后有人管，项目做上几年也省心。',
+
+      /* 精选案例 */
+      cases_eyebrow: '精选案例', cases_h2: '真实项目，真实设备。',
+      cases_p: '以下每个数字都来自合作品牌 2026 年官方资料，每张卡片标注来源页码，没有任何编造。',
+      cases_sc_h: '充电与储能项目',
+      cases_sc_p: '公用事业级储能、公共与车队充电、极端环境部署——六个案例均记载于《StarCharge 集团介绍 2026》。',
+      cases_more_h: '更多全球案例', cases_more_p: '来自同一份官方资料（第 58 页），未逐项展开。',
+      cases_xy_h: '储能与光伏应用',
+      cases_xy_p: '户用光储系统与工商业屋顶光伏电站，列于《信义储电 2026 产品手册》（信义储电，08328.HK）。',
+      cases_res_h: '户用光伏＋储能', cases_cif_h: '工商业屋顶光伏电站',
+      cases_res_src: '来源：信义储电 2026 手册 · 第 12 页 — 典型户用储能应用案例（原始资料扫描件）',
+      cases_cif_src: '来源：信义储电 2026 手册 · 第 14 页 — 典型应用案例（原始资料扫描件）',
 
       about_eyebrow: '关于泰储云能', about_h2: '能源在变。<br />我们跟着变。',
       about_p1: '泰储云能是面向全球新能源市场的独立采购与供应伙伴。我们帮开发商、EPC、经销商和运营商对接成熟制造企业的设备——从电网配电到储能与充电，一条链打通。',
@@ -396,6 +420,71 @@
     });
   }
 
+  /* =========================================================
+     Selected references — taken ONLY from the partner brands'
+     own 2026 documents (StarCharge Group Introduction pp.52-58,
+     XES 2026 product handbook pp.12/14). Project names, places,
+     figures and source pages are kept verbatim. No invented data.
+     en/zh provided; other languages fall back to en (same as PRODUCTS).
+     ========================================================= */
+  var CASES = {
+    sc: [
+      { tag: { en: 'Charging · Norway', zh: '充电 · 挪威' },
+        title: { en: 'Supercharge AS — split DC charging', zh: '挪威 Supercharge AS — 分体式直流充电' },
+        body: { en: 'A Norway-based charging and energy solution provider. StarCharge supplied split-type DC systems for flexible deployment across commercial charging scenarios.', zh: '挪威本地充电与能源方案商。StarCharge 提供分体式直流系统，适配多种商业充电场景的灵活部署。' },
+        stats: [ { v: '32', l: { en: 'Nova V1 360 kW cabinets', zh: 'Nova V1 360kW 功率柜' } }, { v: '54', l: { en: 'Aries V1 dispensers', zh: 'Aries V1 充电终端' } }, { v: '-30°C', l: { en: 'reliable operation', zh: '稳定运行' } } ],
+        img: 'norway', src: 'StarCharge Group Introduction 2026 · p.53' },
+      { tag: { en: 'Charging · Singapore', zh: '充电 · 新加坡' },
+        title: { en: 'LTA Sengkang Bus Depot (BD401)', zh: '新加坡陆路交通管理局 · 盛港巴士场站' },
+        body: { en: "Split-type DC charging systems supplied for the electric bus depot charging operations of Singapore's Land Transport Authority.", zh: '为新加坡陆路交通管理局电动巴士场站提供的分体式直流充电系统，支撑场站日常充电运营。' },
+        stats: [ { v: '41', l: { en: 'Nova V2 360 kW cabinets', zh: 'Nova V2 360kW 功率柜' } }, { v: '246', l: { en: 'Seraph dispensers', zh: 'Seraph 充电终端' } } ],
+        img: 'singapore', src: 'StarCharge Group Introduction 2026 · p.54' },
+      { tag: { en: 'Charging · Extreme heat', zh: '充电 · 极端高温' },
+        title: { en: 'Turpan — stable 720 kW above 45°C', zh: '吐鲁番 — 45°C 以上稳定输出 720kW' },
+        body: { en: 'In Turpan, with ambient above 45°C and ground up to 70°C, the liquid-cooled system delivers stable 720 kW output. Liquid cooling controls thermal load for reliable operation.', zh: '吐鲁番环境温度超过 45°C、地表最高 70°C，液冷系统仍稳定输出 720kW。液冷架构控制热负荷，保障高温高负载下的可靠运行。' },
+        stats: [ { v: '720 kW', l: { en: 'stable output', zh: '稳定输出' } }, { v: '>45°C', l: { en: 'ambient', zh: '环境温度' } }, { v: '70°C', l: { en: 'ground', zh: '地表温度' } } ],
+        img: 'turpan', src: 'StarCharge Group Introduction 2026 · p.52' },
+      { tag: { en: 'V2G · Australia', zh: 'V2G · 澳大利亚' },
+        title: { en: 'Residential V2G with BYD Atto 3', zh: '澳大利亚住宅 V2G 项目' },
+        body: { en: 'A BYD Atto 3 connected to a StarCharge Halo V2G charger. The initiative deploys 50 V2G chargers across residential properties, letting EVs feed energy back to the grid.', zh: '比亚迪 Atto 3 接入 StarCharge Halo V2G 充电桩。该计划将在住宅部署 50 台 V2G 充电桩，让电动车在需要时向电网回馈电能。' },
+        stats: [ { v: '50', l: { en: 'V2G chargers planned', zh: '计划部署 V2G 充电桩' } }, { v: 'Halo', l: { en: 'V2G charger', zh: 'V2G 充电桩' } } ],
+        img: 'australia', src: 'StarCharge Group Introduction 2026 · p.55' },
+      { tag: { en: 'BESS · Bulgaria', zh: '储能 · 保加利亚' },
+        title: { en: 'Plovdiv 20 MWh utility-scale BESS', zh: '保加利亚普罗夫迪夫 20MWh 大型储能' },
+        body: { en: "StarCharge's first utility-scale BESS: 10 MW / 20 MWh using 5 MWh centralized ESS. Scheduled for commissioning in April 2026.", zh: 'StarCharge 首个公用事业级储能项目：10MW/20MWh，采用 5MWh 集中式储能系统，计划 2026 年 4 月投运。' },
+        stats: [ { v: '10 / 20 MWh', l: { en: 'MW / capacity', zh: '功率 / 容量' } }, { v: '5 MWh', l: { en: 'centralized ESS', zh: '集中式储能' } }, { v: 'Apr 2026', l: { en: 'commissioning planned', zh: '计划投运' } } ],
+        img: 'bulgaria', src: 'StarCharge Group Introduction 2026 · p.56' },
+      { tag: { en: 'BESS · Latvia', zh: '储能 · 拉脱维亚' },
+        title: { en: 'Latvia 50 MWh BESS', zh: '拉脱维亚 50MWh 储能项目' },
+        body: { en: '25 MW / 50 MWh with 5 MWh centralized ESS. A customized design for site constraints was approved by local authorities; delivery scheduled Q2 2026 — StarCharge’s first utility-scale storage contract in Europe in 2026.', zh: '25MW/50MWh，采用 5MWh 集中式储能。针对现场条件定制设计并获当地主管部门批准，计划 2026 年二季度交付，为 StarCharge 2026 年在欧洲首个签约的大型储能项目。' },
+        stats: [ { v: '25 / 50 MWh', l: { en: 'MW / capacity', zh: '功率 / 容量' } }, { v: 'Q2 2026', l: { en: 'delivery planned', zh: '计划交付' } }, { v: '5 MWh', l: { en: 'centralized ESS', zh: '集中式储能' } } ],
+        img: 'latvia', src: 'StarCharge Group Introduction 2026 · p.57' }
+    ],
+    global: [
+      { place: { en: 'Philippines', zh: '菲律宾' }, desc: { en: 'With Shell — first nationwide DC fast-charging station', zh: '与 Shell 合作建成菲律宾首个全国性直流快充站' } },
+      { place: { en: 'Mexico', zh: '墨西哥' }, desc: { en: 'Electrifying bus routes in Mexico City & Monterrey, 150+ e-buses', zh: '墨西哥城与蒙特雷电动巴士线路，支持 150+ 辆电动巴士' } },
+      { place: { en: 'Vietnam', zh: '越南' }, desc: { en: 'With VinFast (Vingroup) — ASEAN’s largest bus charging hub', zh: '与 VinFast（Vingroup）合作建设东盟最大巴士充电枢纽' } },
+      { place: { en: 'Norway', zh: '挪威' }, desc: { en: 'Powering Posten Norge’s electric truck fleet', zh: '为挪威邮政电动卡车队提供充电' } },
+      { place: { en: 'Singapore', zh: '新加坡' }, desc: { en: 'With Sunseap Group — next-generation energy platform', zh: '与 Sunseap Group 合作新一代能源平台' } },
+      { place: { en: 'Tanzania', zh: '坦桑尼亚' }, desc: { en: 'Toto Ceramics', zh: 'Toto 陶瓷' } },
+      { place: { en: 'Britain', zh: '英国' }, desc: { en: 'Residential microgrid', zh: '住宅微电网' } }
+    ],
+    xesRes: [
+      { place: { en: 'South Africa · Johannesburg', zh: '南非 · 约翰内斯堡' }, spec: '22 kW / 54 kWh' },
+      { place: { en: 'China · Hainan', zh: '中国 · 海南' }, spec: '5.5 kW / 11.52 kWh' },
+      { place: { en: 'China · Anhui', zh: '中国 · 安徽' }, spec: '11 kW / 27 kWh' },
+      { place: { en: 'Philippines · Metro Manila', zh: '菲律宾 · 马尼拉都会区' }, spec: '15.4 kW / 27 kWh' }
+    ],
+    xesCif: [
+      { en: 'Huafeng Huajin Group PV power station', zh: '华峰华锦集团光伏电站项目' },
+      { en: 'Oriental Hope Honghe PV power station', zh: '东方希望红河光伏电站项目' },
+      { en: 'Jiangsu Xunai PV power station', zh: '江苏徐耐光伏电站项目' },
+      { en: 'Anhui Wuhu rail transit station rooftop PV', zh: '安徽芜湖轨道交通车站屋顶光伏项目' },
+      { en: 'Malaysia Malacca Industrial Park', zh: '马来西亚马六甲工业园' },
+      { en: 'Tianjin Wuqing Industrial Park / Man Wah Furniture Industrial Park', zh: '天津武清区工业园、敏华家具工业园等项目' }
+    ]
+  };
+
   var STORAGE_KEY = 'tychron_lang';
   var curLang = 'en';
 
@@ -497,6 +586,60 @@
     Array.prototype.forEach.call(roots, renderProductFilter);
   };
 
+  /* ---- Selected references: render from published-document data ---- */
+  function loc(v) {
+    if (!v) return '';
+    return (typeof v === 'string') ? v : (v[curLang] || v.en || '');
+  }
+
+  function renderCases() {
+    var scGrid = document.getElementById('csScGrid');
+    if (scGrid) {
+      scGrid.innerHTML = CASES.sc.map(function (c) {
+        var stats = c.stats.map(function (s) {
+          return '<div class="cs-stat"><b>' + s.v + '</b><span>' + loc(s.l) + '</span></div>';
+        }).join('');
+        // zh: show the Chinese text once as the main paragraph.
+        // other languages: English main + Chinese reference line beneath.
+        var mainP = (curLang === 'zh')
+          ? '<p>' + (c.body.zh || '') + '</p>'
+          : '<p>' + (c.body.en || '') + '</p><p class="cs-zh cs-small">' + (c.body.zh || '') + '</p>';
+        return '<article class="cs-card reveal">' +
+          '<div class="cs-card-img"><img src="assets/cases/' + c.img + '.jpeg" alt="" loading="lazy" /></div>' +
+          '<div class="cs-card-body">' +
+            '<span class="cs-tag">' + loc(c.tag) + '</span>' +
+            '<h4>' + loc(c.title) + '</h4>' +
+            mainP +
+            '<div class="cs-stats">' + stats + '</div>' +
+            '<div class="cs-src">Source: ' + c.src + '</div>' +
+          '</div></article>';
+      }).join('');
+    }
+
+    var gList = document.getElementById('csGlobalList');
+    if (gList) {
+      gList.innerHTML = CASES.global.map(function (g) {
+        return '<li><b>' + loc(g.place) + '</b><span>' + loc(g.desc) + '</span></li>';
+      }).join('');
+    }
+
+    var resList = document.getElementById('csXesRes');
+    if (resList) {
+      resList.innerHTML = CASES.xesRes.map(function (r) {
+        return '<li><b>' + loc(r.place) + '</b><span>' + r.spec + '</span></li>';
+      }).join('');
+    }
+
+    var cifList = document.getElementById('csXesCif');
+    if (cifList) {
+      cifList.innerHTML = CASES.xesCif.map(function (c, i) {
+        return '<li><span class="cs-n">' + (i + 1) + '</span><b>' + loc(c) + '</b></li>';
+      }).join('');
+    }
+  }
+
+  window.TYCHRON_CASES_REFRESH = renderCases;
+
   // Wrap every visible brand word (Tychronic / TYCHRONIC) in .brand-word
   // so it always renders in Montserrat Semibold, in any language.
   function wrapBrandWord(el) {
@@ -570,6 +713,7 @@
     });
 
     if (typeof window.TYCHRON_PF_REFRESH === 'function') window.TYCHRON_PF_REFRESH();
+    if (typeof window.TYCHRON_CASES_REFRESH === 'function') window.TYCHRON_CASES_REFRESH();
 
     try { localStorage.setItem(STORAGE_KEY, curLang); } catch (e) {}
   }
