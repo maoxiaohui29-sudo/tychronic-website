@@ -604,8 +604,10 @@
         var mainP = (curLang === 'zh')
           ? '<p>' + (c.body.zh || '') + '</p>'
           : '<p>' + (c.body.en || '') + '</p><p class="cs-zh cs-small">' + (c.body.zh || '') + '</p>';
-        return '<article class="cs-card reveal">' +
-          '<div class="cs-card-img"><img src="assets/cases/' + c.img + '.jpeg" alt="" loading="lazy" /></div>' +
+        // Note: rendered after the scroll-reveal observer has run, so no
+        // .reveal class here — cards must be visible immediately.
+        return '<article class="cs-card">' +
+          '<div class="cs-card-img cs-img-' + c.img + '" role="img" aria-label="' + loc(c.title) + '"></div>' +
           '<div class="cs-card-body">' +
             '<span class="cs-tag">' + loc(c.tag) + '</span>' +
             '<h4>' + loc(c.title) + '</h4>' +
